@@ -1,0 +1,95 @@
+07:22:50 **** Incremental Build of configuration Debug for project test_tasks_f ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xC -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'BubbleSort':
+../Core/Src/main.c:76:14: warning: unused variable 'LastIndex' [-Wunused-variable]
+   76 |    int Temp, LastIndex, Index, i;
+      |              ^~~~~~~~~
+../Core/Src/main.c: In function 'KalmanFilterStep':
+../Core/Src/main.c:333:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  333 |  return x_plus_vec2f_return;
+      |         ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'Sleep':
+../Core/Src/main.c:360:3: error: too many arguments to function 'HAL_RTCEx_SetWakeUpTimer_IT'
+  360 |   HAL_RTCEx_SetWakeUpTimer_IT(&hrtc, counter, RTC_WAKEUPCLOCK_RTCCLK_DIV16, counter);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rtc.h:687,
+                 from ../Core/Inc/stm32f3xx_hal_conf.h:299,
+                 from ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rtc_ex.h:890:19: note: declared here
+  890 | HAL_StatusTypeDef HAL_RTCEx_SetWakeUpTimer_IT(RTC_HandleTypeDef *hrtc, uint32_t WakeUpCounter, uint32_t WakeUpClock);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:413:25: warning: passing argument 1 of 'pointer_chase' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  413 |   pointer_chase(pointers[0]);
+      |                 ~~~~~~~~^~~
+../Core/Src/main.c:139:29: note: expected 'void **' but argument is of type 'const void * const'
+  139 | void pointer_chase( void ** p0){
+      |                     ~~~~~~~~^~
+../Core/Src/main.c:421:5: warning: implicit declaration of function 'memcpy' [-Wimplicit-function-declaration]
+  421 |     memcpy(srcArray, srcArrayInFlash, NUMELEMS*sizeof(int));
+      |     ^~~~~~
+../Core/Src/main.c:421:5: warning: incompatible implicit declaration of built-in function 'memcpy'
+../Core/Src/main.c:25:1: note: include '<string.h>' or provide a declaration of 'memcpy'
+   24 | #include <math.h>
+  +++ |+#include <string.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:427:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  427 |     sprintf(msg,"\n\r bubble %d",(time2-time1));
+      |     ^~~~~~~
+../Core/Src/main.c:427:5: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include <math.h>
+  +++ |+#include <stdio.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:427:13: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  427 |     sprintf(msg,"\n\r bubble %d",(time2-time1));
+      |             ^~~
+      |             |
+      |             uint8_t * {aka unsigned char *}
+../Core/Src/main.c:427:13: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/main.c:427:31: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  427 |     sprintf(msg,"\n\r bubble %d",(time2-time1));
+      |                              ~^  ~~~~~~~~~~~~~
+      |                               |        |
+      |                               int      uint32_t {aka long unsigned int}
+      |                              %ld
+../Core/Src/main.c:433:22: warning: passing argument 1 of 'KalmanFiltermain' from incompatible pointer type [-Wincompatible-pointer-types]
+  433 |     KalmanFiltermain(&position, &velocity, &kalman_parameters, n);
+      |                      ^~~~~~~~~
+      |                      |
+      |                      float (*)[500]
+../Core/Src/main.c:339:31: note: expected 'float *' but argument is of type 'float (*)[500]'
+  339 | void KalmanFiltermain( float* posi, float* velo, kalman_filter_param* kalman_param, int n){
+      |                        ~~~~~~~^~~~
+../Core/Src/main.c:433:33: warning: passing argument 2 of 'KalmanFiltermain' from incompatible pointer type [-Wincompatible-pointer-types]
+  433 |     KalmanFiltermain(&position, &velocity, &kalman_parameters, n);
+      |                                 ^~~~~~~~~
+      |                                 |
+      |                                 float (*)[500]
+../Core/Src/main.c:339:44: note: expected 'float *' but argument is of type 'float (*)[500]'
+  339 | void KalmanFiltermain( float* posi, float* velo, kalman_filter_param* kalman_param, int n){
+      |                                     ~~~~~~~^~~~
+../Core/Src/main.c:437:5: warning: incompatible implicit declaration of built-in function 'sprintf'
+  437 |     sprintf(msg,"\n\r kalman %d",(time2-time1));
+      |     ^~~~~~~
+../Core/Src/main.c:437:5: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:437:13: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  437 |     sprintf(msg,"\n\r kalman %d",(time2-time1));
+      |             ^~~
+      |             |
+      |             uint8_t * {aka unsigned char *}
+../Core/Src/main.c:437:13: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/main.c:437:31: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  437 |     sprintf(msg,"\n\r kalman %d",(time2-time1));
+      |                              ~^  ~~~~~~~~~~~~~
+      |                               |        |
+      |                               int      uint32_t {aka long unsigned int}
+      |                              %ld
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+07:22:50 Build Failed. 2 errors, 14 warnings. (took 814ms)
+

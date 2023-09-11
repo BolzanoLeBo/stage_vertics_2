@@ -1,0 +1,18 @@
+15:03:07 **** Incremental Build of configuration Release for project FFT ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/FFT.c" -mcpu=cortex-m4 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F303xC -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/FFT.d" -MT"Core/Src/FFT.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/FFT.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F303xC -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "FFT.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\loict\Desktop\Stage_vertics\stm32f_code_v2\FFT\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FFT.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FFT.elf
+ 
+arm-none-eabi-size   FFT.elf 
+arm-none-eabi-objdump -h -S  FFT.elf  > "FFT.list"
+   text	   data	    bss	    dec	    hex	filename
+  18188	      8	   3144	  21340	   535c	FFT.elf
+Finished building: default.size.stdout
+ 
+Finished building: FFT.list
+ 
+
+15:03:09 Build Finished. 0 errors, 0 warnings. (took 1s.131ms)
+

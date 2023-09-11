@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;RSA_enc/template.ioc&apos; to &apos;RSA_enc.ioc&apos;" description="Rename resource &apos;template.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="template.ioc" name="RSA_enc.ioc" stamp="1692796361199" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;RSA_enc/template.ioc&apos; to &apos;RSA_enc.ioc&apos;" description="Rename resource &apos;template.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="template.ioc" name="RSA_enc.ioc" stamp="1692864278372" updateReferences="true"/>
+</session>

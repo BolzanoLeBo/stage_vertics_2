@@ -1,0 +1,10 @@
+07:24:38 **** Build of configuration Release for project pointer_chase_f ****
+make -j8 all 
+arm-none-eabi-size   pointer_chase_f.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11384	   8020	   1604	  21008	   5210	pointer_chase_f.elf
+Finished building: default.size.stdout
+ 
+
+07:24:38 Build Finished. 0 errors, 0 warnings. (took 800ms)
+

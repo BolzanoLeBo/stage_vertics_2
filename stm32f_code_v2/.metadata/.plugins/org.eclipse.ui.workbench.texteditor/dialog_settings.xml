@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="_ram"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="_ram"/>
+			<item value="bubble_main"/>
+			<item value="0x8003548"/>
+			<item value="RCC_PLL_MUL9"/>
+			<item value="pll_mul"/>
+			<item value="RCC_CFGR_PLLMUL2"/>
+			<item value="PLL_MUL"/>
+			<item value="MUL"/>
+			<item value="current_frequency"/>
+			<item value="current"/>
+			<item value="ccm"/>
+			<item value="rec_main"/>
+			<item value="main_rec"/>
+			<item value="pointer_main"/>
+			<item value="main_mat"/>
+		</list>
+		<list key="replacehistory">
+			<item value="main_rec"/>
+			<item value=""/>
+			<item value="rec_main"/>
+			<item value="pointer_main"/>
+			<item value="main_mat"/>
+			<item value="mat_mul_main"/>
+			<item value="kal_main"/>
+			<item value="ram2"/>
+			<item value=".RamFunc"/>
+			<item value="_ram"/>
+			<item value="bubble_main_ccm();"/>
+			<item value="bubble_main();"/>
+			<item value="init_tab();"/>
+			<item value="NUMELEMS"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1420"/>
+		<item key="DIALOG_Y_ORIGIN" value="496"/>
+		<item key="DIALOG_WIDTH" value="511"/>
+		<item key="DIALOG_HEIGHT" value="523"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

@@ -1,0 +1,16 @@
+#ifndef INPUT_H
+#define INPUT_H
+
+#define NUM_NODES 50
+//#define INPUT_CCM
+//#define INPUT_RAM2
+
+#ifdef INPUT_CCM
+__attribute__((section(".ccmramdata")))
+#endif
+#ifdef INPUT_RAM2
+__attribute__((section(".ram2")))
+#endif
+extern unsigned char dijkstra_AdjMatrix[ NUM_NODES ][ NUM_NODES ];
+
+#endif  /* INPUT_H */

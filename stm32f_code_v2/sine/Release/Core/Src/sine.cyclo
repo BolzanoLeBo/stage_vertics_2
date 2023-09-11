@@ -1,0 +1,6 @@
+../Core/Src/sine.c:79:6:computeArraySin_ccm	4
+../Core/Src/sine.c:100:6:computeArraySin_ram	4
+../Core/Src/sine.c:116:6:sine_main_ccm	1
+../Core/Src/sine.c:121:6:sine_main_ram	1
+../Core/Src/sine.c:89:6:computeArraySin	4
+../Core/Src/sine.c:111:6:sine_main	1

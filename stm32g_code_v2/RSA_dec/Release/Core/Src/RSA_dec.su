@@ -1,0 +1,4 @@
+../Core/Src/RSA_dec.c:47:6:decrypt_ccm	20	static
+../Core/Src/RSA_dec.c:60:6:decrypt_ram	20	static
+../Core/Src/RSA_dec.c:73:6:decrypt_ram2	20	static
+../Core/Src/RSA_dec.c:34:6:decrypt	20	static

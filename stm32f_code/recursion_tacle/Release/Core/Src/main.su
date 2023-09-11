@@ -1,0 +1,17 @@
+../Core/Src/main.c:82:6:recursion_init	8	static
+../Core/Src/main.c:89:5:recursion_fib	16	static
+../Core/Src/main.c:99:5:recursion_return	0	static
+../Core/Src/main.c:104:6:recursion_main	8	static
+../Core/Src/main.c:109:5:main_rec	8	static
+../Core/Src/main.c:138:5:recursion_fib_ccm	16	static
+../Core/Src/main.c:153:6:recursion_main_ccm	8	static
+../Core/Src/main.c:131:6:recursion_init_ccm	8	static
+../Core/Src/main.c:148:5:recursion_return_ccm	0	static
+../Core/Src/main.c:158:5:main_rec_ccm	8	static
+../Core/Src/main.c:238:6:SystemClock_Config	136	static,ignoring_inline_asm
+../Core/Src/main.c:415:6:change_to_PLL	80	static,ignoring_inline_asm
+../Core/Src/main.c:473:6:Sleep	16	static
+../Core/Src/main.c:165:6:tested_code	8	static
+../Core/Src/main.c:492:6:change_freq	80	static,ignoring_inline_asm
+../Core/Src/main.c:179:5:main	80	static,ignoring_inline_asm
+../Core/Src/main.c:551:6:Error_Handler	0	static,ignoring_inline_asm

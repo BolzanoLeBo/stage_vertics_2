@@ -1,0 +1,10 @@
+11:47:54 **** Incremental Build of configuration Release for project tacle_benchmark ****
+make -j8 all 
+arm-none-eabi-size   tacle_benchmark.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13692	     20	   6404	  20116	   4e94	tacle_benchmark.elf
+Finished building: default.size.stdout
+ 
+
+11:47:54 Build Finished. 0 errors, 0 warnings. (took 320ms)
+

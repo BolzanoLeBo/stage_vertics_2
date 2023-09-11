@@ -1,0 +1,10 @@
+10:55:00 **** Incremental Build of configuration Release for project kalman ****
+make -j8 all 
+arm-none-eabi-size   kalman.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15420	      8	   1648	  17076	   42b4	kalman.elf
+Finished building: default.size.stdout
+ 
+
+10:55:01 Build Finished. 0 errors, 0 warnings. (took 429ms)
+

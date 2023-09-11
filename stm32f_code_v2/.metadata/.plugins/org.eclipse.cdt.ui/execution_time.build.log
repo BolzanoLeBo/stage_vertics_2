@@ -1,0 +1,47 @@
+09:18:03 **** Incremental Build of configuration Debug for project execution_time ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:112:45: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  112 |   HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), 0xFFFF);
+      |                                             ^~~~~~
+../Core/Src/main.c:112:45: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:21:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   20 | #include "main.h"
+  +++ |+#include <string.h>
+   21 | 
+../Core/Src/main.c:114:16: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+  114 |   int length = snprintf(NULL,0,"%lu", time);
+      |                ^~~~~~~~
+../Core/Src/main.c:114:16: warning: incompatible implicit declaration of built-in function 'snprintf'
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:115:15: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  115 |   char* str = malloc(length+1);
+      |               ^~~~~~
+../Core/Src/main.c:115:15: warning: incompatible implicit declaration of built-in function 'malloc'
+../Core/Src/main.c:21:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+   20 | #include "main.h"
+  +++ |+#include <stdlib.h>
+   21 | 
+../Core/Src/main.c:119:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  119 |   free(str);
+      |   ^~~~
+../Core/Src/main.c:119:3: warning: incompatible implicit declaration of built-in function 'free'
+../Core/Src/main.c:119:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+arm-none-eabi-gcc -o "execution_time.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\loict\STM32CubeIDE\workspace_1.12.1\execution_time\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="execution_time.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: execution_time.elf
+ 
+arm-none-eabi-size   execution_time.elf 
+arm-none-eabi-objdump -h -S  execution_time.elf  > "execution_time.list"
+   text	   data	    bss	    dec	    hex	filename
+  16256	    120	   1808	  18184	   4708	execution_time.elf
+Finished building: default.size.stdout
+ 
+Finished building: execution_time.list
+ 
+
+09:18:04 Build Finished. 0 errors, 8 warnings. (took 1s.30ms)
+

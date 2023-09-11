@@ -1,0 +1,9 @@
+main.c:161:9:computeArraySin_ccm	4
+main.c:171:9:computeArraySin	4
+main.c:254:6:SystemClock_Config	4
+main.c:431:6:change_to_PLL	5
+main.c:489:6:Sleep	1
+main.c:183:6:tested_code	1
+main.c:508:6:change_freq	5
+main.c:195:5:main	5
+main.c:568:6:Error_Handler	1

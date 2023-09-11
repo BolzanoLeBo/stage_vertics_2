@@ -1,0 +1,36 @@
+14:55:43 **** Incremental Build of configuration Release for project pointer_chase ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/pointer_chase.c" -mcpu=cortex-m4 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/pointer_chase.d" -MT"Core/Src/pointer_chase.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/pointer_chase.o"
+../Core/Src/pointer_chase.c: In function 'pointer_main':
+../Core/Src/pointer_chase.c:75:23: warning: passing argument 1 of 'pointer_chase_flash' from incompatible pointer type [-Wincompatible-pointer-types]
+   75 |   pointer_chase_flash(&(pointers[0]));
+      |                       ^~~~~~~~~~~~~~
+      |                       |
+      |                       const void * const*
+../Core/Src/pointer_chase.c:51:34: note: expected 'void **' but argument is of type 'const void * const*'
+   51 | void pointer_chase_flash(void ** p0){
+      |                          ~~~~~~~~^~
+../Core/Src/pointer_chase.c: In function 'pointer_main_ccm':
+../Core/Src/pointer_chase.c:80:21: warning: passing argument 1 of 'pointer_chase_ccm' from incompatible pointer type [-Wincompatible-pointer-types]
+   80 |   pointer_chase_ccm(&(pointers[0]));
+      |                     ^~~~~~~~~~~~~~
+      |                     |
+      |                     const void * const*
+../Core/Src/pointer_chase.c:62:32: note: expected 'void **' but argument is of type 'const void * const*'
+   62 | void pointer_chase_ccm(void ** p0){
+      |                        ~~~~~~~~^~
+arm-none-eabi-gcc -o "pointer_chase.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\loict\Desktop\Stage_vertics\stm32g_code\pointer_chase\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pointer_chase.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: pointer_chase.elf
+ 
+arm-none-eabi-size   pointer_chase.elf 
+arm-none-eabi-objdump -h -S  pointer_chase.elf  > "pointer_chase.list"
+   text	   data	    bss	    dec	    hex	filename
+  10640	     20	   1612	  12272	   2ff0	pointer_chase.elf
+Finished building: default.size.stdout
+ 
+Finished building: pointer_chase.list
+ 
+
+14:55:44 Build Finished. 0 errors, 2 warnings. (took 1s.88ms)
+

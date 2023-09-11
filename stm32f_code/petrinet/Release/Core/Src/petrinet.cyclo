@@ -1,0 +1,4 @@
+petrinet.c:1806:6:petrinet_init_ccm	1
+petrinet.c:926:7:petrinet_main_ccm	126
+petrinet.c:20:7:petrinet_main	126
+petrinet.c:900:6:petrinet_init	1

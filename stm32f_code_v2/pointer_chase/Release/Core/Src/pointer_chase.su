@@ -1,0 +1,6 @@
+../Core/Src/pointer_chase.c:62:6:pointer_chase_ccm	24	static
+../Core/Src/pointer_chase.c:74:6:pointer_chase_ram	24	static
+../Core/Src/pointer_chase.c:91:6:pointer_main_ccm	8	static
+../Core/Src/pointer_chase.c:96:6:pointer_main_ram	8	static
+../Core/Src/pointer_chase.c:51:6:pointer_chase_flash	24	static
+../Core/Src/pointer_chase.c:86:6:pointer_main	8	static

@@ -1,0 +1,4 @@
+../Core/Src/petrinet.c:1806:6:petrinet_init_ccm	72	static
+../Core/Src/petrinet.c:926:7:petrinet_main_ccm	24	static
+../Core/Src/petrinet.c:20:7:petrinet_main	24	static
+../Core/Src/petrinet.c:900:6:petrinet_init	0	static

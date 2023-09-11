@@ -1,0 +1,10 @@
+test.c:144:6:matrix1_pin_down_ccm	4
+test.c:160:6:matrix1_init_ccm	1
+test.c:186:7:matrix1_main_ccm	4
+test.c:213:5:main_mat_ccm	1
+test.c:68:6:matrix1_pin_down	4
+test.c:87:6:matrix1_init	1
+test.c:96:5:matrix1_return	3
+test.c:112:6:matrix1_main	4
+test.c:137:5:main_mat	1
+test.c:169:5:matrix1_return_ccm	3

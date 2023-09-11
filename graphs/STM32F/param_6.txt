@@ -1,0 +1,4 @@
+3
+24 48 72
+2
+code_FLASH code_CCM

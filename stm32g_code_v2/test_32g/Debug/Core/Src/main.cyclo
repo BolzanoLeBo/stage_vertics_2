@@ -1,0 +1,13 @@
+main.c:66:6:tested_code	1
+main.c:93:6:empty_cache	1
+main.c:105:6:init_cache	1
+main.c:119:5:main	4
+main.c:186:6:SystemClock_Config	3
+main.c:234:13:MX_RTC_Init	3
+main.c:278:13:MX_GPIO_Init	1
+main.c:333:6:Sleep	1
+main.c:350:6:change_freq	10
+main.c:442:6:range1_to_range2	4
+main.c:469:6:range2_to_range1	3
+main.c:486:6:boost_mode	2
+main.c:500:6:Error_Handler	1

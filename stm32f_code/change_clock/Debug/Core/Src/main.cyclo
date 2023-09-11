@@ -1,0 +1,10 @@
+main.c:66:6:Sleep	1
+main.c:83:5:main	1
+main.c:155:6:SystemClock_Config	4
+main.c:201:13:MX_RTC_Init	3
+main.c:243:13:MX_TIM2_Init	4
+main.c:288:13:MX_USART1_UART_Init	2
+main.c:323:13:MX_GPIO_Init	1
+main.c:337:13:SystemClockHSE_Config	5
+main.c:388:13:SystemClockHSI_Config	5
+main.c:444:6:Error_Handler	1

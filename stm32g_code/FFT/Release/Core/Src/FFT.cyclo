@@ -1,0 +1,16 @@
+FFT.c:116:6:fft_bit_reduct_ccm	9
+FFT.c:206:7:fft_exp2f_ccm	2
+FFT.c:221:7:fft_modff_ccm	2
+FFT.c:235:5:fft_convert_ccm	2
+FFT.c:262:6:fft_float2fract_ccm	2
+FFT.c:276:6:fft_pin_down_ccm	2
+FFT.c:295:6:fft_init_ccm	2
+FFT.c:318:6:fft_main_ccm	1
+FFT.c:324:6:fft_bit_reduct	9
+FFT.c:412:7:fft_exp2f	2
+FFT.c:425:7:fft_modff	2
+FFT.c:437:5:fft_convert	2
+FFT.c:462:6:fft_float2fract	2
+FFT.c:475:6:fft_pin_down	2
+FFT.c:490:6:fft_init	2
+FFT.c:510:6:fft_main	1

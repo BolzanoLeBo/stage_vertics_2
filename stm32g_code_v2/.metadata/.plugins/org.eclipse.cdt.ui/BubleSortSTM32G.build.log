@@ -1,0 +1,133 @@
+11:43:41 **** Incremental Build of configuration Debug for project BubleSortSTM32G ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:42:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   42 | BubbleSortCCM(Array)
+      | ^~~~~~~~~~~~~
+../Core/Src/main.c: In function 'BubbleSortCCM':
+../Core/Src/main.c:49:14: warning: unused variable 'LastIndex' [-Wunused-variable]
+   49 |    int Temp, LastIndex, Index, i;
+      |              ^~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:74:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   74 | BubbleSort(Array)
+      | ^~~~~~~~~~
+../Core/Src/main.c: In function 'BubbleSort':
+../Core/Src/main.c:81:14: warning: unused variable 'LastIndex' [-Wunused-variable]
+   81 |    int Temp, LastIndex, Index, i;
+      |              ^~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:148:3: warning: implicit declaration of function 'memcpy' [-Wimplicit-function-declaration]
+  148 |   memcpy(srcArrayInRAM, srcArrayInFlash, 4*NUMELEMS);
+      |   ^~~~~~
+../Core/Src/main.c:148:3: warning: incompatible implicit declaration of built-in function 'memcpy'
+../Core/Src/main.c:23:1: note: include '<string.h>' or provide a declaration of 'memcpy'
+   22 | #include "stdio.h"
+  +++ |+#include <string.h>
+   23 | int execution_time;
+../Core/Src/main.c:177:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  177 |   sprintf(gu8_MSG, "clk : %ld\n\r",Clk);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:22:
+c:\st\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:186:13: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  186 |     sprintf(gu8_MSG, "data-RAM prog-FLASH: %ld\n\r",execution_time);
+      |             ^~~~~~~
+      |             |
+      |             uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:22:
+c:\st\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:186:46: warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'int' [-Wformat=]
+  186 |     sprintf(gu8_MSG, "data-RAM prog-FLASH: %ld\n\r",execution_time);
+      |                                            ~~^      ~~~~~~~~~~~~~~
+      |                                              |      |
+      |                                              |      int
+      |                                              long int
+      |                                            %d
+../Core/Src/main.c:195:13: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  195 |     sprintf(gu8_MSG, "data-CCM prog-FLASH: %ld\n\r",execution_time);
+      |             ^~~~~~~
+      |             |
+      |             uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:22:
+c:\st\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:195:46: warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'int' [-Wformat=]
+  195 |     sprintf(gu8_MSG, "data-CCM prog-FLASH: %ld\n\r",execution_time);
+      |                                            ~~^      ~~~~~~~~~~~~~~
+      |                                              |      |
+      |                                              |      int
+      |                                              long int
+      |                                            %d
+../Core/Src/main.c:199:5: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  199 |     memset(srcArrayInRAM, 0, sizeof srcArrayInRAM);
+      |     ^~~~~~
+../Core/Src/main.c:199:5: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/main.c:199:5: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c:211:13: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  211 |     sprintf(gu8_MSG, "data-RAM prog-CCM: %ld\n\r",execution_time);
+      |             ^~~~~~~
+      |             |
+      |             uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:22:
+c:\st\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:211:44: warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'int' [-Wformat=]
+  211 |     sprintf(gu8_MSG, "data-RAM prog-CCM: %ld\n\r",execution_time);
+      |                                          ~~^      ~~~~~~~~~~~~~~
+      |                                            |      |
+      |                                            |      int
+      |                                            long int
+      |                                          %d
+../Core/Src/main.c:221:13: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  221 |     sprintf(gu8_MSG, "data-CCM prog-CCM: %ld\n\r\n\r",execution_time);
+      |             ^~~~~~~
+      |             |
+      |             uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:22:
+c:\st\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:221:44: warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'int' [-Wformat=]
+  221 |     sprintf(gu8_MSG, "data-CCM prog-CCM: %ld\n\r\n\r",execution_time);
+      |                                          ~~^          ~~~~~~~~~~~~~~
+      |                                            |          |
+      |                                            long int   int
+      |                                          %d
+../Core/Src/main.c:146:35: warning: unused variable 'time3' [-Wunused-variable]
+  146 |   volatile uint32_t time1, time2, time3;
+      |                                   ^~~~~
+../Core/Src/main.c: In function 'BubbleSortCCM':
+../Core/Src/main.c:72:1: warning: control reaches end of non-void function [-Wreturn-type]
+   72 | }
+      | ^
+../Core/Src/main.c: In function 'BubbleSort':
+../Core/Src/main.c:104:1: warning: control reaches end of non-void function [-Wreturn-type]
+  104 | }
+      | ^
+At top level:
+../Core/Src/main.c:284:13: warning: 'MX_RTC_Init' defined but not used [-Wunused-function]
+  284 | static void MX_RTC_Init(void)
+      |             ^~~~~~~~~~~
+arm-none-eabi-gcc -o "BubleSortSTM32G.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\loict\STM32CubeIDE\workspace_1.12.1\BubleSortSTM32G\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BubleSortSTM32G.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BubleSortSTM32G.elf
+ 
+arm-none-eabi-size   BubleSortSTM32G.elf 
+arm-none-eabi-objdump -h -S  BubleSortSTM32G.elf  > "BubleSortSTM32G.list"
+   text	   data	    bss	    dec	    hex	filename
+  18236	   8120	   1856	  28212	   6e34	BubleSortSTM32G.elf
+Finished building: default.size.stdout
+ 
+Finished building: BubleSortSTM32G.list
+ 
+
+11:43:42 Build Finished. 0 errors, 21 warnings. (took 1s.534ms)
+

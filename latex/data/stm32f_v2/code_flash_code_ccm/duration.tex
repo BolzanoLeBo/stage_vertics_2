@@ -1,0 +1,85 @@
+
+\documentclass[crop]{standalone}
+\input{../../../macro.tex}
+\begin{document}
+
+	\begin{tikzpicture}
+	\begin{axis}
+			[
+			x=1.6cm,
+			width=\textwidth,
+			ybar = 5,
+			height=7cm,
+			bar width=0.12cm,
+			enlarge x limits={0.10},
+			tickwidth=4pt,
+			xtick pos=left,     % remove the ticks on the top
+			ylabel style={align=center},
+			symbolic x coords={
+				RSA_dec,
+				RSA_enc,
+				bubble_sort,
+				dijkstra,
+        		fft,
+				kalman,
+				mat_mul,
+				pointer_chase,
+				recursion, 
+				sine},
+			xtick=data,
+			xticklabels={	
+				RSA decryption,
+                    RSA encryption, 
+				Bubble Sort,
+				Dijkstra,
+                    Fast Fourier Transform,
+				Kalman Filter,
+				Matrix multiplication,
+				Pointer Chase, 
+				Recursive Fibonacci, 
+				Sine lookup },
+			x tick label style={rotate=45,anchor=east, font=\small},
+			y tick label style={font=\small},
+			nodes near coords={
+				\pgfmathprintnumber[precision=1]{\pgfplotspointmeta}
+			},
+			yticklabel={\pgfmathparse{\tick}\pgfmathprintnumber{\pgfmathresult}},
+			%yticklabel={\pgfmathparse{\tick}\pgfmathprintnumber{\pgfmathresult}\%},
+			%nodes near coords={\pgfmathprintnumber\pgfplotspointmeta},
+			nodes near coords={\pgfmathprintnumber\pgfplotspointmeta},
+			nodes near coords style={/pgf/number format/precision=2, /pgf/number format/fixed, font=\tiny},
+			legend columns=2,
+			legend style={ 
+				at={(0.92,0.70)},
+				anchor=south,
+				legend columns=1,
+				font=\tiny,
+				/tikz/every even column/.append style={column sep=0.25cm}
+			}
+			]
+
+   			\addplot[gray!20!black,fill=gray!35!white] table [
+			y =8_no_PLL, % Use negative coordinate index as y               coordinate
+			x index=0 % Use first column as x coordinate
+                ]{compare_code_FLASH_code_CCM-duration.csv};
+      		\addplot[purple!20!black,fill=purple!35!white] table [
+			y =16, % Use negative coordinate index as y coordinate
+			x index=0 % Use first column as x coordinate
+			]{compare_code_FLASH_code_CCM-duration.csv};
+			\addplot[green!20!black,fill=green!35!white] table [
+			y =24, % Use negative coordinate index as y coordinate
+			x index=0 % Use first column as x coordinate
+			] {compare_code_FLASH_code_CCM-duration.csv};
+			\addplot[blue!20!black,fill=blue!35!white] table [
+			y =48, % Use negative coordinate index as y coordinate
+			x index=0 % Use first column as x coordinate
+			] {compare_code_FLASH_code_CCM-duration.csv};
+			\addplot[red!20!black,fill=red!35!white] table [
+			y =72, % Use negative coordinate index as y coordinate
+			x index=0 % Use first column as x coordinate
+			] {compare_code_FLASH_code_CCM-duration.csv};
+			
+			\legend{8MHZ,16MHZ,24MHZ,48MHZ,72MHZ}
+	\end{axis}
+	\end{tikzpicture}
+\end{document}

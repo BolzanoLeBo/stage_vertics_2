@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BubleSortSTM32F/buble_32f.ioc&apos; to &apos;BubbleSortSTM32F.ioc&apos;" description="Rename resource &apos;buble_32f.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="buble_32f.ioc" name="BubbleSortSTM32F.ioc" stamp="1686547923208" updateReferences="true"/>
+</session>

@@ -1,0 +1,43 @@
+/*
+ * sine.h
+ *
+ *  Created on: 31 juil. 2023
+ *      Author: loict
+ */
+
+#ifndef INC_SINE_H_
+#define INC_SINE_H_
+
+//#define FUNCTIONS_DATA_IN_FLASH
+//#define FUNCTIONS_DATA_IN_CCM
+//#define FUNCTIONS_DATA_IN_RAM2
+#define FUNCTIONS_DATA_IN_RAM
+/*input data allocation*/
+//#define INPUT_DATA_IN_CCM
+#define INPUT_DATA_IN_RAM2
+
+
+__attribute__((section(".ccmram")))
+void computeArraySin_ccm(float * arr_input, float * arr_keys , float * arr_values, int n_lut, int n_input);
+
+void computeArraySin(float * arr_input, float * arr_keys , float * arr_values, int n_lut, int n_input);
+
+__attribute__((section(".RamFunc")))
+void computeArraySin_ram(float * arr_input, float * arr_keys , float * arr_values, int n_lut, int n_input);
+
+__attribute__((section(".ram2")))
+void computeArraySin_ram2(float * arr_input, float * arr_keys , float * arr_values, int n_lut, int n_input);
+
+
+void sine_main();
+
+__attribute__((section(".ccmram")))
+void sine_main_ccm();
+
+__attribute__((section(".RamFunc")))
+void sine_main_ram();
+
+__attribute__((section(".ram2")))
+void sine_main_ram2();
+
+#endif /* INC_SINE_H_ */

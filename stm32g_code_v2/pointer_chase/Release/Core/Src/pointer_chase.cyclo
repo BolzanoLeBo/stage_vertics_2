@@ -1,0 +1,8 @@
+../Core/Src/pointer_chase.c:65:6:pointer_chase_ccm	3
+../Core/Src/pointer_chase.c:77:6:pointer_chase_ram	3
+../Core/Src/pointer_chase.c:88:6:pointer_chase_ram2	3
+../Core/Src/pointer_chase.c:103:6:pointer_main_ccm	1
+../Core/Src/pointer_chase.c:108:6:pointer_main_ram	1
+../Core/Src/pointer_chase.c:113:6:pointer_main_ram2	1
+../Core/Src/pointer_chase.c:54:6:pointer_chase_flash	3
+../Core/Src/pointer_chase.c:98:6:pointer_main	1

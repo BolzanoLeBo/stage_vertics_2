@@ -1,0 +1,4 @@
+sine.c:101:9:computeArraySin_ccm	4
+sine.c:126:9:sine_main_ccm	1
+sine.c:111:9:computeArraySin	4
+sine.c:121:9:sine_main	1

@@ -1,0 +1,175 @@
+2023-06-30 13:54:01,299 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:54:01,362 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:54:01,362 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:54:04,753 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:54:04,753 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:54:04,753 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:54:05,144 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:54:05,144 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:54:05,144 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:54:59,868 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:54:59,868 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:54:59,868 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:58:42,314 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 603980328 Bytes (1073741824)
+2023-06-30 13:58:42,361 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:58:42,361 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:58:42,377 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:58:42,424 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 632182448 Bytes (1073741824)
+2023-06-30 13:58:43,377 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 718272848 Bytes (1073741824)
+2023-06-30 13:58:43,674 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 13:58:43,674 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 13:58:43,674 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 13:58:43,674 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 13:58:43,674 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 13:58:44,377 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 13:58:44,519 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 13:58:44,785 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 13:58:44,941 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 13:58:45,035 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 13:58:45,254 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 13:58:45,270 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 13:58:45,379 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 13:58:45,426 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 13:58:45,583 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 13:58:45,583 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 13:58:45,692 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 13:58:45,723 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 13:58:45,864 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 13:58:45,942 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 13:58:46,068 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 13:58:46,083 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 13:58:46,255 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 13:58:47,334 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 250mS.
+2023-06-30 13:58:47,334 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 13:58:47,631 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 13:58:49,913 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2579mS.
+2023-06-30 13:58:49,913 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 13:58:49,960 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 13:58:58,558 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:58:58,558 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:58:58,558 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:59:01,434 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:59:01,434 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:59:01,434 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:59:01,575 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:59:01,575 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 13:59:01,575 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:00:49,382 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:00:49,383 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:00:49,384 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:00:59,425 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:00:59,426 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:00:59,427 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:01:42,251 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:01:42,252 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:01:42,252 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:02:30,348 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:02:30,349 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:02:30,349 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:02:59,528 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:02:59,529 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:02:59,530 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:03:44,939 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:03:44,940 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:03:44,941 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:05:17,638 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 346124312 Bytes (1073741824)
+2023-06-30 14:05:17,674 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:05:17,675 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:05:17,675 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:05:17,740 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 373387288 Bytes (1073741824)
+2023-06-30 14:05:18,576 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 461467672 Bytes (1073741824)
+2023-06-30 14:05:18,882 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 14:05:18,882 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 14:05:18,882 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 14:05:18,883 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 14:05:18,884 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 14:05:19,218 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 14:05:19,326 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 14:05:19,496 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 14:05:19,597 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 14:05:19,672 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 14:05:19,761 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 14:05:19,769 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 14:05:19,841 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 14:05:19,873 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 14:05:19,988 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 14:05:19,993 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 14:05:20,061 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 14:05:20,089 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 14:05:20,210 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 14:05:20,270 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 14:05:20,365 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 14:05:20,385 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 14:05:20,538 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 14:05:21,349 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 353mS.
+2023-06-30 14:05:21,354 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 14:05:21,852 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 14:05:23,691 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2337mS.
+2023-06-30 14:05:23,692 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 14:05:23,697 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 14:05:28,370 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:05:28,370 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:05:28,371 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:05:31,106 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:05:31,106 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:05:31,107 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:05:31,239 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:05:31,240 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:05:31,241 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:06:38,824 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 556623736 Bytes (1073741824)
+2023-06-30 14:06:38,861 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:06:38,862 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:06:38,862 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:06:38,920 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 583950456 Bytes (1073741824)
+2023-06-30 14:06:39,800 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 674258824 Bytes (1073741824)
+2023-06-30 14:06:40,129 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 14:06:40,129 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 14:06:40,129 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 14:06:40,130 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 14:06:40,131 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 14:06:40,429 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 14:06:40,538 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 14:06:40,691 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 14:06:40,790 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 14:06:40,853 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 14:06:40,954 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 14:06:40,961 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 14:06:41,033 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 14:06:41,065 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 14:06:41,177 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 14:06:41,182 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 14:06:41,257 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 14:06:41,278 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 14:06:41,400 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 14:06:41,453 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 14:06:41,545 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 14:06:41,567 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 14:06:41,733 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 14:06:42,392 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 204mS.
+2023-06-30 14:06:42,396 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 14:06:43,014 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 14:06:44,883 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2486mS.
+2023-06-30 14:06:44,884 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 14:06:44,889 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 14:06:52,165 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:06:52,166 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:06:52,167 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:06:54,616 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:06:54,617 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:06:54,618 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:06:54,746 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:06:54,747 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:06:54,747 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:07:22,400 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:07:22,401 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:07:22,402 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-30 14:28:38,356 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-06-30 14:28:38,359 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2023-06-30 14:28:39,242 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-06-30 14:28:39,243 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2023-06-30 14:28:39,912 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-06-30 14:28:39,912 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2023-06-30 14:28:40,901 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-06-30 14:28:40,901 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2023-06-30 14:28:41,889 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-06-30 14:28:41,889 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 

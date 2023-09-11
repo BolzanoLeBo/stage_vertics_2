@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;pointer_chase/template.ioc&apos; to &apos;pointer_chase.ioc&apos;" description="Rename resource &apos;template.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="template.ioc" name="pointer_chase.ioc" stamp="1690806859297" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;pointer_chase/Core/Inc/pointer_cahse.h&apos; to &apos;pointer_chase.h&apos;" description="Rename resource &apos;pointer_cahse.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/pointer_cahse.h" name="pointer_chase.h" stamp="1690806908599" updateReferences="true"/>
+</session>

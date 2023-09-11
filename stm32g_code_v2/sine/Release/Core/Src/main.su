@@ -1,0 +1,6 @@
+../Core/Src/main.c:61:6:tested_code	16	static
+../Core/Src/main.c:142:6:empty_cache	0	static
+../Core/Src/main.c:154:6:init_cache	0	static
+../Core/Src/main.c:242:6:SystemClock_Config	88	static,ignoring_inline_asm
+../Core/Src/main.c:168:5:main	104	static,ignoring_inline_asm
+../Core/Src/main.c:395:6:Error_Handler	0	static,ignoring_inline_asm

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RSA_dec/template.ioc&apos; to &apos;RSA_dec.ioc&apos;" description="Rename resource &apos;template.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="template.ioc" name="RSA_dec.ioc" stamp="1690810422910" updateReferences="true"/>
+</session>

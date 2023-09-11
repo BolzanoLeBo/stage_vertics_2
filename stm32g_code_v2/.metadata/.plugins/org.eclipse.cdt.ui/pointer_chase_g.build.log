@@ -1,0 +1,10 @@
+07:22:47 **** Incremental Build of configuration Debug for project pointer_chase_g ****
+make -j8 all 
+arm-none-eabi-size   pointer_chase_g.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23442	   4120	   1864	  29426	   72f2	pointer_chase_g.elf
+Finished building: default.size.stdout
+ 
+
+07:22:47 Build Finished. 0 errors, 0 warnings. (took 527ms)
+

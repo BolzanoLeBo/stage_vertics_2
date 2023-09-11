@@ -1,0 +1,16 @@
+07:55:39 **** Build of configuration Debug for project BubleSortSTM32G2_backup ****
+make -j8 all 
+arm-none-eabi-gcc -o "BubleSortSTM32G2_backup.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\loict\STM32CubeIDE\workspace_1.12.1\BubleSortSTM32G2_backup\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BubleSortSTM32G2_backup.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BubleSortSTM32G2_backup.elf
+ 
+arm-none-eabi-size   BubleSortSTM32G2_backup.elf 
+arm-none-eabi-objdump -h -S  BubleSortSTM32G2_backup.elf  > "BubleSortSTM32G2_backup.list"
+   text	   data	    bss	    dec	    hex	filename
+  13708	   8020	   1788	  23516	   5bdc	BubleSortSTM32G2_backup.elf
+Finished building: default.size.stdout
+ 
+Finished building: BubleSortSTM32G2_backup.list
+ 
+
+07:55:40 Build Finished. 0 errors, 0 warnings. (took 1s.629ms)
+

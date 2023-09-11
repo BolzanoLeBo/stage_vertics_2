@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;kalman_f/pointer_chase_f.launch&apos; to &apos;kalman_f.launch&apos;" description="Rename resource &apos;pointer_chase_f.launch&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="pointer_chase_f.launch" name="kalman_f.launch" stamp="1686900211225" updateReferences="true"/>
+</session>

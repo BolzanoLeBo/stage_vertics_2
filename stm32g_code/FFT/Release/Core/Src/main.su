@@ -1,0 +1,11 @@
+../Core/Src/main.c:116:6:empty_cache	0	static
+../Core/Src/main.c:128:6:init_cache	0	static
+../Core/Src/main.c:210:6:SystemClock_Config	88	static,ignoring_inline_asm
+../Core/Src/main.c:374:6:change_freq	192	static,ignoring_inline_asm
+../Core/Src/main.c:357:6:Sleep	16	static
+../Core/Src/main.c:65:6:tested_code	8	static
+../Core/Src/main.c:466:6:range1_to_range2	32	static,ignoring_inline_asm
+../Core/Src/main.c:493:6:range2_to_range1	0	static
+../Core/Src/main.c:510:6:boost_mode	0	static
+../Core/Src/main.c:142:5:main	104	static,ignoring_inline_asm
+../Core/Src/main.c:524:6:Error_Handler	0	static,ignoring_inline_asm

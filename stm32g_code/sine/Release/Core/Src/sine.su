@@ -1,0 +1,4 @@
+../Core/Src/sine.c:101:9:computeArraySin_ccm	20	static
+../Core/Src/sine.c:126:9:sine_main_ccm	16	static
+../Core/Src/sine.c:111:9:computeArraySin	20	static
+../Core/Src/sine.c:121:9:sine_main	16	static

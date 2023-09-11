@@ -1,0 +1,6 @@
+CACHE_ON-PRE_ON
+NORMAL
+energy
+30 60 90 120 150
+pre_fetch
+ro

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;recursion/template.ioc&apos; to &apos;recursion.ioc&apos;" description="Rename resource &apos;template.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="template.ioc" name="recursion.ioc" stamp="1690808386267" updateReferences="true"/>
+</session>

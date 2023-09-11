@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;fib_no_ccm/fib.ioc&apos; to &apos;fib_no_ccm.ioc&apos;" description="Rename resource &apos;fib.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="fib.ioc" name="fib_no_ccm.ioc" stamp="1686718124251" updateReferences="true"/>
+</session>

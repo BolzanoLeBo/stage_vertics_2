@@ -1,0 +1,15 @@
+../Core/Src/mat_mul.c:162:6:matrix1_pin_down_ccm	4
+../Core/Src/mat_mul.c:178:6:matrix1_init_ccm	1
+../Core/Src/mat_mul.c:204:7:matrix1_main_ccm	4
+../Core/Src/mat_mul.c:231:5:main_mat_ccm	2
+../Core/Src/mat_mul.c:243:6:matrix1_pin_down_ram	4
+../Core/Src/mat_mul.c:259:6:matrix1_init_ram	1
+../Core/Src/mat_mul.c:285:7:matrix1_main_ram	4
+../Core/Src/mat_mul.c:312:5:main_mat_ram	2
+../Core/Src/mat_mul.c:81:6:matrix1_pin_down	4
+../Core/Src/mat_mul.c:100:6:matrix1_init	1
+../Core/Src/mat_mul.c:109:5:matrix1_return	3
+../Core/Src/mat_mul.c:125:6:matrix1_main	4
+../Core/Src/mat_mul.c:150:5:main_mat	2
+../Core/Src/mat_mul.c:187:5:matrix1_return_ccm	3
+../Core/Src/mat_mul.c:268:5:matrix1_return_ram	3

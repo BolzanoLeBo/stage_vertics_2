@@ -1,0 +1,10 @@
+11:19:56 **** Incremental Build of configuration Release for project RSA_f ****
+make -j8 all 
+arm-none-eabi-size   RSA_f.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8460	    548	   6112	  15120	   3b10	RSA_f.elf
+Finished building: default.size.stdout
+ 
+
+11:19:56 Build Finished. 0 errors, 0 warnings. (took 315ms)
+

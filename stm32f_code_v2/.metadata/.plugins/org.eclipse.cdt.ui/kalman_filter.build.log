@@ -1,0 +1,46 @@
+12:55:05 **** Incremental Build of configuration Debug for project kalman_filter ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xC -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'KalmanFilterStep':
+../Core/Src/main.c:232:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  232 |  return x_plus_vec2f_return;
+      |         ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'KalmanFilterStep_ccm':
+../Core/Src/main.c:390:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  390 |  return x_plus_vec2f_return;
+      |         ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:461:3: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  461 |   sprintf(msg,"\n\n\r###KF Test Starts###\n");
+      |   ^~~~~~~
+../Core/Src/main.c:461:3: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   21 | #include "main.h"
+  +++ |+#include <stdio.h>
+   22 | 
+../Core/Src/main.c:461:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  461 |   sprintf(msg,"\n\n\r###KF Test Starts###\n");
+      |           ^~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+../Core/Src/main.c:461:11: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/main.c:508:12: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  508 |    sprintf(msg,"\n\r%d : %d",i, (int)(tim_cnt));
+      |            ^~~
+      |            |
+      |            uint8_t * {aka unsigned char *}
+../Core/Src/main.c:508:12: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-gcc -o "kalman_filter.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\loict\STM32CubeIDE\workspace_1.12.1\kalman_filter\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="kalman_filter.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: kalman_filter.elf
+ 
+arm-none-eabi-size   kalman_filter.elf 
+arm-none-eabi-objdump -h -S  kalman_filter.elf  > "kalman_filter.list"
+   text	   data	    bss	    dec	    hex	filename
+  22892	   8264	   1840	  32996	   80e4	kalman_filter.elf
+Finished building: default.size.stdout
+ 
+Finished building: kalman_filter.list
+ 
+
+12:55:06 Build Finished. 0 errors, 6 warnings. (took 1s.692ms)
+

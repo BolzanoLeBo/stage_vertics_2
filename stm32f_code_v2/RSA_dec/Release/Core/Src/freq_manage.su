@@ -1,0 +1,5 @@
+../Core/Src/freq_manage.c:11:6:Error	4	static,ignoring_inline_asm
+../Core/Src/freq_manage.c:22:6:enable_hse	80	static,ignoring_inline_asm
+../Core/Src/freq_manage.c:39:6:disable_pll	72	static
+../Core/Src/freq_manage.c:67:6:Sleep	24	static
+../Core/Src/freq_manage.c:94:6:change_freq	128	static

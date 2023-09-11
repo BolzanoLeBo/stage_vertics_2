@@ -1,0 +1,10 @@
+07:50:14 **** Incremental Build of configuration Release for project recursion_tacle ****
+make -j8 all 
+arm-none-eabi-size   recursion_tacle.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7456	     20	   1612	   9088	   2380	recursion_tacle.elf
+Finished building: default.size.stdout
+ 
+
+07:50:15 Build Finished. 0 errors, 0 warnings. (took 339ms)
+

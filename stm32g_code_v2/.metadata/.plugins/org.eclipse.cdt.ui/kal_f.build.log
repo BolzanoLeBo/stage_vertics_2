@@ -1,0 +1,10 @@
+11:30:14 **** Incremental Build of configuration Release for project kal_f ****
+make -j8 all 
+arm-none-eabi-size   kal_f.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8716	   8164	   1604	  18484	   4834	kal_f.elf
+Finished building: default.size.stdout
+ 
+
+11:30:14 Build Finished. 0 errors, 0 warnings. (took 328ms)
+

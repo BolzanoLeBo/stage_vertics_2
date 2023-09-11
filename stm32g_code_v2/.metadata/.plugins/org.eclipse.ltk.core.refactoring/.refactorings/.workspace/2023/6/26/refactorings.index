@@ -1,0 +1,7 @@
+1687755077151	Rename resource 'RSASTM32G'
+1687756582554	Rename resource 'FFT_g'
+1687849805249	Delete resource 'tacle_benchmark/Core/Inc/tacle'
+1687852811570	Delete resource 'tacle_benchmark/Core/Src/test_ccm.c'
+1687852814438	Delete resource 'tacle_benchmark/Core/Inc/test_ccm.h'
+1687952925817	Delete resource 'test'
+1688016711449	Delete resource 'PWR_STOP'

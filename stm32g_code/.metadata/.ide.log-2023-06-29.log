@@ -1,0 +1,1282 @@
+2023-06-30 09:17:18,033 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 265241232 Bytes (817889280)
+2023-06-30 09:17:18,173 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 291455632 Bytes (817889280)
+2023-06-30 09:17:18,996 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 397888144 Bytes (817889280)
+2023-06-30 09:17:19,732 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 09:17:19,733 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 09:17:19,733 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 09:17:19,736 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 09:17:20,060 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 09:17:20,178 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 09:17:20,286 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 09:17:20,504 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 09:17:20,520 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 09:17:20,613 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 09:17:20,667 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 09:17:20,817 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 09:17:20,829 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 09:17:20,941 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 09:17:20,974 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 09:17:21,151 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 09:17:21,242 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 09:17:21,450 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 09:17:21,481 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 09:17:21,730 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 09:17:23,373 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 344mS.
+2023-06-30 09:17:23,378 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 09:17:23,666 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 09:17:26,753 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 3374mS.
+2023-06-30 09:17:26,754 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 09:17:26,759 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 09:19:04,852 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 335830768 Bytes (817889280)
+2023-06-30 09:19:04,947 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 361475728 Bytes (817889280)
+2023-06-30 09:19:05,732 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 449064168 Bytes (817889280)
+2023-06-30 09:19:05,964 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 09:19:05,964 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 09:19:05,964 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 09:19:05,966 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 09:19:06,285 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 09:19:06,396 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 09:19:06,625 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 09:19:06,726 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 09:19:06,789 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 09:19:06,878 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 09:19:06,886 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 09:19:06,971 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 09:19:07,002 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 09:19:07,111 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 09:19:07,116 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 09:19:07,182 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 09:19:07,208 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 09:19:07,321 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 09:19:07,380 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 09:19:07,462 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 09:19:07,482 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 09:19:07,637 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 09:19:08,462 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 217mS.
+2023-06-30 09:19:08,466 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 09:19:08,976 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 09:19:10,731 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2265mS.
+2023-06-30 09:19:10,733 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 09:19:10,737 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 10:49:35,659 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 398182864 Bytes (1067450368)
+2023-06-30 10:49:35,769 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 424624552 Bytes (1067450368)
+2023-06-30 10:49:36,867 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 521388496 Bytes (1067450368)
+2023-06-30 10:49:37,193 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 10:49:37,193 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 10:49:37,193 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 10:49:37,197 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 10:49:37,488 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 10:49:37,610 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 10:49:37,891 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 10:49:38,059 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 10:49:38,135 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 10:49:38,310 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 10:49:38,324 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 10:49:38,406 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 10:49:38,433 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 10:49:38,578 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 10:49:38,584 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 10:49:38,670 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 10:49:38,693 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 10:49:38,819 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 10:49:38,887 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 10:49:38,999 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 10:49:39,017 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 10:49:39,166 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 10:49:40,051 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 254mS.
+2023-06-30 10:49:40,057 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 10:49:40,360 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 10:49:42,554 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2496mS.
+2023-06-30 10:49:42,555 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 10:49:42,563 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 10:51:11,460 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 988998992 Bytes (1069547520)
+2023-06-30 10:51:11,563 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 1015213392 Bytes (1069547520)
+2023-06-30 10:51:12,389 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 713877936 Bytes (1073741824)
+2023-06-30 10:51:12,674 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 10:51:12,674 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 10:51:12,674 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 10:51:12,675 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 10:51:12,676 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 10:51:12,947 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 10:51:13,046 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 10:51:13,178 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 10:51:13,299 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 10:51:13,359 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 10:51:13,460 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 10:51:13,467 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 10:51:13,540 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 10:51:13,570 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 10:51:13,669 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 10:51:13,674 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 10:51:13,740 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 10:51:13,771 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 10:51:13,881 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 10:51:13,946 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 10:51:14,026 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 10:51:14,043 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 10:51:14,251 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 10:51:15,026 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 177mS.
+2023-06-30 10:51:15,029 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 10:51:15,267 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 10:51:17,448 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2418mS.
+2023-06-30 10:51:17,449 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 10:51:17,498 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 10:54:30,096 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 628515056 Bytes (1073741824)
+2023-06-30 10:54:30,188 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 654729456 Bytes (1073741824)
+2023-06-30 10:54:30,979 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 743336176 Bytes (1073741824)
+2023-06-30 10:54:31,340 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 10:54:31,340 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 10:54:31,340 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 10:54:31,340 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 10:54:31,342 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 10:54:31,618 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 10:54:31,716 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 10:54:31,853 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 10:54:31,950 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 10:54:32,014 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 10:54:32,098 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 10:54:32,104 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 10:54:32,175 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 10:54:32,202 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 10:54:32,299 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 10:54:32,303 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 10:54:32,371 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 10:54:32,397 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 10:54:32,536 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 10:54:32,605 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 10:54:32,687 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 10:54:32,708 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 10:54:32,860 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 10:54:33,709 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 180mS.
+2023-06-30 10:54:33,712 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 10:54:33,990 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 10:54:35,944 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2231mS.
+2023-06-30 10:54:35,945 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 10:54:35,972 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 10:58:37,146 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 424338448 Bytes (1073741824)
+2023-06-30 10:58:37,249 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 450552848 Bytes (1073741824)
+2023-06-30 10:58:38,053 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 539681808 Bytes (1073741824)
+2023-06-30 10:58:38,341 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 10:58:38,342 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 10:58:38,342 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 10:58:38,342 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 10:58:38,343 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 10:58:38,611 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 10:58:38,706 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 10:58:38,838 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 10:58:38,950 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 10:58:39,012 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 10:58:39,101 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 10:58:39,107 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 10:58:39,187 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 10:58:39,223 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 10:58:39,324 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 10:58:39,329 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 10:58:39,403 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 10:58:39,428 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 10:58:39,540 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 10:58:39,594 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 10:58:39,688 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 10:58:39,706 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 10:58:39,847 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 10:58:40,857 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 221mS.
+2023-06-30 10:58:40,860 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 10:58:41,151 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 10:58:42,965 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2105mS.
+2023-06-30 10:58:42,967 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 10:58:42,972 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 10:58:48,805 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 517029168 Bytes (1073741824)
+2023-06-30 10:58:48,915 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 347893312 Bytes (1073741824)
+2023-06-30 10:58:49,690 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 436699704 Bytes (1073741824)
+2023-06-30 10:58:49,991 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 10:58:49,991 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 10:58:49,991 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 10:58:49,992 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 10:58:49,993 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 10:58:50,245 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 10:58:50,350 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 10:58:50,480 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 10:58:50,570 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 10:58:50,630 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 10:58:50,709 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 10:58:50,715 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 10:58:50,790 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 10:58:50,824 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 10:58:50,932 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 10:58:50,936 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 10:58:51,002 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 10:58:51,026 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 10:58:51,136 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 10:58:51,186 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 10:58:51,276 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 10:58:51,293 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 10:58:51,428 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 10:58:52,322 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 203mS.
+2023-06-30 10:58:52,326 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 10:58:52,582 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 10:58:54,333 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2007mS.
+2023-06-30 10:58:54,334 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 10:58:54,340 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 10:59:53,951 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 368497752 Bytes (1073741824)
+2023-06-30 10:59:54,049 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 394688280 Bytes (1073741824)
+2023-06-30 10:59:54,857 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 486633256 Bytes (1073741824)
+2023-06-30 10:59:55,084 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 10:59:55,084 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 10:59:55,084 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 10:59:55,084 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 10:59:55,086 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 10:59:55,260 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 10:59:55,356 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 10:59:55,487 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 10:59:55,598 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 10:59:55,654 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 10:59:55,746 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 10:59:55,752 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 10:59:55,826 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 10:59:55,855 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 10:59:55,953 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 10:59:55,959 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 10:59:56,084 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 10:59:56,109 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 10:59:56,277 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 10:59:56,334 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 10:59:56,416 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 10:59:56,433 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 10:59:56,568 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 10:59:57,310 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 178mS.
+2023-06-30 10:59:57,313 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 10:59:57,614 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 10:59:59,566 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2253mS.
+2023-06-30 10:59:59,568 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 10:59:59,576 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 11:00:37,945 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-06-30 11:00:50,313 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-06-30 11:00:51,461 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 747673280 Bytes (1073741824)
+2023-06-30 11:00:51,562 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 773954312 Bytes (1073741824)
+2023-06-30 11:00:52,340 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 863216944 Bytes (1073741824)
+2023-06-30 11:00:52,676 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 11:00:52,676 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 11:00:52,676 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 11:00:52,676 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 11:00:52,677 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 11:00:52,940 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 11:00:53,041 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 11:00:53,171 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 11:00:53,266 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 11:00:53,330 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 11:00:53,428 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 11:00:53,437 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 11:00:53,522 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 11:00:53,555 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 11:00:53,665 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 11:00:53,671 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 11:00:53,738 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 11:00:53,759 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 11:00:53,870 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 11:00:53,926 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 11:00:54,008 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 11:00:54,033 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 11:00:54,178 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 11:00:55,015 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 182mS.
+2023-06-30 11:00:55,019 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 11:00:55,285 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 11:00:57,074 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2055mS.
+2023-06-30 11:00:57,075 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 11:00:57,080 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 11:01:55,146 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-06-30 11:02:00,060 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 356599984 Bytes (1073741824)
+2023-06-30 11:02:00,171 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 326435224 Bytes (1073741824)
+2023-06-30 11:02:00,961 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 448596376 Bytes (1073741824)
+2023-06-30 11:02:01,241 [INFO] ProjectBuilder:2308 - IP not ready for code generation: Clock
+2023-06-30 11:06:05,774 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 637809616 Bytes (1073741824)
+2023-06-30 11:06:05,906 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 666643408 Bytes (1073741824)
+2023-06-30 11:06:06,199 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 362121360 Bytes (1073741824)
+2023-06-30 11:06:06,531 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 11:06:06,531 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 11:06:06,531 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 11:06:06,531 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 11:06:06,533 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 11:06:06,712 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 11:06:06,803 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 11:06:06,932 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 11:06:07,035 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 11:06:07,096 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 11:06:07,181 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 11:06:07,188 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 11:06:07,268 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 11:06:07,300 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 11:06:07,413 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 11:06:07,417 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 11:06:07,580 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 11:06:07,603 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 11:06:07,737 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 11:06:07,802 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 11:06:07,880 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 11:06:07,896 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 11:06:08,041 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 11:06:08,777 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 188mS.
+2023-06-30 11:06:08,780 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 11:06:09,033 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 11:06:11,028 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2248mS.
+2023-06-30 11:06:11,030 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 11:06:11,035 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 11:15:41,514 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 338514240 Bytes (1073741824)
+2023-06-30 11:15:41,628 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 364728640 Bytes (1073741824)
+2023-06-30 11:15:42,420 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 454906176 Bytes (1073741824)
+2023-06-30 11:15:42,638 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 11:15:42,638 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 11:15:42,638 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 11:15:42,639 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 11:15:42,640 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 11:15:42,853 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 11:15:42,960 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 11:15:43,094 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 11:15:43,193 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 11:15:43,252 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 11:15:43,336 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 11:15:43,343 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 11:15:43,431 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 11:15:43,464 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 11:15:43,581 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 11:15:43,588 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 11:15:43,661 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 11:15:43,688 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 11:15:43,823 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 11:15:43,880 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 11:15:43,973 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 11:15:43,990 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 11:15:44,129 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 11:15:45,032 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 175mS.
+2023-06-30 11:15:45,036 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 11:15:45,273 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 11:15:47,254 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2218mS.
+2023-06-30 11:15:47,256 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 11:15:47,261 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:04:07,566 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 356079016 Bytes (1073741824)
+2023-06-30 12:04:07,668 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 382191432 Bytes (1073741824)
+2023-06-30 12:04:08,585 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 514088376 Bytes (1073741824)
+2023-06-30 12:04:08,961 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:04:08,962 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:04:08,962 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:04:08,962 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:04:08,963 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:04:09,222 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:04:09,338 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:04:09,486 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:04:09,684 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:04:09,767 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:04:09,998 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:04:10,015 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:04:10,120 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:04:10,155 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:04:10,278 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:04:10,283 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:04:10,380 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:04:10,409 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:04:10,534 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:04:10,596 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:04:10,687 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:04:10,710 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:04:10,876 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:04:11,786 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 220mS.
+2023-06-30 12:04:11,789 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:04:12,036 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:04:14,249 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2460mS.
+2023-06-30 12:04:14,250 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:04:14,275 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:09:07,345 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 381933312 Bytes (1073741824)
+2023-06-30 12:09:07,461 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 330229952 Bytes (1073741824)
+2023-06-30 12:09:08,329 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 421456064 Bytes (1073741824)
+2023-06-30 12:09:08,672 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:09:08,672 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:09:08,672 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:09:08,673 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:09:08,674 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:09:08,978 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:09:09,089 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:09:09,229 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:09:09,334 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:09:09,404 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:09:09,502 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:09:09,512 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:09:09,592 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:09:09,626 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:09:09,735 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:09:09,740 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:09:09,806 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:09:09,830 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:09:09,945 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:09:10,001 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:09:10,089 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:09:10,107 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:09:10,253 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:09:11,239 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 286mS.
+2023-06-30 12:09:11,242 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:09:11,496 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:09:13,254 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2012mS.
+2023-06-30 12:09:13,256 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:09:13,261 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:11:16,072 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 394479584 Bytes (1073741824)
+2023-06-30 12:11:16,173 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 420674832 Bytes (1073741824)
+2023-06-30 12:11:17,023 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 509404808 Bytes (1073741824)
+2023-06-30 12:11:17,342 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:11:17,342 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:11:17,342 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:11:17,343 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:11:17,344 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:11:17,660 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:11:17,781 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:11:17,919 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:11:18,019 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:11:18,086 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:11:18,182 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:11:18,188 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:11:18,259 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:11:18,288 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:11:18,390 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:11:18,396 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:11:18,462 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:11:18,487 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:11:18,603 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:11:18,654 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:11:18,747 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:11:18,763 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:11:18,918 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:11:19,563 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 221mS.
+2023-06-30 12:11:19,570 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:11:20,151 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:11:22,432 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2862mS.
+2023-06-30 12:11:22,433 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:11:22,437 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:13:14,748 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 342500336 Bytes (1073741824)
+2023-06-30 12:13:14,847 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 368188400 Bytes (1073741824)
+2023-06-30 12:13:15,655 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 457317360 Bytes (1073741824)
+2023-06-30 12:13:15,942 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:13:15,942 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:13:15,942 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:13:15,942 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:13:15,944 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:13:16,237 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:13:16,332 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:13:16,471 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:13:16,579 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:13:16,649 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:13:16,741 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:13:16,750 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:13:16,841 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:13:16,874 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:13:16,982 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:13:16,988 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:13:17,063 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:13:17,088 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:13:17,205 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:13:17,257 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:13:17,352 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:13:17,373 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:13:17,525 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:13:18,223 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 242mS.
+2023-06-30 12:13:18,227 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:13:18,784 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:13:20,363 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2136mS.
+2023-06-30 12:13:20,364 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:13:20,369 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:14:36,280 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 608701968 Bytes (1073741824)
+2023-06-30 12:14:36,369 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 634390032 Bytes (1073741824)
+2023-06-30 12:14:37,204 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 722996752 Bytes (1073741824)
+2023-06-30 12:14:37,544 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:14:37,544 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:14:37,545 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:14:37,545 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:14:37,547 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:14:37,832 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:14:37,945 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:14:38,090 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:14:38,198 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:14:38,270 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:14:38,369 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:14:38,375 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:14:38,450 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:14:38,479 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:14:38,593 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:14:38,599 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:14:38,671 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:14:38,695 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:14:38,831 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:14:38,888 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:14:38,971 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:14:38,990 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:14:39,125 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:14:40,033 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 198mS.
+2023-06-30 12:14:40,038 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:14:40,511 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:14:42,240 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2203mS.
+2023-06-30 12:14:42,241 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:14:42,246 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:16:21,017 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 628642248 Bytes (1073741824)
+2023-06-30 12:16:21,103 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 654794776 Bytes (1073741824)
+2023-06-30 12:16:21,939 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 325346272 Bytes (1073741824)
+2023-06-30 12:16:22,234 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:16:22,234 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:16:22,234 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:16:22,235 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:16:22,236 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:16:22,546 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:16:22,656 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:16:22,791 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:16:22,890 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:16:22,957 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:16:23,048 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:16:23,056 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:16:23,132 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:16:23,164 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:16:23,269 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:16:23,274 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:16:23,355 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:16:23,379 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:16:23,488 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:16:23,548 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:16:23,640 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:16:23,661 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:16:23,799 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:16:24,677 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 187mS.
+2023-06-30 12:16:24,682 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:16:24,988 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:16:26,934 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2252mS.
+2023-06-30 12:16:26,935 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:16:26,940 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:17:36,647 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 522622048 Bytes (1073741824)
+2023-06-30 12:17:36,741 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 548219528 Bytes (1073741824)
+2023-06-30 12:17:37,607 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 638397064 Bytes (1073741824)
+2023-06-30 12:17:37,900 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:17:37,900 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:17:37,900 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:17:37,900 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:17:37,902 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:17:38,206 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:17:38,302 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:17:38,435 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:17:38,533 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:17:38,599 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:17:38,697 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:17:38,704 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:17:38,784 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:17:38,816 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:17:38,918 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:17:38,923 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:17:39,006 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:17:39,035 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:17:39,159 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:17:39,212 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:17:39,305 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:17:39,323 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:17:39,468 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:17:40,388 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 272mS.
+2023-06-30 12:17:40,391 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:17:40,674 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:17:42,624 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2233mS.
+2023-06-30 12:17:42,626 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:17:42,632 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:20:39,418 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 332855368 Bytes (1073741824)
+2023-06-30 12:20:39,516 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 358852904 Bytes (1073741824)
+2023-06-30 12:20:40,352 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 447332744 Bytes (1073741824)
+2023-06-30 12:20:40,712 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:20:40,712 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:20:40,712 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:20:40,712 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:20:40,763 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:20:41,001 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:20:41,102 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:20:41,241 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:20:41,341 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:20:41,409 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:20:41,514 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:20:41,521 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:20:41,595 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:20:41,626 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:20:41,727 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:20:41,731 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:20:41,796 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:20:41,820 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:20:41,946 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:20:41,999 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:20:42,094 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:20:42,112 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:20:42,257 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:20:43,183 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 271mS.
+2023-06-30 12:20:43,186 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:20:43,436 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:20:45,435 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2249mS.
+2023-06-30 12:20:45,437 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:20:45,442 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:22:02,947 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 383233632 Bytes (1073741824)
+2023-06-30 12:22:03,043 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 409448032 Bytes (1073741824)
+2023-06-30 12:22:03,893 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 498576992 Bytes (1073741824)
+2023-06-30 12:22:04,182 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:22:04,182 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:22:04,182 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:22:04,182 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:22:04,184 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:22:04,515 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:22:04,631 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:22:04,804 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:22:04,900 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:22:04,972 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:22:05,052 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:22:05,057 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:22:05,129 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:22:05,160 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:22:05,261 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:22:05,266 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:22:05,343 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:22:05,365 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:22:05,501 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:22:05,567 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:22:05,655 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:22:05,675 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:22:05,837 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:22:06,791 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 269mS.
+2023-06-30 12:22:06,795 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:22:07,050 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:22:08,813 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2018mS.
+2023-06-30 12:22:08,814 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:22:08,818 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:25:40,211 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 932149552 Bytes (1073741824)
+2023-06-30 12:25:40,309 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 958363952 Bytes (1073741824)
+2023-06-30 12:25:41,274 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 349044032 Bytes (1073741824)
+2023-06-30 12:25:41,555 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:25:41,555 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:25:41,555 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:25:41,556 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:25:41,557 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:25:41,864 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:25:41,966 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:25:42,095 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:25:42,193 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:25:42,267 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:25:42,362 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:25:42,370 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:25:42,450 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:25:42,483 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:25:42,588 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:25:42,593 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:25:42,661 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:25:42,681 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:25:42,812 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:25:42,870 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:25:42,970 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:25:42,989 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:25:43,128 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:25:44,112 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 272mS.
+2023-06-30 12:25:44,115 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:25:44,407 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:25:46,354 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2239mS.
+2023-06-30 12:25:46,355 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:25:46,359 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:26:06,852 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 799031264 Bytes (1073741824)
+2023-06-30 12:26:06,958 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 824704672 Bytes (1073741824)
+2023-06-30 12:26:07,822 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 915408544 Bytes (1073741824)
+2023-06-30 12:26:08,053 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:26:08,053 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:26:08,053 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:26:08,053 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:26:08,055 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:26:08,257 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:26:08,454 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:26:08,608 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:26:08,705 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:26:08,760 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:26:08,867 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:26:08,874 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:26:08,949 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:26:08,977 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:26:09,074 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:26:09,078 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:26:09,151 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:26:09,176 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:26:09,293 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:26:09,346 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:26:09,438 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:26:09,458 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:26:09,606 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:26:10,417 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 202mS.
+2023-06-30 12:26:10,422 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:26:10,691 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:26:12,465 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2044mS.
+2023-06-30 12:26:12,466 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:26:12,470 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:27:31,077 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 556666736 Bytes (1073741824)
+2023-06-30 12:27:31,172 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 582866864 Bytes (1073741824)
+2023-06-30 12:27:31,980 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 670947248 Bytes (1073741824)
+2023-06-30 12:27:32,222 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:27:32,222 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:27:32,222 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:27:32,222 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:27:32,223 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:27:32,416 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:27:32,631 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:27:32,762 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:27:32,850 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:27:32,910 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:27:33,039 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:27:33,059 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:27:33,142 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:27:33,173 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:27:33,269 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:27:33,274 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:27:33,339 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:27:33,365 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:27:33,491 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:27:33,549 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:27:33,641 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:27:33,659 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:27:33,804 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:27:34,596 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 193mS.
+2023-06-30 12:27:34,601 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:27:34,911 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:27:36,869 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2268mS.
+2023-06-30 12:27:36,870 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:27:36,874 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:28:10,778 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 589529064 Bytes (1073741824)
+2023-06-30 12:28:10,870 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 615541744 Bytes (1073741824)
+2023-06-30 12:28:11,687 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 704350184 Bytes (1073741824)
+2023-06-30 12:28:11,924 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:28:11,924 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:28:11,924 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:28:11,925 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:28:11,926 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:28:12,310 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:28:12,417 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:28:12,612 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:28:12,716 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:28:12,785 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:28:12,906 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:28:12,914 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:28:12,990 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:28:13,021 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:28:13,121 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:28:13,126 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:28:13,198 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:28:13,224 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:28:13,334 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:28:13,394 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:28:13,483 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:28:13,502 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:28:13,659 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:28:14,537 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 265mS.
+2023-06-30 12:28:14,541 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:28:14,816 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:28:16,527 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1985mS.
+2023-06-30 12:28:16,528 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:28:16,532 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:30:42,978 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 353206056 Bytes (1073741824)
+2023-06-30 12:30:43,077 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 379404184 Bytes (1073741824)
+2023-06-30 12:30:43,959 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 463306536 Bytes (1073741824)
+2023-06-30 12:30:44,265 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:30:44,265 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:30:44,265 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:30:44,265 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:30:44,267 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:30:44,557 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:30:44,666 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:30:44,802 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:30:44,905 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:30:44,966 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:30:45,052 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:30:45,068 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:30:45,144 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:30:45,173 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:30:45,265 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:30:45,269 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:30:45,335 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:30:45,360 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:30:45,476 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:30:45,530 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:30:45,620 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:30:45,641 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:30:45,794 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:30:46,731 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 268mS.
+2023-06-30 12:30:46,736 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:30:47,014 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:30:48,816 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2080mS.
+2023-06-30 12:30:48,818 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:30:48,823 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:32:02,452 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 908576656 Bytes (1073741824)
+2023-06-30 12:32:02,570 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 614282232 Bytes (1073741824)
+2023-06-30 12:32:03,425 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 355924296 Bytes (1073741824)
+2023-06-30 12:32:03,723 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:32:03,723 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:32:03,723 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:32:03,723 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:32:03,724 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:32:04,014 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:32:04,108 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:32:04,249 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:32:04,340 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:32:04,396 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:32:04,491 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:32:04,499 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:32:04,579 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:32:04,606 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:32:04,714 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:32:04,719 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:32:04,793 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:32:04,816 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:32:04,934 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:32:04,996 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:32:05,101 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:32:05,123 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:32:05,286 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:32:06,218 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 218mS.
+2023-06-30 12:32:06,221 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:32:06,559 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:32:08,215 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1994mS.
+2023-06-30 12:32:08,216 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:32:08,220 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:34:18,771 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 875312184 Bytes (1073741824)
+2023-06-30 12:34:18,862 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 900925880 Bytes (1073741824)
+2023-06-30 12:34:19,674 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 990300632 Bytes (1073741824)
+2023-06-30 12:34:20,011 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:34:20,011 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:34:20,011 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:34:20,011 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:34:20,012 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:34:20,305 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:34:20,412 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:34:20,552 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:34:20,645 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:34:20,710 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:34:20,800 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:34:20,822 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:34:20,892 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:34:20,916 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:34:21,017 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:34:21,022 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:34:21,088 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:34:21,112 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:34:21,246 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:34:21,306 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:34:21,410 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:34:21,431 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:34:21,575 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:34:22,531 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 203mS.
+2023-06-30 12:34:22,534 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:34:22,797 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:34:24,761 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2227mS.
+2023-06-30 12:34:24,762 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:34:24,767 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:34:38,697 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 740275768 Bytes (1073741824)
+2023-06-30 12:34:38,848 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 767012408 Bytes (1073741824)
+2023-06-30 12:34:39,146 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 802875296 Bytes (1073741824)
+2023-06-30 12:34:39,377 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:34:39,377 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:34:39,378 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:34:39,378 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:34:39,379 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:34:39,678 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:34:39,802 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:34:40,023 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:34:40,122 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:34:40,182 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:34:40,265 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:34:40,273 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:34:40,346 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:34:40,378 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:34:40,476 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:34:40,483 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:34:40,550 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:34:40,572 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:34:40,697 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:34:40,756 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:34:40,842 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:34:40,857 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:34:41,005 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:34:41,926 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 250mS.
+2023-06-30 12:34:41,931 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:34:42,187 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:34:44,054 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2123mS.
+2023-06-30 12:34:44,056 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:34:44,060 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:36:27,849 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 657396584 Bytes (1073741824)
+2023-06-30 12:36:27,964 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 705378888 Bytes (1073741824)
+2023-06-30 12:36:29,416 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 810835640 Bytes (1073741824)
+2023-06-30 12:36:29,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:36:29,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:36:29,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:36:29,748 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:36:29,749 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:36:30,050 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:36:30,162 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:36:30,296 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:36:30,407 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:36:30,466 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:36:30,548 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:36:30,555 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:36:30,624 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:36:30,653 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:36:30,751 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:36:30,755 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:36:30,823 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:36:30,849 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:36:31,020 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:36:31,077 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:36:31,175 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:36:31,192 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:36:31,386 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:36:32,236 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 198mS.
+2023-06-30 12:36:32,240 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:36:32,491 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:36:34,496 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2256mS.
+2023-06-30 12:36:34,497 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:36:34,503 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:38:05,995 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 498500600 Bytes (1073741824)
+2023-06-30 12:38:06,101 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 524266024 Bytes (1073741824)
+2023-06-30 12:38:06,979 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 615418872 Bytes (1073741824)
+2023-06-30 12:38:07,244 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:38:07,244 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:38:07,244 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:38:07,244 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:38:07,246 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:38:07,473 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:38:07,578 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:38:07,713 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:38:07,813 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:38:07,878 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:38:07,989 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:38:08,009 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:38:08,106 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:38:08,135 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:38:08,367 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:38:08,372 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:38:08,452 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:38:08,481 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:38:08,610 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:38:08,670 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:38:08,760 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:38:08,776 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:38:08,917 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:38:09,750 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 204mS.
+2023-06-30 12:38:09,754 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:38:10,054 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:38:12,344 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2590mS.
+2023-06-30 12:38:12,345 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:38:12,350 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:40:02,278 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 606339440 Bytes (1073741824)
+2023-06-30 12:40:02,370 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 632553840 Bytes (1073741824)
+2023-06-30 12:40:03,180 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 720683392 Bytes (1073741824)
+2023-06-30 12:40:03,399 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:40:03,399 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:40:03,399 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:40:03,399 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:40:03,400 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:40:03,739 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:40:03,855 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:40:04,056 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:40:04,157 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:40:04,212 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:40:04,301 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:40:04,309 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:40:04,383 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:40:04,413 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:40:04,519 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:40:04,524 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:40:04,593 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:40:04,616 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:40:04,735 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:40:04,792 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:40:04,871 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:40:04,888 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:40:05,035 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:40:05,636 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 187mS.
+2023-06-30 12:40:05,639 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:40:06,221 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:40:07,887 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2248mS.
+2023-06-30 12:40:07,889 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:40:07,894 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:41:07,949 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 642264160 Bytes (1073741824)
+2023-06-30 12:41:08,040 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 667917384 Bytes (1073741824)
+2023-06-30 12:41:08,864 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 758094920 Bytes (1073741824)
+2023-06-30 12:41:09,195 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:41:09,195 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:41:09,195 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:41:09,195 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:41:09,196 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:41:09,515 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:41:09,611 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:41:09,770 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:41:09,862 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:41:09,916 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:41:10,017 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:41:10,023 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:41:10,096 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:41:10,120 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:41:10,217 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:41:10,221 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:41:10,301 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:41:10,324 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:41:10,439 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:41:10,489 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:41:10,585 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:41:10,602 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:41:10,746 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:41:11,648 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 192mS.
+2023-06-30 12:41:11,651 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:41:11,910 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:41:13,920 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2269mS.
+2023-06-30 12:41:13,921 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:41:13,924 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:43:11,689 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 702209088 Bytes (1073741824)
+2023-06-30 12:43:11,780 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 727849784 Bytes (1073741824)
+2023-06-30 12:43:12,641 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 344375800 Bytes (1073741824)
+2023-06-30 12:43:12,928 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:43:12,928 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:43:12,928 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:43:12,928 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:43:12,930 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:43:13,211 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:43:13,302 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:43:13,452 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:43:13,546 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:43:13,602 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:43:13,685 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:43:13,693 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:43:13,765 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:43:13,791 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:43:13,890 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:43:13,894 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:43:13,960 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:43:13,983 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:43:14,101 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:43:14,158 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:43:14,244 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:43:14,263 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:43:14,404 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:43:15,314 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 183mS.
+2023-06-30 12:43:15,318 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:43:15,573 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:43:17,590 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2272mS.
+2023-06-30 12:43:17,591 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:43:17,596 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:44:21,440 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 613642248 Bytes (1073741824)
+2023-06-30 12:44:21,533 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 639330312 Bytes (1073741824)
+2023-06-30 12:44:22,338 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 730034184 Bytes (1073741824)
+2023-06-30 12:44:22,583 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:44:22,583 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:44:22,583 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:44:22,583 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:44:22,584 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:44:22,889 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:44:22,992 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:44:23,201 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:44:23,299 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:44:23,364 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:44:23,454 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:44:23,460 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:44:23,546 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:44:23,574 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:44:23,683 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:44:23,687 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:44:23,751 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:44:23,775 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:44:23,896 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:44:23,953 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:44:24,037 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:44:24,053 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:44:24,203 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:44:24,799 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 193mS.
+2023-06-30 12:44:24,803 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:44:25,388 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:44:27,072 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2270mS.
+2023-06-30 12:44:27,075 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:44:27,081 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:47:20,938 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 370091752 Bytes (1073741824)
+2023-06-30 12:47:21,029 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 395851984 Bytes (1073741824)
+2023-06-30 12:47:21,848 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 480192232 Bytes (1073741824)
+2023-06-30 12:47:22,127 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:47:22,127 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:47:22,127 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:47:22,128 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:47:22,129 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:47:22,410 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:47:22,519 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:47:22,655 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:47:22,746 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:47:22,811 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:47:22,892 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:47:22,898 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:47:22,968 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:47:22,999 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:47:23,115 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:47:23,120 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:47:23,197 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:47:23,220 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:47:23,334 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:47:23,390 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:47:23,482 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:47:23,499 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:47:23,655 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:47:24,612 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 248mS.
+2023-06-30 12:47:24,617 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:47:24,938 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:47:26,768 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2151mS.
+2023-06-30 12:47:26,769 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:47:26,773 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:48:55,689 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 570370136 Bytes (1073741824)
+2023-06-30 12:48:55,775 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 596058200 Bytes (1073741824)
+2023-06-30 12:48:56,572 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 684138584 Bytes (1073741824)
+2023-06-30 12:48:56,931 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:48:56,932 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:48:56,932 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:48:56,932 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:48:56,933 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:48:57,199 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:48:57,308 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:48:57,469 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:48:57,560 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:48:57,616 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:48:57,698 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:48:57,705 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:48:57,779 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:48:57,806 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:48:57,905 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:48:57,910 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:48:57,979 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:48:58,000 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:48:58,115 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:48:58,171 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:48:58,254 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:48:58,273 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:48:58,417 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:48:59,302 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 181mS.
+2023-06-30 12:48:59,305 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:48:59,558 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:49:01,476 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2171mS.
+2023-06-30 12:49:01,477 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:49:01,481 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:52:22,647 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 635583704 Bytes (1073741824)
+2023-06-30 12:52:22,739 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 661271768 Bytes (1073741824)
+2023-06-30 12:52:23,602 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 373004144 Bytes (1073741824)
+2023-06-30 12:52:23,899 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:52:23,899 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:52:23,899 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:52:23,899 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:52:23,901 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:52:24,189 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:52:24,282 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:52:24,414 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:52:24,512 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:52:24,575 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:52:24,663 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:52:24,669 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:52:24,738 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:52:24,762 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:52:24,860 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:52:24,864 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:52:24,941 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:52:24,969 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:52:25,093 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:52:25,149 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:52:25,233 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:52:25,250 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:52:25,386 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:52:26,336 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 274mS.
+2023-06-30 12:52:26,340 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:52:26,619 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:52:28,465 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2125mS.
+2023-06-30 12:52:28,466 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:52:28,471 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:54:50,409 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 859973424 Bytes (1073741824)
+2023-06-30 12:54:50,516 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 885615768 Bytes (1073741824)
+2023-06-30 12:54:51,329 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 976849016 Bytes (1073741824)
+2023-06-30 12:54:51,633 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:54:51,633 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:54:51,633 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:54:51,634 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:54:51,635 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:54:51,929 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:54:52,022 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:54:52,175 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:54:52,269 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:54:52,327 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:54:52,419 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:54:52,426 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:54:52,504 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:54:52,530 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:54:52,633 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:54:52,638 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:54:52,709 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:54:52,736 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:54:52,852 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:54:52,905 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:54:52,991 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:54:53,009 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:54:53,174 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:54:54,085 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 216mS.
+2023-06-30 12:54:54,089 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:54:54,398 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:54:56,189 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2100mS.
+2023-06-30 12:54:56,190 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:54:56,196 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:56:20,352 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 383783192 Bytes (1073741824)
+2023-06-30 12:56:20,441 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 409475352 Bytes (1073741824)
+2023-06-30 12:56:21,232 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 498274600 Bytes (1073741824)
+2023-06-30 12:56:21,527 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:56:21,527 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:56:21,527 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:56:21,527 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:56:21,528 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:56:21,812 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:56:21,914 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:56:22,071 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:56:22,158 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:56:22,220 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:56:22,311 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:56:22,318 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:56:22,391 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:56:22,420 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:56:22,520 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:56:22,526 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:56:22,601 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:56:22,626 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:56:22,740 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:56:22,798 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:56:22,876 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:56:22,896 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:56:23,064 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:56:24,131 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 226mS.
+2023-06-30 12:56:24,135 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:56:24,406 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:56:26,314 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2179mS.
+2023-06-30 12:56:26,315 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-06-30 12:56:26,320 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:57:14,451 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 554099128 Bytes (1073741824)
+2023-06-30 12:57:14,540 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 579867352 Bytes (1073741824)
+2023-06-30 12:57:15,381 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 668590536 Bytes (1073741824)
+2023-06-30 12:57:15,701 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-30 12:57:15,702 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-06-30 12:57:15,702 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-30 12:57:15,702 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-30 12:57:15,703 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-30 12:57:15,976 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp_save
+2023-06-30 12:57:16,075 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\license.tmp
+2023-06-30 12:57:16,204 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp_save
+2023-06-30 12:57:16,298 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\gpio.tmp
+2023-06-30 12:57:16,366 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c_save
+2023-06-30 12:57:16,462 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_it.c
+2023-06-30 12:57:16,470 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h_save
+2023-06-30 12:57:16,541 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_it.h
+2023-06-30 12:57:16,569 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c_save
+2023-06-30 12:57:16,672 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\stm32f3xx_hal_msp.c
+2023-06-30 12:57:16,678 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp_save
+2023-06-30 12:57:16,742 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\MXTmpFiles\system.tmp
+2023-06-30 12:57:16,765 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h_save
+2023-06-30 12:57:16,877 [INFO] CodeEngine:335 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\stm32f3xx_hal_conf.h
+2023-06-30 12:57:16,932 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h_save
+2023-06-30 12:57:17,021 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Inc\main.h
+2023-06-30 12:57:17,042 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c_save
+2023-06-30 12:57:17,193 [INFO] CodeEngine:279 - Generated code: C:\Users\loict\STM32CubeIDE\workspace_1.12.1\RSA_f\Core\Src\main.c
+2023-06-30 12:57:18,100 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 193mS.
+2023-06-30 12:57:18,104 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-30 12:57:18,363 [INFO] ConfigFileManager:1483 - The Die is : DIE422
+2023-06-30 12:57:20,321 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2217mS.
+2023-06-30 12:57:20,322 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-30 12:57:20,328 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.

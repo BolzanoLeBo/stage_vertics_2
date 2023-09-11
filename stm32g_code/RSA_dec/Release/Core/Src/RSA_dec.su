@@ -1,0 +1,2 @@
+../Core/Src/RSA_dec.c:44:6:decrypt_ccm	20	static
+../Core/Src/RSA_dec.c:31:6:decrypt	20	static

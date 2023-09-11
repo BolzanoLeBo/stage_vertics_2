@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;bubble_sort/template.ioc&apos; to &apos;bubble_sort.ioc&apos;" description="Rename resource &apos;template.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="template.ioc" name="bubble_sort.ioc" stamp="1690801610834" updateReferences="true"/>
+</session>

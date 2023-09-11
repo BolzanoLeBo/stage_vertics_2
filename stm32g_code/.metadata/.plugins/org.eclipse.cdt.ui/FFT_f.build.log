@@ -1,0 +1,10 @@
+11:40:17 **** Incremental Build of configuration Release for project FFT_f ****
+make -j8 all 
+arm-none-eabi-size   FFT_f.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8424	   3084	   4676	  16184	   3f38	FFT_f.elf
+Finished building: default.size.stdout
+ 
+
+11:40:18 Build Finished. 0 errors, 0 warnings. (took 318ms)
+

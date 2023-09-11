@@ -1,0 +1,10 @@
+recursion.c:56:5:recursion_fib_ccm	2
+recursion.c:71:6:recursion_main_ccm	1
+recursion.c:49:6:recursion_init_ccm	1
+recursion.c:66:5:recursion_return_ccm	1
+recursion.c:76:5:main_rec_ccm	1
+recursion.c:15:6:recursion_init	1
+recursion.c:22:5:recursion_fib	2
+recursion.c:32:5:recursion_return	1
+recursion.c:37:6:recursion_main	1
+recursion.c:42:5:main_rec	1

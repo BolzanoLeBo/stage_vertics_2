@@ -1,0 +1,10 @@
+07:24:25 **** Incremental Build of configuration Debug for project bubble32f ****
+make -j8 all 
+arm-none-eabi-size   bubble32f.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18600	   8120	   1808	  28528	   6f70	bubble32f.elf
+Finished building: default.size.stdout
+ 
+
+07:24:26 Build Finished. 0 errors, 0 warnings. (took 359ms)
+

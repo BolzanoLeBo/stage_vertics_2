@@ -1,0 +1,10 @@
+13:09:14 **** Incremental Build of configuration Release for project sine ****
+make -j8 all 
+arm-none-eabi-size   sine.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16316	      8	   1616	  17940	   4614	sine.elf
+Finished building: default.size.stdout
+ 
+
+13:09:15 Build Finished. 0 errors, 0 warnings. (took 432ms)
+

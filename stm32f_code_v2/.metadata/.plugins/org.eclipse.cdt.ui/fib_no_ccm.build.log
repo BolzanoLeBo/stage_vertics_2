@@ -1,0 +1,10 @@
+07:22:45 **** Incremental Build of configuration Debug for project fib_no_ccm ****
+make -j8 all 
+arm-none-eabi-size   fib_no_ccm.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6172	     20	   1572	   7764	   1e54	fib_no_ccm.elf
+Finished building: default.size.stdout
+ 
+
+07:22:45 Build Finished. 0 errors, 0 warnings. (took 438ms)
+

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;mat_mul/template.ioc&apos; to &apos;mat_mul.ioc&apos;" description="Rename resource &apos;template.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="template.ioc" name="mat_mul.ioc" stamp="1692796466876" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;mat_mul/template.ioc&apos; to &apos;mat_mul.ioc&apos;" description="Rename resource &apos;template.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="template.ioc" name="mat_mul.ioc" stamp="1692863176872" updateReferences="true"/>
+</session>

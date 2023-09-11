@@ -1,0 +1,9 @@
+../Core/Src/main.c:56:6:pointer_chase_flash	0	static
+../Core/Src/main.c:69:6:pointer_chase_ccm	0	static
+../Core/Src/main.c:282:6:SystemClock_Config	136	static,ignoring_inline_asm
+../Core/Src/main.c:463:6:change_to_PLL	80	static,ignoring_inline_asm
+../Core/Src/main.c:521:6:Sleep	16	static
+../Core/Src/main.c:192:6:tested_code	8	static
+../Core/Src/main.c:540:6:change_freq	80	static,ignoring_inline_asm
+../Core/Src/main.c:218:5:main	80	static,ignoring_inline_asm
+../Core/Src/main.c:600:6:Error_Handler	0	static,ignoring_inline_asm

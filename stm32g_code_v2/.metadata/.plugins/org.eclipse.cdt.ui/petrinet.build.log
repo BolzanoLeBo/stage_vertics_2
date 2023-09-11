@@ -1,0 +1,10 @@
+12:53:05 **** Incremental Build of configuration Release for project petrinet ****
+make -j8 all 
+arm-none-eabi-size   petrinet.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11728	     20	   1668	  13416	   3468	petrinet.elf
+Finished building: default.size.stdout
+ 
+
+12:53:05 Build Finished. 0 errors, 0 warnings. (took 330ms)
+

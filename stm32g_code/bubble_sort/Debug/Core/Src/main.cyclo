@@ -1,0 +1,13 @@
+../Core/Src/main.c:65:6:tested_code	1
+../Core/Src/main.c:122:6:empty_cache	1
+../Core/Src/main.c:134:6:init_cache	1
+../Core/Src/main.c:148:5:main	4
+../Core/Src/main.c:216:6:SystemClock_Config	3
+../Core/Src/main.c:264:13:MX_RTC_Init	3
+../Core/Src/main.c:308:13:MX_GPIO_Init	1
+../Core/Src/main.c:363:6:Sleep	1
+../Core/Src/main.c:380:6:change_freq	10
+../Core/Src/main.c:472:6:range1_to_range2	4
+../Core/Src/main.c:499:6:range2_to_range1	3
+../Core/Src/main.c:516:6:boost_mode	2
+../Core/Src/main.c:530:6:Error_Handler	1

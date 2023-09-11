@@ -1,0 +1,11 @@
+main.c:91:6:encrypt	3
+main.c:106:6:decrypt	3
+main.c:119:6:encrypt_ccm	3
+main.c:135:6:decrypt_ccm	3
+main.c:226:6:SystemClock_Config	4
+main.c:403:6:change_to_PLL	5
+main.c:461:6:Sleep	1
+main.c:149:6:tested_code	1
+main.c:480:6:change_freq	5
+main.c:166:5:main	5
+main.c:540:6:Error_Handler	1

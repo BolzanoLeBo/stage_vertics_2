@@ -1,0 +1,4 @@
+../Core/Src/RSA_enc.c:50:6:encrypt_ccm	20	static
+../Core/Src/RSA_enc.c:68:6:encrypt_ram	20	static
+../Core/Src/RSA_enc.c:86:6:encrypt_ram2	20	static
+../Core/Src/RSA_enc.c:30:6:encrypt	20	static

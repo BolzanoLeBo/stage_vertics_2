@@ -1,0 +1,18 @@
+09:03:43 **** Incremental Build of configuration Release for project recursion ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/recursion.c" -mcpu=cortex-m4 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/recursion.d" -MT"Core/Src/recursion.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/recursion.o"
+arm-none-eabi-gcc -o "recursion.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\loict\Desktop\Stage_vertics\stm32g_code_v2\recursion\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="recursion.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: recursion.elf
+ 
+arm-none-eabi-size   recursion.elf 
+arm-none-eabi-objdump -h -S  recursion.elf  > "recursion.list"
+   text	   data	    bss	    dec	    hex	filename
+   7344	      8	   1620	   8972	   230c	recursion.elf
+Finished building: default.size.stdout
+ 
+Finished building: recursion.list
+ 
+
+09:03:45 Build Finished. 0 errors, 0 warnings. (took 2s.256ms)
+

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;template/bubble_sort_f.ioc&apos; to &apos;tempate.ioc&apos;" description="Rename resource &apos;bubble_sort_f.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="bubble_sort_f.ioc" name="tempate.ioc" stamp="1692795989013" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;template/tempate.ioc&apos; to &apos;template.ioc&apos;" description="Rename resource &apos;tempate.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="tempate.ioc" name="template.ioc" stamp="1692795996377" updateReferences="true"/>
+</session>

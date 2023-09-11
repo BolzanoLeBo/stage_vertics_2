@@ -1,0 +1,10 @@
+../Core/Src/test.c:144:6:matrix1_pin_down_ccm	32	static
+../Core/Src/test.c:160:6:matrix1_init_ccm	8	static
+../Core/Src/test.c:186:7:matrix1_main_ccm	20	static
+../Core/Src/test.c:213:5:main_mat_ccm	8	static
+../Core/Src/test.c:68:6:matrix1_pin_down	32	static
+../Core/Src/test.c:87:6:matrix1_init	8	static
+../Core/Src/test.c:96:5:matrix1_return	16	static
+../Core/Src/test.c:112:6:matrix1_main	20	static
+../Core/Src/test.c:137:5:main_mat	8	static
+../Core/Src/test.c:169:5:matrix1_return_ccm	16	static

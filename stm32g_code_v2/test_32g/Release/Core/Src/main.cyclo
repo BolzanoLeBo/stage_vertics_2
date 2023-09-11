@@ -1,0 +1,11 @@
+main.c:93:6:empty_cache	1
+main.c:105:6:init_cache	1
+main.c:187:6:SystemClock_Config	3
+main.c:351:6:change_freq	9
+main.c:334:6:Sleep	1
+main.c:66:6:tested_code	1
+main.c:443:6:range1_to_range2	4
+main.c:470:6:range2_to_range1	3
+main.c:487:6:boost_mode	2
+main.c:119:5:main	6
+main.c:501:6:Error_Handler	1

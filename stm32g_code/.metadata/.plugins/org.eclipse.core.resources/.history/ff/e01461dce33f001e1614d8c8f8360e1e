@@ -1,0 +1,20 @@
+/*
+ * freq_manage.h
+ *
+ *  Created on: Aug 21, 2023
+ *      Author: loict
+ */
+
+#ifndef SRC_FREQ_MANAGE_H_
+#define SRC_FREQ_MANAGE_H_
+
+#include "stm32g4xx_hal.h"
+
+void change_freq(int mul);
+void Sleep(int time);
+void disable_pll();
+void range1_to_range2();
+void range2_to_range1();
+void boost_mode();
+
+#endif /* SRC_FREQ_MANAGE_H_ */

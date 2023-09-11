@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;recursion_tacle/prime_wcet.ioc&apos; to &apos;recursion_tacle.ioc&apos;" description="Rename resource &apos;prime_wcet.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="prime_wcet.ioc" name="recursion_tacle.ioc" stamp="1688967504458" updateReferences="true"/>
+</session>

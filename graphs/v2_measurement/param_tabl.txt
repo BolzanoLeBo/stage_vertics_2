@@ -1,0 +1,6 @@
+32g
+NORMAL/CACHE_ON-PRE_OFF
+data_RAM/data_RAM
+16_no_PLL 16 26 30 60 90 120 150 170 
+compare_Pre-fetch
+all

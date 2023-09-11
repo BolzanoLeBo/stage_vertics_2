@@ -1,0 +1,16 @@
+dijkstra.c:148:6:dijkstra_init_ccm	3
+dijkstra.c:166:5:dijkstra_return_ccm	2
+dijkstra.c:171:5:dijkstra_enqueue_ccm	4
+dijkstra.c:196:6:dijkstra_dequeue_ccm	2
+dijkstra.c:207:5:dijkstra_qcount_ccm	1
+dijkstra.c:212:5:dijkstra_find_ccm	10
+dijkstra.c:254:7:dijkstra_main_ccm	3
+dijkstra.c:270:5:main_dij_ccm	1
+dijkstra.c:13:6:dijkstra_init	3
+dijkstra.c:31:5:dijkstra_return	2
+dijkstra.c:36:5:dijkstra_enqueue	4
+dijkstra.c:61:6:dijkstra_dequeue	2
+dijkstra.c:72:5:dijkstra_qcount	1
+dijkstra.c:77:5:dijkstra_find	10
+dijkstra.c:119:7:dijkstra_main	3
+dijkstra.c:135:5:main_dij	1

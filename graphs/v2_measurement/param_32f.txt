@@ -1,0 +1,4 @@
+5
+8_no_PLL 16 24 48 72
+3
+NORMAL code_CCM code_RAM

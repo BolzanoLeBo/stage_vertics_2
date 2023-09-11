@@ -1,0 +1,7 @@
+freq_manage.c:12:6:Error	1
+freq_manage.c:23:6:Sleep	2
+freq_manage.c:47:6:change_freq	10
+freq_manage.c:140:6:range1_to_range2	4
+freq_manage.c:167:6:range2_to_range1	3
+freq_manage.c:184:6:boost_mode	2
+freq_manage.c:192:6:disable_pll	3

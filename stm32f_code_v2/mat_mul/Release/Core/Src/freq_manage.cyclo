@@ -1,0 +1,5 @@
+../Core/Src/freq_manage.c:11:6:Error	1
+../Core/Src/freq_manage.c:22:6:enable_hse	4
+../Core/Src/freq_manage.c:39:6:disable_pll	3
+../Core/Src/freq_manage.c:67:6:Sleep	2
+../Core/Src/freq_manage.c:94:6:change_freq	10

@@ -1,0 +1,4 @@
+3
+24 48 72
+6
+CF_roF CC_roF CF_roC CC_roC CF_roR CC_roR

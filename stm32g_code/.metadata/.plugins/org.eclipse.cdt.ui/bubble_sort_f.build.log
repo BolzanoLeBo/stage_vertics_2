@@ -1,0 +1,10 @@
+07:45:16 **** Incremental Build of configuration Debug for project bubble_sort_f ****
+make -j8 all 
+arm-none-eabi-size   bubble_sort_f.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22128	   8020	   1812	  31960	   7cd8	bubble_sort_f.elf
+Finished building: default.size.stdout
+ 
+
+07:45:16 Build Finished. 0 errors, 0 warnings. (took 321ms)
+

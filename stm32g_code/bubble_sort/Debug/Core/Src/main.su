@@ -1,0 +1,13 @@
+../Core/Src/main.c:65:6:tested_code	8	static
+../Core/Src/main.c:122:6:empty_cache	4	static
+../Core/Src/main.c:134:6:init_cache	4	static
+../Core/Src/main.c:148:5:main	80	static
+../Core/Src/main.c:216:6:SystemClock_Config	88	static
+../Core/Src/main.c:264:13:MX_RTC_Init	8	static
+../Core/Src/main.c:308:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:363:6:Sleep	24	static
+../Core/Src/main.c:380:6:change_freq	200	static
+../Core/Src/main.c:472:6:range1_to_range2	32	static
+../Core/Src/main.c:499:6:range2_to_range1	8	static
+../Core/Src/main.c:516:6:boost_mode	4	static
+../Core/Src/main.c:530:6:Error_Handler	4	static,ignoring_inline_asm

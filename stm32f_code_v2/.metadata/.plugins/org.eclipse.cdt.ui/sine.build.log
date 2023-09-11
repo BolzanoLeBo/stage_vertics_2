@@ -1,0 +1,57 @@
+16:28:53 **** Incremental Build of configuration Release for project sine ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F303xC -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/sine.c" -mcpu=cortex-m4 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F303xC -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sine.d" -MT"Core/Src/sine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sine.o"
+../Core/Src/sine.c: In function 'sine_main':
+../Core/Src/sine.c:113:33: warning: passing argument 2 of 'computeArraySin' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  113 |  computeArraySin(&arr_input[0], &arr_keys[0], &arr_values[0], array_len, input_len);
+      |                                 ^~~~~~~~~~~~
+../Core/Src/sine.c:89:49: note: expected 'float *' but argument is of type 'const float *'
+   89 | void computeArraySin(float * arr_input, float * arr_keys , float * arr_values, int n_lut, int n_input){
+      |                                         ~~~~~~~~^~~~~~~~
+../Core/Src/sine.c:113:47: warning: passing argument 3 of 'computeArraySin' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  113 |  computeArraySin(&arr_input[0], &arr_keys[0], &arr_values[0], array_len, input_len);
+      |                                               ^~~~~~~~~~~~~~
+../Core/Src/sine.c:89:68: note: expected 'float *' but argument is of type 'const float *'
+   89 | void computeArraySin(float * arr_input, float * arr_keys , float * arr_values, int n_lut, int n_input){
+      |                                                            ~~~~~~~~^~~~~~~~~~
+../Core/Src/sine.c: In function 'sine_main_ccm':
+../Core/Src/sine.c:118:37: warning: passing argument 2 of 'computeArraySin_ccm' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  118 |  computeArraySin_ccm(&arr_input[0], &arr_keys[0], &arr_values[0], array_len, input_len);
+      |                                     ^~~~~~~~~~~~
+../Core/Src/sine.c:79:53: note: expected 'float *' but argument is of type 'const float *'
+   79 | void computeArraySin_ccm(float * arr_input, float * arr_keys , float * arr_values, int n_lut, int n_input){
+      |                                             ~~~~~~~~^~~~~~~~
+../Core/Src/sine.c:118:51: warning: passing argument 3 of 'computeArraySin_ccm' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  118 |  computeArraySin_ccm(&arr_input[0], &arr_keys[0], &arr_values[0], array_len, input_len);
+      |                                                   ^~~~~~~~~~~~~~
+../Core/Src/sine.c:79:72: note: expected 'float *' but argument is of type 'const float *'
+   79 | void computeArraySin_ccm(float * arr_input, float * arr_keys , float * arr_values, int n_lut, int n_input){
+      |                                                                ~~~~~~~~^~~~~~~~~~
+../Core/Src/sine.c: In function 'sine_main_ram':
+../Core/Src/sine.c:123:37: warning: passing argument 2 of 'computeArraySin_ram' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  123 |  computeArraySin_ram(&arr_input[0], &arr_keys[0], &arr_values[0], array_len, input_len);
+      |                                     ^~~~~~~~~~~~
+../Core/Src/sine.c:100:53: note: expected 'float *' but argument is of type 'const float *'
+  100 | void computeArraySin_ram(float * arr_input, float * arr_keys , float * arr_values, int n_lut, int n_input){
+      |                                             ~~~~~~~~^~~~~~~~
+../Core/Src/sine.c:123:51: warning: passing argument 3 of 'computeArraySin_ram' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  123 |  computeArraySin_ram(&arr_input[0], &arr_keys[0], &arr_values[0], array_len, input_len);
+      |                                                   ^~~~~~~~~~~~~~
+../Core/Src/sine.c:100:72: note: expected 'float *' but argument is of type 'const float *'
+  100 | void computeArraySin_ram(float * arr_input, float * arr_keys , float * arr_values, int n_lut, int n_input){
+      |                                                                ~~~~~~~~^~~~~~~~~~
+arm-none-eabi-gcc -o "sine.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\loict\Desktop\Stage_vertics\stm32f_code_v2\sine\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sine.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sine.elf
+ 
+arm-none-eabi-size   sine.elf 
+arm-none-eabi-objdump -h -S  sine.elf  > "sine.list"
+   text	   data	    bss	    dec	    hex	filename
+  23164	      8	   1612	  24784	   60d0	sine.elf
+Finished building: default.size.stdout
+ 
+Finished building: sine.list
+ 
+
+16:28:55 Build Finished. 0 errors, 6 warnings. (took 2s.280ms)
+

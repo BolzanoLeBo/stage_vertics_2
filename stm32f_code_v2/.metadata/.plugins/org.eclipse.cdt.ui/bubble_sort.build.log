@@ -1,0 +1,16 @@
+13:35:04 **** Incremental Build of configuration Release for project bubble_sort ****
+make -j8 all 
+arm-none-eabi-gcc -o "bubble_sort.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\loict\Desktop\Stage_vertics\stm32f_code_v2\bubble_sort\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="bubble_sort.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: bubble_sort.elf
+ 
+arm-none-eabi-size   bubble_sort.elf 
+arm-none-eabi-objdump -h -S  bubble_sort.elf  > "bubble_sort.list"
+   text	   data	    bss	    dec	    hex	filename
+  15228	      8	   1616	  16852	   41d4	bubble_sort.elf
+Finished building: default.size.stdout
+ 
+Finished building: bubble_sort.list
+ 
+
+13:35:05 Build Finished. 0 errors, 0 warnings. (took 787ms)
+

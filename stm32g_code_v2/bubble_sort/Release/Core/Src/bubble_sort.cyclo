@@ -1,0 +1,9 @@
+../Core/Src/bubble_sort.c:12:6:BubbleSortCCM	6
+../Core/Src/bubble_sort.c:106:6:BubbleSortRAM2	6
+../Core/Src/bubble_sort.c:75:6:BubbleSortRAM	6
+../Core/Src/bubble_sort.c:137:6:bubble_main_ccm	1
+../Core/Src/bubble_sort.c:148:6:bubble_main_ram2	1
+../Core/Src/bubble_sort.c:142:6:bubble_main_ram	1
+../Core/Src/bubble_sort.c:43:6:BubbleSort	6
+../Core/Src/bubble_sort.c:153:6:bubble_main	1
+../Core/Src/bubble_sort.c:157:6:init_tab	1

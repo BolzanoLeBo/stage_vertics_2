@@ -1,0 +1,4 @@
+../Core/Src/pointer_chase.c:62:6:pointer_chase_ccm	0	static
+../Core/Src/pointer_chase.c:78:6:pointer_main_ccm	0	static
+../Core/Src/pointer_chase.c:51:6:pointer_chase_flash	0	static
+../Core/Src/pointer_chase.c:73:6:pointer_main	0	static
