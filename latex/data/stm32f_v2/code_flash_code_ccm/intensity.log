@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.13)  11 SEP 2023 11:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.13)  13 SEP 2023 10:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/loict/Desktop/Stage_vertics - Copie/latex/data/stm32f_v2/code_flash_code_ccm/intensity.tex"
-(c:/Users/loict/Desktop/Stage_vertics - Copie/latex/data/stm32f_v2/code_flash_code_ccm/intensity.tex
+**c:/Users/loict/Desktop/stage_vertics_2/latex/data/stm32f_v2/code_flash_code_ccm/intensity.tex
+(c:/Users/loict/Desktop/stage_vertics_2/latex/data/stm32f_v2/code_flash_code_ccm/intensity.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
 (C:\Users\loict\AppData\Local\Programs\MiKTeX\tex/latex/standalone\standalone.cls
@@ -667,11 +667,11 @@ PGFPlots: reading {compare_code_FLASH_code_CCM-intensity.csv}
 PGFPlots: reading {compare_code_FLASH_code_CCM-intensity.csv}
 PGFPlots: reading {compare_code_FLASH_code_CCM-intensity.csv}
 PGFPlots: reading {compare_code_FLASH_code_CCM-intensity.csv}
-LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
  (C:\Users\loict\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
  (C:\Users\loict\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -697,17 +697,17 @@ L3 programming layer <2023-06-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32635 strings out of 475551
- 845083 string characters out of 5762554
+ 32643 strings out of 475551
+ 845240 string characters out of 5762554
  1969238 words of memory out of 5000000
- 53319 multiletter control sequences out of 15000+600000
+ 53327 multiletter control sequences out of 15000+600000
  566872 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,18n,110p,846b,2249s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\loict\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0500.pk> <C:\Users\loict\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on intensity.pdf (1 page, 88414 bytes).
+ 107i,18n,110p,838b,2251s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\loict\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0500.pk> <C:\Users\loict\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\loict\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on intensity.pdf (1 page, 91544 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 111 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

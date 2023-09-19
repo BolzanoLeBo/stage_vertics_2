@@ -1,6 +1,6 @@
-32g
-NORMAL/CACHE_ON-PRE_OFF
+32f
+NORMAL/code_CCM
 data_RAM/data_RAM
-16_no_PLL 16 26 30 60 90 120 150 170 
-compare_Pre-fetch
+8_no_PLL	16	24	48	72
+compare_code_FLASH_code_CCM
 all

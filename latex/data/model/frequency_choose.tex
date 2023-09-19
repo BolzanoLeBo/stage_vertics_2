@@ -1,0 +1,30 @@
+\documentclass[crop]{standalone}
+\input{../../macro.tex}
+\begin{document}
+    \begin{tikzpicture}[xscale=0.75,yscale=0.75]
+    \begin{axis}[
+        y label style={at={(axis description cs:0.04,0.7)},anchor=east},
+        xlabel=Number of tasks,
+        ylabel=FLASH choose ratio,
+        xtick={8,16,32,64,128},
+        grid=major,
+        xmin=8,
+        ymin=0, 
+        legend columns=1, 
+        legend style={at={(1.03,0.5)},anchor=west, 
+        /tikz/column 2/.style={
+                column sep=7pt,
+            }},
+        yticklabel={\pgfmathparse{\tick}\pgfmathprintnumber{\pgfmathresult}},
+        ]
+        \addplot[mark=square*,color=green] table [col sep=tab, y index = 4] {out_stm32f_round.csv};
+        \addlegendentry{24MHz}
+        \addplot[mark=square*,color=blue] table [col sep=tab, y index = 6] {out_stm32f_round.csv};
+        \addlegendentry{48MHz}
+        \addplot[mark=square*,color=red] table [col sep=tab, y index = 8] {out_stm32f_round.csv};
+        \addlegendentry{72MHz}
+
+        \end{axis}
+    \end{tikzpicture} 
+
+\end{document}

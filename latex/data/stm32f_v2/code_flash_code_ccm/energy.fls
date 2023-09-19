@@ -1,6 +1,6 @@
-PWD c:\Users\loict\Desktop\Stage_vertics - Copie\latex\data\stm32f_v2\code_flash_code_ccm
+PWD c:\Users\loict\Desktop\stage_vertics_2\latex\data\stm32f_v2\code_flash_code_ccm
 INPUT C:\Users\loict\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\loict\Desktop\Stage_vertics - Copie\latex\data\stm32f_v2\code_flash_code_ccm\energy.tex
+INPUT c:\Users\loict\Desktop\stage_vertics_2\latex\data\stm32f_v2\code_flash_code_ccm\energy.tex
 OUTPUT energy.log
 INPUT C:\Users\loict\AppData\Local\Programs\MiKTeX\tex\latex\standalone\standalone.cls
 INPUT C:\Users\loict\AppData\Local\Programs\MiKTeX\tex\latex\standalone\standalone.cls
@@ -370,6 +370,8 @@ INPUT C:\Users\loict\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT energy.aux
 INPUT C:\Users\loict\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0500.pk
 INPUT C:\Users\loict\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0500.pk
+INPUT C:\Users\loict\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
+INPUT C:\Users\loict\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
 INPUT C:\Users\loict\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk
 INPUT C:\Users\loict\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk
 INPUT C:\Users\loict\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb

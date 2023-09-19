@@ -1,0 +1,30 @@
+\documentclass[crop]{standalone}
+\input{../../macro.tex}
+\begin{document}
+    \begin{tikzpicture}[xscale=0.75,yscale=0.75]
+    \begin{axis}[
+        y label style={at={(axis description cs:0.04,0.7)},anchor=east},
+        xlabel=Number of tasks,
+        ylabel= CCM choose ratio,
+        xtick={8,16,32,64,128},
+        grid=major,
+        xmin=8,
+        ymin=0, 
+        legend columns=1, 
+        legend style={at={(1.03,0.5)},anchor=west, 
+        /tikz/column 2/.style={
+                column sep=7pt,
+            }},
+        yticklabel={\pgfmathparse{\tick}\pgfmathprintnumber{\pgfmathresult}},
+        ]
+        \addplot[mark=pentagon,color=green] table [col sep=tab, y index = 3] {out_stm32f_round.csv};
+        \addlegendentry{24MHz},
+        \addplot[mark=pentagon,color=blue] table [col sep=tab, y index = 5] {out_stm32f_round.csv};
+        \addlegendentry{48MHz},
+        \addplot[mark=pentagon,color=red] table [col sep=tab, y index = 7] {out_stm32f_round.csv};
+        \addlegendentry{72MHz},
+
+        \end{axis}
+    \end{tikzpicture} 
+
+\end{document}
