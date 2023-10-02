@@ -43,6 +43,8 @@ def main() :
         #it will add ro code into the tabs even if there is no input data
         ro_except = 1
     elif len(sys.argv) > 5 and sys.argv[5] != "ro" :
+        #used when you want to compare read only codes but you want to specify the input data
+        #ro_config can be "ro_FLASH"
         ro_except = 0
         ro_config = sys.argv[5]
     else :
@@ -61,18 +63,18 @@ def main() :
             data_file = ""
             for f in files2 : 
                 if data_found == 0 : 
-                    if ro_config == 0 and data_config in f : 
+                    if ro_config == 0 and data_config+'_' in f : 
                         if "ro_FLASH" in f or "ro" not in f : 
                             #if we want to compare input data only, 
                             #if there is a case with both read only and input then the case with ro in flas will be taken
                             data_file = f
                             data_found = 1
-                    elif ro_config != 0 and (ro_config in f) : 
+                    elif ro_config != 0 and (ro_config+'_' in f) : 
                         if "data_" not in f :
                             print("found a only read only case")
                             data_file = f
                             data_found = 1
-                        elif data_config+'_'+ro_config in f : 
+                        elif data_config+'_'+ro_config+'_' in f : 
                             print("found a both read only and input data case")
                             data_file = f
                             data_found = 1
@@ -80,7 +82,9 @@ def main() :
             if data_found : 
                 #add the benchmark test
                 tab_name.append(dir.removeprefix(proc+'/')) 
+                
                 final_path = path+data_file + '/' +code_config+'/summary.csv'
+                print("take data in ", final_path)
                 res = extract_line(final_path, unity)
                 freqs = res[1]
                 tab_val.append(res[0])
@@ -99,6 +103,7 @@ def main() :
                     path_ro = path + data_file + '/' +code_config+'/summary.csv'
                     if os.path.exists(path_ro) :
                             tab_name.append(dir.removeprefix(proc+'/'))
+                            print("take data in ", path_ro)
                             res = extract_line(path_ro, unity)
                             freqs = res[1]
                             tab_val.append(res[0])

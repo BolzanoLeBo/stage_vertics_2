@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1694461192 "c:/Users/loict/Desktop/stage_vertics_2/latex/data/model/poster.tex" "poster.pdf" "poster" 1694461195 0
+["pdflatex"] 1696179778 "c:/Users/loict/Desktop/stage_vertics_2/latex/data/model/poster.tex" "poster.pdf" "poster" 1696179781 0
   "../../macro.tex" 1694423356 742 5703c23b420a471d7233b5638798537c ""
-  "C:/Users/loict/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1689936999 143894 c9879d896f3723b277776564312b7eb1 ""
+  "C:/Users/loict/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1694509874 143894 c9879d896f3723b277776564312b7eb1 ""
   "C:/Users/loict/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk" 1689834543 23808 768d132d879ae5bf4f187f5ad337bf40 ""
   "C:/Users/loict/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1689227937 24118871 56ee679e80261f6f0a0bbf3cd37d86f5 ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1000.tfm" 993062122 3148 7e594c8240c71e432203f65ab5f95a51 ""
@@ -21,11 +21,7 @@
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx5.tfm" 1136768653 1332 f817c21a1ba54560425663374f1b651a ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx7.tfm" 1136768653 1336 3125ccb448c1a09074e3aa4a9832f130 ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmib10.tfm" 1136768653 1524 554068197b70979a55370e6c6495f441 ""
-  "C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
-  "C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1247596667 32762 7fee39e011c23b3589931effd97b9702 ""
-  "C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
-  "C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580393758 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifluatex.sty" 1644000708 492 1994775aa15b0d1289725a0b1bbc2d4c ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifpdf.sty" 1644000708 480 5778104efadad304ced77548ca2184b1 ""
@@ -208,10 +204,10 @@
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Users/loict/Desktop/stage_vertics_2/latex/data/model/poster.tex" 1694461191 999 840df4b43aa8c34207c56aae69fafcf4 ""
+  "c:/Users/loict/Desktop/stage_vertics_2/latex/data/model/poster.tex" 1696179777 1025 b3c7d2b091e7699a6d55525d0a944c7e ""
   "out_stm32f_round.csv" 1694461167 254 f7d86e2ed01de804ffa168fb034db008 ""
-  "poster.aux" 1694461194 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "poster.tex" 1694461191 999 840df4b43aa8c34207c56aae69fafcf4 ""
+  "poster.aux" 1696179780 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "poster.tex" 1696179777 1025 b3c7d2b091e7699a6d55525d0a944c7e ""
   (generated)
   "poster.aux"
   "poster.log"

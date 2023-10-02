@@ -5,7 +5,7 @@
     \begin{axis}[
         y label style={at={(axis description cs:0.04,0.7)},anchor=east},
         xlabel=Number of tasks,
-        ylabel=increase ratio,
+        ylabel=Gain,
         xtick={8,16,32,64,128},
         grid=major,
         ymin=0, 
@@ -15,12 +15,12 @@
         /tikz/column 2/.style={
                 column sep=7pt,
             }},
-            yticklabel={\pgfmathparse{\tick}\pgfmathprintnumber{\pgfmathresult}},
+            yticklabel={\pgfmathparse{\tick}\pgfmathprintnumber{\pgfmathresult}\%},
         ]
         
-        \addplot[mark=pentagon,color=red] table [col sep=tab, y index = 1] {out_stm32f_round.csv};
+        \addplot[mark=pentagon,color=red] table [col sep=tab, y expr={100*(\thisrowno{1})}] {out_stm32f_round.csv};
         \addlegendentry{Utilization gain},
-        \addplot[mark=square*,color=blue] table [col sep=tab, y index = 2] {out_stm32f_round.csv};
+        \addplot[mark=square*,color=blue] table [col sep=tab, y expr={100*(\thisrowno{2})}] {out_stm32f_round.csv};
         \addlegendentry[align=center]{Energy gain},
         \end{axis}
     \end{tikzpicture} 

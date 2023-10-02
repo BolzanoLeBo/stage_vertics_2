@@ -1,0 +1,486 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 2.0 (March 8, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	11pt, % Set the default font size, options include: 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt
+	%t, % Uncomment to vertically align all slide content to the top of the slide, rather than the default centered
+	%aspectratio=169, % Uncomment to set the aspect ratio to a 16:9 ratio which matches the aspect ratio of 1080p and 4K screens and projectors
+]{beamer}
+
+\graphicspath{{Images/}{./}} % Specifies where to look for included images (trailing slash required)
+
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule for better rules in tables
+\input{macro.tex}
+%----------------------------------------------------------------------------------------
+%	SELECT LAYOUT THEME
+%----------------------------------------------------------------------------------------
+
+% Beamer comes with a number of default layout themes which change the colors and layouts of slides. Below is a list of all themes available, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+%----------------------------------------------------------------------------------------
+%	SELECT COLOR THEME
+%----------------------------------------------------------------------------------------
+
+% Beamer comes with a number of color themes that can be applied to any layout theme to change its colors. Uncomment each of these in turn to see how they change the colors of your selected layout theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{monarca}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{spruce}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%----------------------------------------------------------------------------------------
+%	SELECT FONT THEME & FONTS
+%----------------------------------------------------------------------------------------
+
+% Beamer comes with several font themes to easily change the fonts used in various parts of the presentation. Review the comments beside each one to decide if you would like to use it. Note that additional options can be specified for several of these font themes, consult the beamer documentation for more information.
+
+\usefonttheme{default} % Typeset using the default sans serif font
+%\usefonttheme{serif} % Typeset using the default serif font (make sure a sans font isn't being set as the default font if you use this option!)
+%\usefonttheme{structurebold} % Typeset important structure text (titles, headlines, footlines, sidebar, etc) in bold
+%\usefonttheme{structureitalicserif} % Typeset important structure text (titles, headlines, footlines, sidebar, etc) in italic serif
+%\usefonttheme{structuresmallcapsserif} % Typeset important structure text (titles, headlines, footlines, sidebar, etc) in small caps serif
+
+%------------------------------------------------
+
+%\usepackage{mathptmx} % Use the Times font for serif text
+\usepackage{palatino} % Use the Palatino font for serif text
+
+%\usepackage{helvet} % Use the Helvetica font for sans serif text
+\usepackage[default]{opensans} % Use the Open Sans font for sans serif text
+%\usepackage[default]{FiraSans} % Use the Fira Sans font for sans serif text
+%\usepackage[default]{lato} % Use the Lato font for sans serif text
+
+%----------------------------------------------------------------------------------------
+%	SELECT INNER THEME
+%----------------------------------------------------------------------------------------
+
+% Inner themes change the styling of internal slide elements, for example: bullet points, blocks, bibliography entries, title pages, theorems, etc. Uncomment each theme in turn to see what changes it makes to your presentation.
+
+%\useinnertheme{default}
+\useinnertheme{circles}
+%\useinnertheme{rectangles}
+%\useinnertheme{rounded}
+%\useinnertheme{inmargin}
+
+%----------------------------------------------------------------------------------------
+%	SELECT OUTER THEME
+%----------------------------------------------------------------------------------------
+
+% Outer themes change the overall layout of slides, such as: header and footer lines, sidebars and slide titles. Uncomment each theme in turn to see what changes it makes to your presentation.
+
+%\useoutertheme{default}
+%\useoutertheme{infolines}
+%\useoutertheme{miniframes}
+%\useoutertheme{smoothbars}
+%\useoutertheme{sidebar}
+%\useoutertheme{split}
+%\useoutertheme{shadow}
+%\useoutertheme{tree}
+%\useoutertheme{smoothtree}
+
+%\setbeamertemplate{footline} % Uncomment this line to remove the footer line in all slides
+%\setbeamertemplate{footline}[page number] % Uncomment this line to replace the footer line in all slides with a simple slide count
+
+%\setbeamertemplate{navigation symbols}{} % Uncomment this line to remove the navigation symbols from the bottom of all slides
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION INFORMATION
+%----------------------------------------------------------------------------------------
+\usepackage[font=scriptsize]{caption}
+\title[Short Title]{Energy aware memory allocation in real-time systems} % The short title in the optional parameter appears at the bottom of every slide, the full title in the main parameter is only on the title page
+
+\subtitle{CCM-SRAM allocation to reduce consumption} % Presentation subtitle, remove this command if a subtitle isn't required
+
+\author[]{Loïc Thomas} % Presenter name(s), the optional parameter can contain a shortened version to appear on the bottom of every slide, while the main parameter will appear on the title slide
+
+\institute[UC]{LAAS CNRS \\ \smallskip \textit{lthomas@laas.fr}} % Your institution, the optional parameter can be used for the institution shorthand and will appear on the bottom of every slide after author names, while the required parameter is used on the title slide and can include your email address or additional information on separate lines
+
+\date[\today]{\today} % Presentation date or conference/meeting name, the optional parameter can contain a shortened version to appear on the bottom of every slide, while the required parameter value is output to the title slide
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SLIDE
+%----------------------------------------------------------------------------------------
+
+\begin{frame}
+	\titlepage % Output the title slide, automatically created using the text entered in the PRESENTATION INFORMATION block above
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS SLIDE
+%----------------------------------------------------------------------------------------
+
+% The table of contents outputs the sections and subsections that appear in your presentation, specified with the standard \section and \subsection commands. You may either display all sections and subsections on one slide with \tableofcontents, or display each section at a time on subsequent slides with \tableofcontents[pausesections]. The latter is useful if you want to step through each section and mention what you will discuss.
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION BODY SLIDES
+%----------------------------------------------------------------------------------------
+\section{Caractéristiques des deux mircrocontroleurs}
+
+\begin{frame}
+    \frametitle{CCM SRAM}
+    \begin{figure}
+        \includegraphics[scale = 0.7]{images/CCM.png}
+    \end{figure}
+    The core coupled memory is a special area of memory. 
+    It is connected to both instruction and data buses.
+    It allows a no wait state access to memory. 
+\end{frame}
+
+\begin{frame}
+    \frametitle{STM32F303}
+		\centering
+		\begin{minipage}{0.4\textwidth}
+            \includegraphics[scale = 0.04]{images/stm32f.jpg}
+        \end{minipage}
+        \begin{minipage}{0.5\textwidth}
+			\centering
+            \begin{itemize}
+                \item Frequency up to 72 MHz 
+                \item 8 kB CCM SRAM 
+                \item FLASH speed up to 24 MHz
+            \end{itemize}
+		\end{minipage}
+\end{frame}
+
+\begin{frame}
+    \frametitle{STM32G43KB}
+	\centering
+    \begin{minipage}{0.4\textwidth}
+		\includegraphics[scale = 0.04]{images/stm32g.jpg}
+	\end{minipage}
+	\begin{minipage}{0.50\textwidth}
+		\centering
+		\begin{itemize}
+			\item Frequency up to 170 MHz 
+			\item 10 kB CCM SRAM 
+			\item Instruction and data cache for flash 
+			\item Pre-Fetch feature
+			\item Dynamic voltage scaling \(3 modes\)
+			\item Two different SRAM
+		\end{itemize}
+		\end{minipage}
+\end{frame}
+
+\section{Goal of the study}
+
+\begin{frame}{Goal of the study}
+	Find a new solution for energy-aware memory allocation in real-time systems.
+	\begin{enumerate}
+		\item Get energy consumption data on multiple benchmark with different memory configurations.
+		\item Measure the impact of each memory allocation.
+		\item Create a model to optimize the energy consumption.
+		\item Find realtime algorithms which can work for this case.
+	\end{enumerate}
+\end{frame}
+
+\section{Current measurement with Nucleo LPM01A} % 
+%------------------------------------------------
+\begin{frame}
+	\frametitle{First measures for current consumption}
+	\begin{figure}
+		\centering
+        \includegraphics[scale=0.6]{images/pointer_chase_capture_mod.png}
+        \caption{Intensity consumption graph for differents pointer chase executions}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Final measures for current consumption}
+	\begin{figure}
+		\centering
+        \includegraphics[scale=0.4]{images/pointer_chase30ex.png}
+        \caption{Intensity consumption graph with 30 execution per memory configuration}
+	\end{figure}
+\end{frame}
+%------------------------------------------------
+\section{STM32F performances}
+\subsection{Impact of moving instructions in CCM}
+\begin{frame}
+	\frametitle{Energy decrease when instruction are moved into CCM}
+	\begin{figure}
+		\centering
+        \includegraphics[scale=0.6]{data/stm32f_v2/code_flash_code_ccm/energy.pdf}
+	\end{figure}
+	Moving instruction into CCM SRAM can overall improve energy consumption 
+\end{frame}
+
+\begin{frame}
+	\frametitle{Runtime decrease when instruction are moved into CCM}
+	\begin{figure}
+		\centering
+        \includegraphics[scale=0.6]{data/stm32f_v2/code_flash_code_ccm/duration.pdf}
+	\end{figure}
+	In high frequencies the runtime is reduced when code is moved into CCM SRAM.
+\end{frame}
+
+\begin{frame}
+	\frametitle{Intensiy decrease when instruction are moved into CCM}
+	\begin{figure}
+		\centering
+        \includegraphics[scale=0.6]{data/stm32f_v2/code_flash_code_ccm/intensity.pdf}
+	\end{figure}
+	In high frequencies, intensity is lowered when the code is running from flash.
+\end{frame}
+
+\begin{frame}
+	\frametitle{Wait states impact on intensity}
+	\begin{figure}
+		\centering
+        \includegraphics[scale=0.7]{images/wait_state_impact.png}
+	\end{figure}
+	Wait states lower the average intensity of an execution. 
+	This effect is thus increased at high frequency where we have more wait states.
+\end{frame}
+
+\begin{frame}{Absolute energy when code is in FLASH and CCM}
+	\begin{figure}
+		\includegraphics[scale = 0.4]{data/stm32f_v2/abs/abs_flash_energy32f.pdf}
+		\includegraphics[scale = 0.4]{data/stm32f_v2/abs/abs_ccm_energy32f.pdf}
+		\caption{Energy (mJ) when instructions are in FLASH and CCM (STM32F)}
+	\end{figure}
+	\begin{itemize}
+		\item When frequency increase, the energy consumed when instructions are in FLASH memory can increase.
+		\item When instructions are in the CCM, the energy in high frequencies is almost the same as in low frequencies. It can even be lower. 
+	\end{itemize}
+	To spare energy, we should make tasks run at low frequency in FLASH and high frequency in CCM.
+\end{frame}
+
+\section{STM32G performances}
+\begin{frame}
+	\frametitle{STM32G features}
+	\begin{block}{Different execution modes}
+		\begin{itemize}
+			\item Range 1 mode (normal) : normal execution from 8 to 150 MHz.
+			\item Range 1 boost mode : frequency up to 170 MHz, less wait states but higher voltage.
+			\item Range 2 low power mode : frequency between 8 and 32 MHz, better consumption in these frequencies.
+		\end{itemize}
+	\end{block}
+	\begin{block}{FLASH instruction cache}
+		Allows zero wait states when instructions are in FLASH $\rightarrow$ same results as the CCM (runtime).
+	\end{block}
+\end{frame}
+
+\begin{frame}{DVFS}
+	\begin{figure}
+		\includegraphics[scale = 0.4]{data/stm32g_v2/abs/abs_energy_flash_32g.pdf}
+		\includegraphics[scale = 0.4]{data/stm32g_v2/abs/abs_energy_ccm.pdf}
+		\caption{Energy (mJ) when instructions are in FLASH and CCM (STM32G)}
+	\end{figure}
+	\begin{itemize}
+		\item Range 2 mode can significantly lower the energy consumption, but it can be used only in low frequencies.
+		\item BOOST mode consume more energy to go faster in high frequencies, if the time gain is high enough it can be a good alternative to let other task run slower. 
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Cache impact}
+	\begin{minipage}{0.4\textwidth}
+		\begin{figure}
+			\includegraphics[scale = 0.3]{data/stm32g_v2/cache_impact/energy.pdf}
+			\caption{Energy loss when cache is disabled}
+		\end{figure}
+		\vspace*{-0.9cm}
+		\begin{figure}
+			\includegraphics[scale = 0.3]{data/stm32g_v2/cache_impact/duration.pdf}
+			\caption{Runtime loss when cache is disabled}
+		\end{figure}
+	\end{minipage}
+	\begin{minipage}{0.08\textwidth}
+		$ $
+	\end{minipage}
+	\begin{minipage}{0.5\textwidth}
+		\vspace*{-0.5cm}
+		\begin{figure}
+			\includegraphics[scale = 0.3]{data/stm32g_v2/cache_impact/intensity.pdf}
+			\caption{Intensity loss when cache is disabled}
+		\end{figure}
+		\vspace*{-0.5cm}
+		\begin{itemize}
+			\item We can see the different wait states levels
+			\item In high frequencies the wait states can even reduce the global intensity
+			\item With no wait states, there are the same runtime performances 
+		\end{itemize}
+	\end{minipage}
+\end{frame}
+
+\begin{frame}{SRAM 1 and 2}
+
+\end{frame}
+
+\section{Optimization model}
+
+\subsection{Model making}
+\begin{frame}
+	\frametitle{Pists}
+	\begin{block}{Comparaison with FLASH} % Block without title
+		Moving instructions in CCM SRAM reduces runtime and energy consumption.
+		It is almost always better to run code from CCM.
+	\end{block}
+	\begin{block}{Energy over frequency} % Block without title
+		\begin{itemize}
+			\item Energy is constant when code runs from CCM at every frequency. There are
+			only advantages to run from CCM at maximum frequency.
+			\item When instructions are in FLASH we can gain energy if the
+			frequency is lower
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Offline algorithm}
+	Choose the best tasks to move in CCM and which one we lower the frequency
+	\tiny
+	\begin{equation}
+		\min \;  \sum_{i=1}^n \left(\sum_{{c}\,\in\,\mathcal{C}} {\frac{E_i^{{c}}}{T_i} \cdot x^{{c}}_i}\right)
+	\end{equation}
+	\begin{flalign*}
+		\quad  \sum_{{c}\,\in\,\mathcal{C}}{x^{{c}}_i} = 1 \quad \forall \tau_i \in \Gamma  &&
+	\end{flalign*}
+	\begin{flalign*}
+		&\sum_{i=1}^n\sum_{{c} \in \mathcal{C}}{U_i^{{c}} \cdot x_i^{{c}}} \leq 1 &&
+	\end{flalign*}
+	\begin{flalign*}
+		& \sum_{i=1}^n \left(\sum_{c\in\mathcal{C}}^{p{=}F}
+		{\left(x_i^{c} \cdot m_i^P \right)}
+		+\sum_{c\in\mathcal{C}}^{ro{=}F}
+		{\left(x_i^{c} \cdot m_i^{Ro} \right)}\right) \leq M^{F} &&
+	\end{flalign*}
+	\begin{flalign*}
+		& \sum_{i=1}^n \left(\sum_{c\in\mathcal{C}}^{d{=}R}
+		{\left(x_i^{c} \cdot m_i^D \right)}
+			+\sum_{c\in\mathcal{C}}^{ro{=}R}
+		{\left(x_i^{c} \cdot m_i^{Ro} \right)}\right) \leq M^{R} &&
+	\end{flalign*}\\
+	\begin{flalign*}
+		& \sum_{i=1}^n \left(\sum_{c\in\mathcal{C}}^{p{=}P}
+		{\left(x_i^{c} \cdot m_i^P \right)}
+			+\sum_{c\in\mathcal{C}}^{ro{=}C}
+		{\left(x_i^{c} \cdot m_i^{Ro} \right)}\right) \leq M^{C} &&
+	\end{flalign*}				
+\end{frame}
+
+\subsection{Model results
+}
+\begin{frame}{Energy results on STM32F}
+	\begin{figure}
+		\includegraphics{data/model/poster.pdf}
+		\caption{Utilization and energy gains with the model on STM32F}
+	\end{figure}
+\end{frame}
+\begin{frame}{Frequency results on STM32F}
+	\begin{figure}
+        \includegraphics[scale = 0.7]{data/model/frequency_choose.pdf}
+		\includegraphics[scale = 0.7]{data/model/frequency_choose_CCM.pdf}
+	\end{figure}
+\end{frame}
+
+\subsection{Illustration of the results}
+\begin{frame}[fragile]
+	\frametitle{ Normal EDF example }
+	\begin{figure}
+		\includegraphics{schedule/edf.pdf}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}[fragile]
+	\frametitle{ Application of the previous algorithm }
+	\begin{figure}
+		\includegraphics{schedule/offline_algo.pdf}
+	\end{figure}
+	
+\end{frame}
+
+\subsection{Online Algorithms}
+
+\begin{frame}
+	\frametitle{Online algorithms}
+	\begin{block}{Dynamic frequency scaling for FLASH}
+		If we can still complete the task with the worst case time execution before the deadline. Then we lower the frequency. 
+	\end{block}
+	\begin{block}{Dynamic CCM SRAM allocation}
+		\begin{itemize}
+			\item Divide the CCM into slots
+			\item Before executing copy task instructions in the CCM slot
+			\item the worst case execution time is equal to the CCM execution time with the associated memcopy
+			
+		\end{itemize}
+		$\Rightarrow$ Changes in the scheduling algorithm: mutex, blocking, non-preemptive tasks $\ldots$
+
+	\end{block}
+\end{frame}
+
+
+
+
+
+\begin{frame}[plain] % The optional argument 'plain' hides the headline and footline
+	\begin{center}
+		{\Huge The End}
+		
+		\bigskip\bigskip % Vertical whitespace
+		
+		{\LARGE Questions? Comments?}
+	\end{center}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 

@@ -1,0 +1,42 @@
+\documentclass[crop]{standalone}
+\input{../../../macro.tex}
+\pgfplotstableread[col sep=tab]{code_CCM-data_RAM-energy_all.csv}\Data
+\pgfplotstabletranspose[colnames from=group, col sep=tab]\TransposedData\Data
+\begin{document}
+\begin{tikzpicture}[xscale=1,yscale=1]
+    \begin{axis}
+        [
+        width = 0.9*\textwidth,
+        y label style={at={(axis description cs:0.04,0.7)},anchor=east},
+        xlabel=Frequency (MHz),
+        ylabel=Energy (mJ),
+        symbolic x coords ={16_no_PLL,16_RANGE2,26_RANGE2,16,26,30,60,90,120,150,170,150_BOOST,170_BOOST},
+        x tick label style={rotate=45,anchor=east, font=\small},
+        xtick=data,
+		xticklabels={16noPLL,16RANGE2,26RANGE2,16,26,30,60,90,120,150,170,150BOOST,170BOOST},
+        grid=major,
+        xmin=16_no_PLL,
+        ymin = 0,
+        ymax = 170,
+        legend columns=1, 
+        legend style={at={(1.03,0.5)},anchor=west, 
+        /tikz/column 2/.style={
+                column sep=7pt,
+            }},
+            yticklabel={\pgfmathparse{\tick}\pgfmathprintnumber{\pgfmathresult}},
+        ]
+        \addplot[mark=square*,color=blue] table [col sep=comma, y = dijkstra] {\TransposedData};
+        \addlegendentry[align=center]{dijkstra},
+        \addplot[mark=square*,color=green] table [col sep=comma, y = mat_mul] {\TransposedData};
+        \addlegendentry[align=center]{matrix product},
+        \addplot[mark=square*,color=gray] table [col sep=comma, y = rsa_enc] {\TransposedData};
+        \addlegendentry[align=center]{RSA enc},
+        \addplot[mark=square*,color=pink] table [col sep=comma, y = rsa_dec] {\TransposedData};
+        \addlegendentry[align=center]{RSA dec},
+        \addplot[mark=pentagon,color=red] table [col sep=comma, y = FFT] {\TransposedData};
+        \addlegendentry{FFT},
+
+
+        \end{axis}
+    \end{tikzpicture} 
+\end{document}

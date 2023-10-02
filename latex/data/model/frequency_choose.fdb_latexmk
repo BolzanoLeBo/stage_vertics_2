@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1695126645 "c:/Users/loict/Desktop/stage_vertics_2/latex/data/model/frequency_choose.tex" "frequency_choose.pdf" "frequency_choose" 1695126648 0
+["pdflatex"] 1696180588 "c:/Users/loict/Desktop/stage_vertics_2/latex/data/model/frequency_choose.tex" "frequency_choose.pdf" "frequency_choose" 1696180592 0
   "../../macro.tex" 1694423356 742 5703c23b420a471d7233b5638798537c ""
   "C:/Users/loict/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1694509874 143894 c9879d896f3723b277776564312b7eb1 ""
   "C:/Users/loict/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk" 1689834543 23808 768d132d879ae5bf4f187f5ad337bf40 ""
@@ -21,7 +21,6 @@
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx5.tfm" 1136768653 1332 f817c21a1ba54560425663374f1b651a ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx7.tfm" 1136768653 1336 3125ccb448c1a09074e3aa4a9832f130 ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmib10.tfm" 1136768653 1524 554068197b70979a55370e6c6495f441 ""
-  "C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580393758 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifluatex.sty" 1644000708 492 1994775aa15b0d1289725a0b1bbc2d4c ""
@@ -205,9 +204,9 @@
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Users/loict/Desktop/stage_vertics_2/latex/data/model/frequency_choose.tex" 1695126644 1090 4d23e38478d091587b8757f6c973c281 ""
-  "frequency_choose.aux" 1695126647 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "frequency_choose.tex" 1695126644 1090 4d23e38478d091587b8757f6c973c281 ""
+  "c:/Users/loict/Desktop/stage_vertics_2/latex/data/model/frequency_choose.tex" 1696180586 1187 3ffb62ec3240203d09d25e16c5ebb6ae ""
+  "frequency_choose.aux" 1696180592 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "frequency_choose.tex" 1696180586 1187 3ffb62ec3240203d09d25e16c5ebb6ae ""
   "out_stm32f_round.csv" 1694461167 254 f7d86e2ed01de804ffa168fb034db008 ""
   (generated)
   "frequency_choose.aux"

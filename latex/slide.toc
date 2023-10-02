@@ -1,0 +1,11 @@
+\beamer@sectionintoc {1}{Caractéristiques des deux mircrocontroleurs}{2}{0}{1}
+\beamer@sectionintoc {2}{Goal of the study}{5}{0}{2}
+\beamer@sectionintoc {3}{Current measurement with Nucleo LPM01A}{6}{0}{3}
+\beamer@sectionintoc {4}{STM32F performances}{8}{0}{4}
+\beamer@subsectionintoc {4}{1}{Impact of moving instructions in CCM}{8}{0}{4}
+\beamer@sectionintoc {5}{STM32G performances}{13}{0}{5}
+\beamer@sectionintoc {6}{Optimization model}{17}{0}{6}
+\beamer@subsectionintoc {6}{1}{Model making}{17}{0}{6}
+\beamer@subsectionintoc {6}{2}{Model results }{19}{0}{6}
+\beamer@subsectionintoc {6}{3}{Illustration of the results}{21}{0}{6}
+\beamer@subsectionintoc {6}{4}{Online Algorithms}{23}{0}{6}
