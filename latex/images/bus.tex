@@ -1,0 +1,78 @@
+\begin{tikzpicture}[font=\sffamily,>=triangle 45,scale=0.95]
+    \def\N{1}  % Number of Flip-Flops minus one
+    % Place FFs
+    %\foreach \m in {0,...,\N}
+       %\node [shape=dff] (DFF0) at ($ 3*(0,0) $) {Flash};
+     % \node [shape=dff, yscale=1.5,anchor=south] (DFF1) at ($ 3*(0.95,0) $) {SRAM};
+      %\node [shape=dff, anchor=south] (DFF2) at ($ 3*(1.9,0) $) {CCM};
+  
+    \node (DFF0) at ($ 3*(0,0) $) [draw,thick,minimum width=1.5cm,minimum height=2.5cm, anchor=south] {Flash}; 
+  
+    \node (DFF1) at ($ 3*(0.95,0) $) [draw,thick,minimum width=1.5cm,minimum height=2.5cm, anchor=south] {SRAM};
+  
+    \node (DFF2) at  ($ 3*(1.9,0) $) [draw,thick,minimum width=1.5cm,minimum height=0.85cm, anchor=south] {CCM};
+  
+    % Connect FFs (Q1 with D1, etc.)
+    \def\p{0}  % Used to save the previous number
+    %\foreach \m in {1,...,\N} { % Note that it starts with 1, not 0
+    %  \draw [->] (DFF\p.Q) -- (DFF\m.D);
+    %  \global\let\p\m
+    %}
+  
+    % Connect and label data in- and output port
+    %\draw [<-] (DFF0.D) -- +(-1,0) node [anchor=east] {input} ;
+    %\draw [->] (DFF\N.Q) -- +(1,0) node [anchor=west] {output};
+  
+    % 'Reset' port label
+    %\path (DFF0) +(-2cm,+2cm) coordinate (temp)
+    %  node [anchor=east] {reset};
+    % Connect resets
+    %\foreach \m in {0,...,\N}
+    %  \draw [->] (temp) -| (DFF\m.R);
+  
+    % 'Set' port label
+    \path (DFF0) +(-1cm,-2.2cm) coordinate (temp)
+      node [anchor=east] {D-bus};
+    % Connect sets
+  %  \foreach \m in {0,...,2}
+  %    \draw [->] (temp) -| (DFF\m.S);
+       %\draw [->] (temp) -| (DFF0.S);
+       \draw [<->] (DFF0.260) +(-0.0cm,-0.9cm) -- (DFF0.260);
+  %     \draw [<->] ($ (DFF1.CE) + (-8mm,-2.2cm) $) -- ($ (DFF1.CE) + (-8mm,0) $) --  (DFF1.CE);
+   %    \draw [<-] ($ (DFF1.CE) + (-5mm,-1.40cm) $) -- ($ (DFF1.CE) + (-5mm,-0cm) $) ;
+  
+          \draw [<->]  (DFF1.226) --   ($ (DFF1.226) + (-0.7cm,0cm) $) -- ($ (DFF1.226) + (-0.7cm,-1.95cm) $) ;
+  
+          \draw [->]  ($ (DFF1.226) + (-0.4cm,0cm) $) -- ($ (DFF1.226) + (-0.4cm,-1.35cm) $) ;
+  
+  
+         \draw [<->]  (DFF2.180) --   ($ (DFF2.180) + (-0.7cm,0cm) $) -- ($ (DFF2.180) + (-0.7cm,-1.95cm) $) ;
+  
+         \draw [->]  ($ (DFF2.180) + (-0.4cm,0cm) $) -- ($ (DFF2.180) + (-0.4cm,-1.35cm) $) ;
+       
+     %  \draw [<->] ($ (DFF2.270) + (-8mm,-2.2cm) $) -- ($ (DFF2.CE) + (-8mm,0) $) --  (DFF2.270);
+    %   \draw [<-] ($ (DFF2.CE) + (-5mm,-1.40cm) $) -- ($ (DFF2.CE) + (-5mm,-0cm) $) ;
+       
+       %\draw [->] (temp) -| (DFF1.C);
+  %     \draw [->] (temp) -| (DFF2.C);
+       
+       \draw (temp) -- +(8cm,0cm);
+  
+    % Clock port label
+    \path (DFF0) +(-1cm,-2.8cm) coordinate (temp)
+      node [anchor=east] {I-bus};
+    %\foreach \m in {0,...,\N}
+      %\draw [->] (temp) -| ($ (DFF\m.CLK) + (-5mm,0) $) --(DFF\m.CLK);
+  
+    % Clock port label
+    %\path (DFF0) +(-2cm,-3cm) coordinate (temp)
+    %  node [anchor=east] {D-bus};
+  %  \foreach \m in {0,...,2}
+  %    \draw [->] (temp) -| ($ (DFF\m.Q) + (0mm,0) $) --(DFF\m.Q);
+      %\draw [->] (temp) -| (DFF0.Q);
+      \draw [<->] (DFF0.280) +(0.0cm,-1.50cm) -- (DFF0.280);
+      
+  %	\draw [->] (temp) -| (DFF2.C);
+      
+      \draw (temp) -- +(8cm,0cm);
+  \end{tikzpicture}

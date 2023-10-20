@@ -1,0 +1,40 @@
+\documentclass[crop]{standalone}
+\input{../../../macro.tex}
+\pgfplotstableread[col sep=tab]{compare_prefetch_cache_off-energy.csv}\Data
+\pgfplotstabletranspose[colnames from=group, col sep=tab]\TransposedData\Data
+\begin{document}
+\begin{tikzpicture}[xscale=1,yscale=1]
+    \begin{axis}
+        [
+        width = 0.9*\textwidth,
+        y label style={at={(axis description cs:0,0.7)},anchor=east},
+        xlabel=Frequency (MHz),
+        ylabel=Energy gain,
+        symbolic x coords ={16,26,30,60,90,120,150,170},
+        x tick label style={rotate=45,anchor=east, font=\small},
+        xtick=data,
+		xticklabels={16,26,30,60,90,120,150,170},
+        grid=major,
+        xmin=16,
+        ymin = -5,
+        ymax = 10,
+        legend columns=1, 
+        legend style={at={(1.03,0.5)},anchor=west, 
+        /tikz/column 2/.style={
+                column sep=7pt,
+            }},
+            yticklabel={\pgfmathparse{\tick}\pgfmathprintnumber{\pgfmathresult}\%},
+        ]
+        \addplot[mark=square*,color=blue] table [col sep=comma, y expr={100*(\thisrow{dijkstra})}] {\TransposedData};
+        \addlegendentry[align=center]{dijkstra},
+        \addplot[mark=square*,color=green] table [col sep=comma, y expr={100*(\thisrow{recursion})}] {\TransposedData};
+        \addlegendentry[align=center]{Recursion},
+        \addplot[mark=square*,color=gray] table [col sep=comma, y expr={100*(\thisrow{sine})}] {\TransposedData};
+        \addlegendentry[align=center]{Sine lookup},
+
+
+
+
+        \end{axis}
+    \end{tikzpicture} 
+\end{document}

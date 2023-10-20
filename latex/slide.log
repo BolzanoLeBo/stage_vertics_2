@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.13)  2 OCT 2023 16:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.13)  20 OCT 2023 08:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -918,34 +918,34 @@ Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 Package caption Info: threeparttable package is loaded.
 )
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 157.
-LaTeX Font Info:    Trying to load font information for T1+opensans-TLF on input line 157.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 165.
+LaTeX Font Info:    Trying to load font information for T1+opensans-TLF on input line 165.
  (C:\Users\loict\AppData\Local\Programs\MiKTeX\tex/latex/opensans\t1opensans-tlf.fd
 File: T1opensans-TLF.fd 2019/06/24 Font definitions for T1/opensans-TLF.
 )
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 157.
+(Font)              scaled to size 10.95pt on input line 165.
  (slide.aux)
 \openout1 = `slide.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1000,66 +1000,66 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\loict\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 157.
+Package hyperref Info: Link coloring OFF on input line 165.
  (slide.out) (slide.out)
 \@outlinefile=\write6
 \openout6 = `slide.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 157.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 165.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 157.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 165.
 \symnumbers=\mathgroup11
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 157.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 165.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 157.
+(Font)              `pureletters' in the math version `normal' on input line 165.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/mathkerncmss/m/sl --> T1/phv/m/it on input line 157.
+(Font)                  OT1/mathkerncmss/m/sl --> T1/phv/m/it on input line 165.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 157.
+(Font)              `pureletters' in the math version `bold' on input line 165.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/bx/sl --> T1/phv/m/it on input line 157.
+(Font)                  OT1/mathkerncmss/bx/sl --> T1/phv/m/it on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/ppl/m/n on input line 157.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 157.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 157.
+(Font)                  OT1/cmss/m/n --> T1/ppl/m/n on input line 165.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 165.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 157.
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 157.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 157.
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 165.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 157.
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 157.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 157.
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 165.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 157.
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 157.
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 165.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 157.
+(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 165.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 157.
+(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/ppl/b/n on input line 157.
+(Font)                  OT1/cmss/b/n --> T1/ppl/b/n on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/phv/b/n --> T1/phv/b/n on input line 157.
+(Font)                  T1/phv/b/n --> T1/phv/b/n on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 157.
+(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 157.
+(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/pcr/m/n --> T1/pcr/b/n on input line 157.
-LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 157.
+(Font)                  T1/pcr/m/n --> T1/pcr/b/n on input line 165.
+LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 165.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `boldpureletters' in the math version `normal' on input line 157.
+(Font)              `boldpureletters' in the math version `normal' on input line 165.
 LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `normal'
-(Font)                  OT1/mathkerncmss/bx/sl --> T1/phv/bx/it on input line 157.
+(Font)                  OT1/mathkerncmss/bx/sl --> T1/phv/bx/it on input line 165.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `boldpureletters' in the math version `bold' on input line 157.
+(Font)              `boldpureletters' in the math version `bold' on input line 165.
 LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/bx/sl --> T1/phv/bx/it on input line 157.
+(Font)                  OT1/mathkerncmss/bx/sl --> T1/phv/bx/it on input line 165.
  (C:\Users\loict\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (C:\Users\loict\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bibliography-dictionary-English.dict
@@ -1075,27 +1075,27 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 157.
+ on input line 165.
 
 (C:\Users\loict\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 157.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 165.
 \c@mv@tabular=\count411
 \c@mv@boldtabular=\count412
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (slide.nav)
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 157.
+(Font)              scaled to size 6.0pt on input line 165.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 165.
+(Font)              scaled to size 14.4pt on input line 173.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 165.
+(Font)              scaled to size 8.0pt on input line 173.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 165.
+(Font)              scaled to size 8.0pt on input line 173.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 4.0pt on input line 165.
+(Font)              scaled to size 4.0pt on input line 173.
  [1
 Non-PDF special ignored!
 <special> header=pstricks.pro
@@ -1112,249 +1112,341 @@ Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
 Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
-{C:/Users/loict/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/opensans/a_jg4h6q.enc}]
-<images/CCM.png, id=102, 368.87813pt x 170.6375pt>
-File: images/CCM.png Graphic file (type png)
-<use images/CCM.png>
-Package pdftex.def Info: images/CCM.png  used on input line 186.
-(pdftex.def)             Requested size: 258.21292pt x 119.44542pt.
- [2
+{C:/Users/loict/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/opensans/a_jg4h6q.enc}] [2
 
- <./images/CCM.png>]
-<images/stm32f.jpg, id=132, 3011.25pt x 4015.0pt>
-File: images/stm32f.jpg Graphic file (type jpg)
-<use images/stm32f.jpg>
-Package pdftex.def Info: images/stm32f.jpg  used on input line 202.
-(pdftex.def)             Requested size: 120.42949pt x 160.57265pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 202.
+] (slide.toc) [3
+
+] (slide.toc) [4
+
+]
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 219.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
+(Font)              scaled to size 6.0pt on input line 219.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 219.
  (C:\Users\loict\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 202.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 219.
  (C:\Users\loict\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 202.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 219.
  (C:\Users\loict\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 202.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 219.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 202.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 219.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 202.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 219.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 202.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 219.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 202.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 219.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <8> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 202.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 219.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <8> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 202.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 219.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <6> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 202.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 219.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <6> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 202.
- [3
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 219.
+<images/boost.png, id=202, 554.07pt x 206.27063pt>
+File: images/boost.png Graphic file (type png)
+<use images/boost.png>
+Package pdftex.def Info: images/boost.png  used on input line 219.
+(pdftex.def)             Requested size: 277.03432pt x 103.13506pt.
+ [5
 
- <./images/stm32f.jpg>]
-<images/stm32g.jpg, id=160, 3011.25pt x 4015.0pt>
-File: images/stm32g.jpg Graphic file (type jpg)
-<use images/stm32g.jpg>
-Package pdftex.def Info: images/stm32g.jpg  used on input line 221.
-(pdftex.def)             Requested size: 120.42949pt x 160.57265pt.
- [4
+ <C:/Users/loict/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonarticle.pdf> <./images/boost.png>] (images/bus.tex) [6
 
-{C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./images/stm32g.jpg>] [5
+{C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] [7
+
+] (slide.toc) [8
 
 ]
-<images/pointer_chase_capture_mod.png, id=216, 581.67313pt x 213.79875pt>
-File: images/pointer_chase_capture_mod.png Graphic file (type png)
-<use images/pointer_chase_capture_mod.png>
-Package pdftex.def Info: images/pointer_chase_capture_mod.png  used on input line 244.
-(pdftex.def)             Requested size: 349.00656pt x 128.28023pt.
-
-Overfull \hbox (6.57124pt too wide) in paragraph at lines 244--244
- [] 
- []
-
-[6
-
- <./images/pointer_chase_capture_mod.png>]
-<images/pointer_chase30ex.png, id=247, 944.52875pt x 319.69438pt>
-File: images/pointer_chase30ex.png Graphic file (type png)
-<use images/pointer_chase30ex.png>
-Package pdftex.def Info: images/pointer_chase30ex.png  used on input line 252.
-(pdftex.def)             Requested size: 377.80481pt x 127.87547pt.
-
-Overfull \hbox (35.36949pt too wide) in paragraph at lines 252--252
- [] 
- []
-
-[7
-
- <./images/pointer_chase30ex.png>]
-<data/stm32f_v2/code_flash_code_ccm/energy.pdf, id=276, 541.89954pt x 252.44614pt>
-File: data/stm32f_v2/code_flash_code_ccm/energy.pdf Graphic file (type pdf)
-<use data/stm32f_v2/code_flash_code_ccm/energy.pdf>
-Package pdftex.def Info: data/stm32f_v2/code_flash_code_ccm/energy.pdf  used on input line 263.
-(pdftex.def)             Requested size: 325.14223pt x 151.46884pt.
- [8
-
- <./data/stm32f_v2/code_flash_code_ccm/energy.pdf>]
-<data/stm32f_v2/code_flash_code_ccm/duration.pdf, id=398, 536.98517pt x 252.44614pt>
-File: data/stm32f_v2/code_flash_code_ccm/duration.pdf Graphic file (type pdf)
-<use data/stm32f_v2/code_flash_code_ccm/duration.pdf>
-Package pdftex.def Info: data/stm32f_v2/code_flash_code_ccm/duration.pdf  used on input line 272.
-(pdftex.def)             Requested size: 322.19359pt x 151.46884pt.
+<images/lpm01a.jpeg, id=328, 199.74625pt x 254.9525pt>
+File: images/lpm01a.jpeg Graphic file (type jpg)
+<use images/lpm01a.jpeg>
+Package pdftex.def Info: images/lpm01a.jpeg  used on input line 263.
+(pdftex.def)             Requested size: 99.87288pt x 127.47592pt.
  [9
 
- <./data/stm32f_v2/code_flash_code_ccm/duration.pdf>]
-<data/stm32f_v2/code_flash_code_ccm/intensity.pdf, id=515, 538.79596pt x 252.44815pt>
-File: data/stm32f_v2/code_flash_code_ccm/intensity.pdf Graphic file (type pdf)
-<use data/stm32f_v2/code_flash_code_ccm/intensity.pdf>
-Package pdftex.def Info: data/stm32f_v2/code_flash_code_ccm/intensity.pdf  used on input line 281.
-(pdftex.def)             Requested size: 323.28006pt x 151.47005pt.
+ <./images/lpm01a.jpeg>]
+<images/stm32f.jpg, id=356, 3011.25pt x 4015.0pt>
+File: images/stm32f.jpg Graphic file (type jpg)
+<use images/stm32f.jpg>
+Package pdftex.def Info: images/stm32f.jpg  used on input line 283.
+(pdftex.def)             Requested size: 120.42949pt x 160.57265pt.
  [10
 
- <./data/stm32f_v2/code_flash_code_ccm/intensity.pdf>]
-<images/wait_state_impact.png, id=642, 501.37312pt x 286.06876pt>
-File: images/wait_state_impact.png Graphic file (type png)
-<use images/wait_state_impact.png>
-Package pdftex.def Info: images/wait_state_impact.png  used on input line 291.
-(pdftex.def)             Requested size: 350.95879pt x 200.24675pt.
+ <./images/stm32f.jpg>]
+<images/stm32g.jpg, id=384, 3011.25pt x 4015.0pt>
+File: images/stm32g.jpg Graphic file (type jpg)
+<use images/stm32g.jpg>
+Package pdftex.def Info: images/stm32g.jpg  used on input line 306.
+(pdftex.def)             Requested size: 120.42949pt x 160.57265pt.
+ [11
 
-Overfull \hbox (8.52347pt too wide) in paragraph at lines 291--291
+ <./images/stm32g.jpg>]
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
+(Font)              scaled to size 10.95pt on input line 323.
+ [12
+
+] (slide.toc) [13
+
+]
+<images/pointer_chase_capture_mod.png, id=497, 581.67313pt x 213.79875pt>
+File: images/pointer_chase_capture_mod.png Graphic file (type png)
+<use images/pointer_chase_capture_mod.png>
+Package pdftex.def Info: images/pointer_chase_capture_mod.png  used on input line 335.
+(pdftex.def)             Requested size: 349.00656pt x 128.28023pt.
+
+Overfull \hbox (6.57124pt too wide) in paragraph at lines 335--335
  [] 
  []
 
+[14
 
-Overfull \vbox (32.88765pt too high) detected at line 291
+ <./images/pointer_chase_capture_mod.png>]
+<images/pointer_chase30ex.png, id=526, 944.52875pt x 319.69438pt>
+File: images/pointer_chase30ex.png Graphic file (type png)
+<use images/pointer_chase30ex.png>
+Package pdftex.def Info: images/pointer_chase30ex.png  used on input line 343.
+(pdftex.def)             Requested size: 377.80481pt x 127.87547pt.
+
+Overfull \hbox (35.36949pt too wide) in paragraph at lines 343--343
+ [] 
  []
 
-[11
+[15
 
- <./images/wait_state_impact.png>]
-<data/stm32f_v2/abs/abs_flash_energy32f.pdf, id=669, 309.02551pt x 256.99614pt>
+ <./images/pointer_chase30ex.png>] (slide.toc) [16
+
+]
+<data/stm32f_v2/abs/abs_flash_energy32f.pdf, id=588, 309.02551pt x 262.5278pt>
 File: data/stm32f_v2/abs/abs_flash_energy32f.pdf Graphic file (type pdf)
 <use data/stm32f_v2/abs/abs_flash_energy32f.pdf>
-Package pdftex.def Info: data/stm32f_v2/abs/abs_flash_energy32f.pdf  used on input line 304.
-(pdftex.def)             Requested size: 123.608pt x 102.79663pt.
-<data/stm32f_v2/abs/abs_ccm_energy32f.pdf, id=670, 411.36786pt x 255.20143pt>
+Package pdftex.def Info: data/stm32f_v2/abs/abs_flash_energy32f.pdf  used on input line 359.
+(pdftex.def)             Requested size: 123.608pt x 105.00925pt.
+<data/stm32f_v2/abs/abs_ccm_energy32f.pdf, id=589, 411.36786pt x 262.5278pt>
 File: data/stm32f_v2/abs/abs_ccm_energy32f.pdf Graphic file (type pdf)
 <use data/stm32f_v2/abs/abs_ccm_energy32f.pdf>
-Package pdftex.def Info: data/stm32f_v2/abs/abs_ccm_energy32f.pdf  used on input line 304.
-(pdftex.def)             Requested size: 164.54422pt x 102.07875pt.
+Package pdftex.def Info: data/stm32f_v2/abs/abs_ccm_energy32f.pdf  used on input line 359.
+(pdftex.def)             Requested size: 164.54422pt x 105.00925pt.
+ [17
 
-Overfull \vbox (0.37315pt too high) detected at line 304
- []
+ <./data/stm32f_v2/abs/abs_flash_energy32f.pdf> <./data/stm32f_v2/abs/abs_ccm_energy32f.pdf>] (slide.toc) [18
 
-[12
-
- <./data/stm32f_v2/abs/abs_flash_energy32f.pdf> <./data/stm32f_v2/abs/abs_ccm_energy32f.pdf>]
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 319.
- [13
+] [19
 
 ]
-<data/stm32g_v2/abs/abs_energy_flash_32g.pdf, id=859, 301.16415pt x 268.00928pt>
+<data/stm32g_v2/abs/abs_energy_flash_32g.pdf, id=810, 301.16415pt x 266.41733pt>
 File: data/stm32g_v2/abs/abs_energy_flash_32g.pdf Graphic file (type pdf)
 <use data/stm32g_v2/abs/abs_energy_flash_32g.pdf>
-Package pdftex.def Info: data/stm32g_v2/abs/abs_energy_flash_32g.pdf  used on input line 331.
-(pdftex.def)             Requested size: 120.46352pt x 107.2018pt.
-<data/stm32g_v2/abs/abs_energy_ccm.pdf, id=860, 403.50648pt x 272.77008pt>
+Package pdftex.def Info: data/stm32g_v2/abs/abs_energy_flash_32g.pdf  used on input line 387.
+(pdftex.def)             Requested size: 120.46352pt x 106.56503pt.
+<data/stm32g_v2/abs/abs_energy_ccm.pdf, id=811, 403.50648pt x 266.41733pt>
 File: data/stm32g_v2/abs/abs_energy_ccm.pdf Graphic file (type pdf)
 <use data/stm32g_v2/abs/abs_energy_ccm.pdf>
-Package pdftex.def Info: data/stm32g_v2/abs/abs_energy_ccm.pdf  used on input line 331.
-(pdftex.def)             Requested size: 161.39972pt x 109.1061pt.
- [14
+Package pdftex.def Info: data/stm32g_v2/abs/abs_energy_ccm.pdf  used on input line 387.
+(pdftex.def)             Requested size: 161.39972pt x 106.56503pt.
+ [20
 
  <./data/stm32g_v2/abs/abs_energy_flash_32g.pdf> <./data/stm32g_v2/abs/abs_energy_ccm.pdf>]
-<data/stm32g_v2/cache_impact/energy.pdf, id=1004, 403.50247pt x 264.82239pt>
-File: data/stm32g_v2/cache_impact/energy.pdf Graphic file (type pdf)
-<use data/stm32g_v2/cache_impact/energy.pdf>
-Package pdftex.def Info: data/stm32g_v2/cache_impact/energy.pdf  used on input line 361.
-(pdftex.def)             Requested size: 121.05167pt x 79.44733pt.
-<data/stm32g_v2/cache_impact/duration.pdf, id=1005, 403.50247pt x 264.82239pt>
+<data/stm32g_v2/cache_impact/duration.pdf, id=955, 307.4707pt x 258.46863pt>
 File: data/stm32g_v2/cache_impact/duration.pdf Graphic file (type pdf)
 <use data/stm32g_v2/cache_impact/duration.pdf>
-Package pdftex.def Info: data/stm32g_v2/cache_impact/duration.pdf  used on input line 361.
-(pdftex.def)             Requested size: 121.05167pt x 79.44733pt.
-<data/stm32g_v2/cache_impact/intensity.pdf, id=1006, 403.50247pt x 264.82239pt>
-File: data/stm32g_v2/cache_impact/intensity.pdf Graphic file (type pdf)
-<use data/stm32g_v2/cache_impact/intensity.pdf>
-Package pdftex.def Info: data/stm32g_v2/cache_impact/intensity.pdf  used on input line 361.
-(pdftex.def)             Requested size: 121.05167pt x 79.44733pt.
- [15
+Package pdftex.def Info: data/stm32g_v2/cache_impact/duration.pdf  used on input line 401.
+(pdftex.def)             Requested size: 107.61635pt x 90.46536pt.
+<data/stm32g_v2/cache_impact/energy.pdf, id=956, 308.44235pt x 258.46863pt>
+File: data/stm32g_v2/cache_impact/energy.pdf Graphic file (type pdf)
+<use data/stm32g_v2/cache_impact/energy.pdf>
+Package pdftex.def Info: data/stm32g_v2/cache_impact/energy.pdf  used on input line 401.
+(pdftex.def)             Requested size: 107.95644pt x 90.46536pt.
+ [21
 
- <./data/stm32g_v2/cache_impact/energy.pdf> <./data/stm32g_v2/cache_impact/duration.pdf> <./data/stm32g_v2/cache_impact/intensity.pdf>] [16
+ <./data/stm32g_v2/cache_impact/duration.pdf> <./data/stm32g_v2/cache_impact/energy.pdf>]
+<data/stm32g_v2/data_ram_data_ram2/intensity.pdf, id=1078, 410.78972pt x 262.02693pt>
+File: data/stm32g_v2/data_ram_data_ram2/intensity.pdf Graphic file (type pdf)
+<use data/stm32g_v2/data_ram_data_ram2/intensity.pdf>
+Package pdftex.def Info: data/stm32g_v2/data_ram_data_ram2/intensity.pdf  used on input line 421.
+(pdftex.def)             Requested size: 143.77855pt x 91.7108pt.
+<data/stm32g_v2/data_ram_data_ram2/duration.pdf, id=1079, 410.78972pt x 262.02693pt>
+File: data/stm32g_v2/data_ram_data_ram2/duration.pdf Graphic file (type pdf)
+<use data/stm32g_v2/data_ram_data_ram2/duration.pdf>
+Package pdftex.def Info: data/stm32g_v2/data_ram_data_ram2/duration.pdf  used on input line 421.
+(pdftex.def)             Requested size: 143.77855pt x 91.7108pt.
+ [22
 
-] [17
+ <./data/stm32g_v2/data_ram_data_ram2/intensity.pdf> <./data/stm32g_v2/data_ram_data_ram2/duration.pdf>]
+<images/prefetch32g.png, id=1215, 338.76563pt x 124.96687pt>
+File: images/prefetch32g.png Graphic file (type png)
+<use images/prefetch32g.png>
+Package pdftex.def Info: images/prefetch32g.png  used on input line 429.
+(pdftex.def)             Requested size: 237.13431pt x 87.47621pt.
+ [23
+
+ <./images/prefetch32g.png>]
+<data/stm32g_v2/pre_fetch_impact_cache_off/duration.pdf, id=1243, 395.18239pt x 262.02592pt>
+File: data/stm32g_v2/pre_fetch_impact_cache_off/duration.pdf Graphic file (type pdf)
+<use data/stm32g_v2/pre_fetch_impact_cache_off/duration.pdf>
+Package pdftex.def Info: data/stm32g_v2/pre_fetch_impact_cache_off/duration.pdf  used on input line 437.
+(pdftex.def)             Requested size: 158.07014pt x 104.8085pt.
+<data/stm32g_v2/pre_fetch_impact_cache_off/energy.pdf, id=1244, 395.18239pt x 262.02592pt>
+File: data/stm32g_v2/pre_fetch_impact_cache_off/energy.pdf Graphic file (type pdf)
+<use data/stm32g_v2/pre_fetch_impact_cache_off/energy.pdf>
+Package pdftex.def Info: data/stm32g_v2/pre_fetch_impact_cache_off/energy.pdf  used on input line 437.
+(pdftex.def)             Requested size: 158.07014pt x 104.8085pt.
+ [24
+
+ <./data/stm32g_v2/pre_fetch_impact_cache_off/duration.pdf> <./data/stm32g_v2/pre_fetch_impact_cache_off/energy.pdf>]
+<data/stm32g_v2/pre_fetch_impact_cache_on/duration.pdf, id=1377, 395.18239pt x 254.86717pt>
+File: data/stm32g_v2/pre_fetch_impact_cache_on/duration.pdf Graphic file (type pdf)
+<use data/stm32g_v2/pre_fetch_impact_cache_on/duration.pdf>
+Package pdftex.def Info: data/stm32g_v2/pre_fetch_impact_cache_on/duration.pdf  used on input line 445.
+(pdftex.def)             Requested size: 158.07014pt x 101.94505pt.
+<data/stm32g_v2/pre_fetch_impact_cache_on/energy.pdf, id=1378, 395.18239pt x 254.86717pt>
+File: data/stm32g_v2/pre_fetch_impact_cache_on/energy.pdf Graphic file (type pdf)
+<use data/stm32g_v2/pre_fetch_impact_cache_on/energy.pdf>
+Package pdftex.def Info: data/stm32g_v2/pre_fetch_impact_cache_on/energy.pdf  used on input line 445.
+(pdftex.def)             Requested size: 158.07014pt x 101.94505pt.
+ [25
+
+ <./data/stm32g_v2/pre_fetch_impact_cache_on/duration.pdf> <./data/stm32g_v2/pre_fetch_impact_cache_on/energy.pdf>] (slide.toc) [26
+
+] [27
 
 ]
-\openout4 = `slide.vrb'.
-
- (slide.vrb
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 504.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 504.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 504.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 4.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 504.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 504.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 504.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <7> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 504.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <7> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 504.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <5> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 4.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 504.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <5> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 4.
-) [18
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 504.
+
+Overfull \hbox (39.2832pt too wide) detected at line 504
+[]
+ []
+
+
+Overfull \hbox (24.16786pt too wide) detected at line 504
+[]
+ []
+
+
+Overfull \vbox (7.37276pt too high) detected at line 504
+ []
+
+[28
 
 ]
-<data/model/poster.pdf, id=1324, 248.05273pt x 143.21304pt>
+Overfull \hbox (96.10916pt too wide) detected at line 544
+[]
+ []
+
+
+Overfull \hbox (95.54831pt too wide) detected at line 544
+[]
+ []
+
+
+Overfull \hbox (96.79008pt too wide) detected at line 544
+[]
+ []
+
+[29
+
+]
+<data/model/poster.pdf, id=1696, 248.05273pt x 143.21304pt>
 File: data/model/poster.pdf Graphic file (type pdf)
 <use data/model/poster.pdf>
-Package pdftex.def Info: data/model/poster.pdf  used on input line 426.
+Package pdftex.def Info: data/model/poster.pdf  used on input line 554.
 (pdftex.def)             Requested size: 248.05212pt x 143.21268pt.
- [19
+ [30
 
  <./data/model/poster.pdf>]
-<data/model/frequency_choose.pdf, id=1385, 226.92981pt x 148.58209pt>
+<data/model/frequency_choose.pdf, id=1755, 226.92981pt x 148.58209pt>
 File: data/model/frequency_choose.pdf Graphic file (type pdf)
 <use data/model/frequency_choose.pdf>
-Package pdftex.def Info: data/model/frequency_choose.pdf  used on input line 432.
-(pdftex.def)             Requested size: 158.84978pt x 104.00674pt.
-<data/model/frequency_choose_CCM.pdf, id=1386, 226.92981pt x 148.58209pt>
+Package pdftex.def Info: data/model/frequency_choose.pdf  used on input line 566.
+(pdftex.def)             Requested size: 136.15892pt x 89.14993pt.
+<data/model/frequency_choose_CCM.pdf, id=1756, 226.92981pt x 148.58209pt>
 File: data/model/frequency_choose_CCM.pdf Graphic file (type pdf)
 <use data/model/frequency_choose_CCM.pdf>
-Package pdftex.def Info: data/model/frequency_choose_CCM.pdf  used on input line 432.
-(pdftex.def)             Requested size: 158.84978pt x 104.00674pt.
- [20
+Package pdftex.def Info: data/model/frequency_choose_CCM.pdf  used on input line 566.
+(pdftex.def)             Requested size: 136.15892pt x 89.14993pt.
+ [31
 
  <./data/model/frequency_choose.pdf> <./data/model/frequency_choose_CCM.pdf>]
 \openout4 = `slide.vrb'.
 
  (slide.vrb
-<schedule/edf.pdf, id=1488, 313.63272pt x 124.02937pt>
+<schedule/edf.pdf, id=1860, 313.63272pt x 124.02937pt>
 File: schedule/edf.pdf Graphic file (type pdf)
 <use schedule/edf.pdf>
 Package pdftex.def Info: schedule/edf.pdf  used on input line 3.
 (pdftex.def)             Requested size: 313.63194pt x 124.02905pt.
-) [21
+) [32
 
  <./schedule/edf.pdf>]
 \openout4 = `slide.vrb'.
 
  (slide.vrb
-<schedule/offline_algo.pdf, id=1535, 313.63272pt x 124.02937pt>
+<schedule/offline_algo.pdf, id=1906, 313.63272pt x 124.02937pt>
 File: schedule/offline_algo.pdf Graphic file (type pdf)
 <use schedule/offline_algo.pdf>
 Package pdftex.def Info: schedule/offline_algo.pdf  used on input line 3.
 (pdftex.def)             Requested size: 313.63194pt x 124.02905pt.
-) [22
+) [33
 
- <./schedule/offline_algo.pdf>] [23
+ <./schedule/offline_algo.pdf>]
+<data/model/results_32g.pdf, id=1947, 248.05273pt x 143.21204pt>
+File: data/model/results_32g.pdf Graphic file (type pdf)
+<use data/model/results_32g.pdf>
+Package pdftex.def Info: data/model/results_32g.pdf  used on input line 600.
+(pdftex.def)             Requested size: 248.05212pt x 143.21169pt.
+ [34
+
+ <./data/model/results_32g.pdf>]
+<data/model/f_choose_32g_flash.pdf, id=2005, 269.26295pt x 148.58209pt>
+File: data/model/f_choose_32g_flash.pdf Graphic file (type pdf)
+<use data/model/f_choose_32g_flash.pdf>
+Package pdftex.def Info: data/model/f_choose_32g_flash.pdf  used on input line 610.
+(pdftex.def)             Requested size: 161.559pt x 89.14993pt.
+<data/model/f_choose_32g_ccm.pdf, id=2006, 269.26295pt x 148.58209pt>
+File: data/model/f_choose_32g_ccm.pdf Graphic file (type pdf)
+<use data/model/f_choose_32g_ccm.pdf>
+Package pdftex.def Info: data/model/f_choose_32g_ccm.pdf  used on input line 610.
+(pdftex.def)             Requested size: 161.559pt x 89.14993pt.
+ [35
+
+ <./data/model/f_choose_32g_flash.pdf> <./data/model/f_choose_32g_ccm.pdf>] (slide.toc) [36
+
+] [37
 
 ]
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 482.
+(Font)              scaled to size 24.88pt on input line 643.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 482.
- [24
+(Font)              scaled to size 17.28pt on input line 643.
+ [38
 
 ]
 \tf@nav=\write7
@@ -1372,20 +1464,20 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
 Package rerunfilecheck Info: File `slide.out' has not changed.
-(rerunfilecheck)             Checksum: 80DFD3DF8727CF6C07ECA6721B29C88A;1927.
+(rerunfilecheck)             Checksum: 1047AB3A65B751A09BE851AA2EBC5C28;995.
  ) 
 Here is how much of TeX's memory you used:
- 44898 strings out of 475551
- 1091641 string characters out of 5762554
- 1939238 words of memory out of 5000000
- 65215 multiletter control sequences out of 15000+600000
- 603378 words of font info for 107 fonts, out of 8000000 for 9000
+ 45225 strings out of 475551
+ 1100455 string characters out of 5762554
+ 1938238 words of memory out of 5000000
+ 65488 multiletter control sequences out of 15000+600000
+ 624681 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,123p,790b,915s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/ascender/opensans/OpenSans-Italic.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/ascender/opensans/OpenSans-Regular.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on slide.pdf (24 pages, 7653529 bytes).
+ 128i,17n,123p,790b,915s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/ascender/opensans/OpenSans-Italic.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/ascender/opensans/OpenSans-Regular.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on slide.pdf (38 pages, 7823210 bytes).
 PDF statistics:
- 1713 PDF objects out of 1728 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 488 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2306 PDF objects out of 2487 (max. 8388607)
+ 85 named destinations out of 1000 (max. 500000)
+ 702 words of extra memory for PDF output out of 10000 (max. 10000000)
 

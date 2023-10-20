@@ -25,13 +25,13 @@
             }},
             yticklabel={\pgfmathparse{\tick}\pgfmathprintnumber{\pgfmathresult}},
         ]
-        \addplot[mark=square*,color=blue] table [col sep=comma, y = dijkstra] {\TransposedData};
+        \addplot[mark=square*,color=blue] table [col sep=tab, y = dijkstra]{\TransposedData};
         %\addlegendentry[align=center]{dijkstra},
-        \addplot[mark=square*,color=green] table [col sep=comma, y = mat_mul] {\TransposedData};
+        \addplot[mark=square*,color=green] table [col sep=tab, y = mat_mul] {\TransposedData};
         %\addlegendentry[align=center]{matrix product},
-        \addplot[mark=square*,color=gray] table [col sep=comma, y = rsa_enc] {\TransposedData};
+        \addplot[mark=square*,color=gray] table [col sep=tab, y = rsa_enc] {\TransposedData};
         %\addlegendentry[align=center]{RSA enc},
-        \addplot[mark=square*,color=pink] table [col sep=comma, y = rsa_dec] {\TransposedData};
+        \addplot[mark=square*,color=pink] table [col sep=tab, y = rsa_dec] {\TransposedData};
         %\addlegendentry[align=center]{RSA dec},
         \addplot[mark=pentagon,color=red] table [col sep=comma, y = FFT] {\TransposedData};
         %\addlegendentry{FFT},

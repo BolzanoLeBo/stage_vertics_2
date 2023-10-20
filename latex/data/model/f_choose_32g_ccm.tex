@@ -1,0 +1,31 @@
+\documentclass[crop]{standalone}
+\input{../../macro.tex}
+\begin{document}
+    \begin{tikzpicture}[xscale=0.75,yscale=0.75]
+    \begin{axis}[
+        y label style={at={(axis description cs:0,1)},anchor=east},
+        xlabel=Number of tasks,
+        ylabel= Share of frequencies for tasks in CCM,
+        xtick={8,16,32,64,128},
+        grid=major,
+        xmin=8,
+        ymin=0, 
+        ymax=80,
+        legend columns=1, 
+        legend style={at={(1.03,0.5)},anchor=west, 
+        /tikz/column 2/.style={
+                column sep=7pt,
+            }},
+            yticklabel={\pgfmathparse{\tick}\pgfmathprintnumber{\pgfmathresult}\%},
+        ]
+        \addplot[mark=square*,color=green] table [col sep=tab,  y expr={100*(\thisrow{26_RANGE2c})}] {out_stm32g_round.csv};
+        \addlegendentry{26 MHz (RANGE2)},
+        \addplot[mark=square*,color=blue] table [col sep=tab,  y expr={100*(\thisrow{150c})}] {out_stm32g_round.csv};
+        \addlegendentry{150 MHz},
+        \addplot[mark=square*,color=red] table [col sep=tab, y expr={100*(\thisrow{170c})}] {out_stm32g_round.csv};
+        \addlegendentry{170 MHz},
+
+        \end{axis}
+    \end{tikzpicture} 
+
+\end{document}

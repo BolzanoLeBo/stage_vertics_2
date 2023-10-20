@@ -26,15 +26,15 @@
             yticklabel={\pgfmathparse{\tick}\pgfmathprintnumber{\pgfmathresult}\%},
         ]
         \addplot[mark=square*,color=blue] table [col sep=comma, y expr={-100*(\thisrow{dijkstra})}] {\TransposedData};
-        \addlegendentry[align=center]{dijkstra},
+        %\addlegendentry[align=center]{dijkstra},
         \addplot[mark=square*,color=green] table [col sep=comma, y expr={-100*(\thisrow{mat_mul})}] {\TransposedData};
-        \addlegendentry[align=center]{matrix product},
+        %\addlegendentry[align=center]{matrix product},
         \addplot[mark=square*,color=gray] table [col sep=comma, y expr={-100*(\thisrow{sine})}] {\TransposedData};
-        \addlegendentry[align=center]{Sine lookup},
+        %\addlegendentry[align=center]{Sine lookup},
         \addplot[mark=square*,color=pink] table [col sep=comma, y expr={-100*(\thisrow{pointer_chase})}] {\TransposedData};
-        \addlegendentry[align=center]{pointer chase},
+        %\addlegendentry[align=center]{pointer chase},
         \addplot[mark=pentagon,color=red] table [col sep=comma, y expr={-100*(\thisrow{FFT})}] {\TransposedData};
-        \addlegendentry{FFT},
+        %\addlegendentry{FFT},
 
 
 

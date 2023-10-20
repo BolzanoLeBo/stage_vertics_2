@@ -69,4 +69,5 @@ def main() :
         df_final = pd.DataFrame(data_final, index = rows, columns=col)
         df_final.index.name = 'group'
         df_final.to_csv("res_table/"+proc+'/'+'final'+'/' + name + '/'+ name + '-' + unity + ".csv", sep='\t')
+    os.system("cp ./param_tabl.txt res_table/{}/final/{}".format(proc,name))
 main()

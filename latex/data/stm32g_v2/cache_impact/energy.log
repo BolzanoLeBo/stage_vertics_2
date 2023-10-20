@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.13)  2 OCT 2023 17:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.13)  4 OCT 2023 09:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -663,14 +663,8 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 5.
-
-Missing character: There is no , in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no , in font nullfont!
 LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
-(C:\Users\loict\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (C:\Users\loict\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
@@ -699,17 +693,17 @@ L3 programming layer <2023-06-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32745 strings out of 475551
- 848664 string characters out of 5762554
- 1941238 words of memory out of 5000000
- 53437 multiletter control sequences out of 15000+600000
+ 32720 strings out of 475551
+ 848206 string characters out of 5762554
+ 1933238 words of memory out of 5000000
+ 53412 multiletter control sequences out of 15000+600000
  564053 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,18n,110p,828b,2236s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,10n,110p,828b,1944s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\loict\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\loict\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk><C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on energy.pdf (1 page, 28544 bytes).
+Output written on energy.pdf (1 page, 25378 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 56 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

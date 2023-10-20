@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1696258871 "c:/Users/loict/Desktop/stage_vertics_2/latex/data/stm32g_v2/cache_impact/energy.tex" "energy.pdf" "energy" 1696258874 0
+["pdflatex"] 1696402833 "c:/Users/loict/Desktop/stage_vertics_2/latex/data/stm32g_v2/cache_impact/energy.tex" "energy.pdf" "energy" 1696402836 0
   "../../../macro.tex" 1694423356 742 5703c23b420a471d7233b5638798537c ""
   "C:/Users/loict/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1694509874 143894 c9879d896f3723b277776564312b7eb1 ""
   "C:/Users/loict/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0900.pk" 1689834722 21356 d02d7d919de93ceedfe93934b162afe3 ""
@@ -207,9 +207,9 @@
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "Compare_cache_OFF-energy.csv" 1694420224 751 b1e913d3eabc62f451ff180e3bf90cd1 ""
-  "c:/Users/loict/Desktop/stage_vertics_2/latex/data/stm32g_v2/cache_impact/energy.tex" 1696258870 1926 cf7fcd70cab333463dbba107a7a60765 ""
-  "energy.aux" 1696258874 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "energy.tex" 1696258870 1926 cf7fcd70cab333463dbba107a7a60765 ""
+  "c:/Users/loict/Desktop/stage_vertics_2/latex/data/stm32g_v2/cache_impact/energy.tex" 1696402832 1931 d1b6d497fedc1e8ac1555e7bec97de6a ""
+  "energy.aux" 1696402836 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "energy.tex" 1696402832 1931 d1b6d497fedc1e8ac1555e7bec97de6a ""
   (generated)
   "energy.aux"
   "energy.log"

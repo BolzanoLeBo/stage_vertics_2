@@ -2,4 +2,10 @@
 	\begin{figure}
 		\includegraphics{schedule/offline_algo.pdf}
 	\end{figure}
-	
+	We move $\tau_1$ and $\tau_2$ in the CCM
+	\\ $\Rightarrow$ runtime is reduced and consume less energy.\newline
+
+	We use the utilization gain of the CCM to run $\tau_3$ at 48 MHz
+	\\$\Rightarrow$ runtime is bigger, but, we consume less energy. \newline
+
+	The utilization of the system is still 1 and we spare energy.

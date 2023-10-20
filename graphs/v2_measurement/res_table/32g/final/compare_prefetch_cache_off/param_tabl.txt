@@ -1,0 +1,6 @@
+32g
+CACHE_OFF-PRE_OFF/CACHE_OFF-PRE_ON
+data_RAM/data_RAM
+16 26 30 60 90 120 150 170
+compare_prefetch_cache_off
+all

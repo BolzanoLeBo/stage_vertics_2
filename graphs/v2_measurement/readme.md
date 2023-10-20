@@ -20,7 +20,7 @@ examples :
 python create_tab.py code_CCM data_RAM energy 32g
 -> give a tab comparing all the benchmarks with input data in RAM
 
-python create_tab.py code_CCM data_RAM energy 32g all 
+python create_tab.py code_CCM data_RAM energy 32g ro 
 -> will add read only benchmarks to the tab even if they have no input data 
 (it will choose read only in FLASH) 
 
