@@ -148,7 +148,7 @@
 
 \author[]{Loïc Thomas} % Presenter name(s), the optional parameter can contain a shortened version to appear on the bottom of every slide, while the main parameter will appear on the title slide
 
-\institute[]{LAAS CNRS \\ \smallskip  \textit{l\_thomas@insa-toulouse.fr}} % Your institution, the optional parameter can be used for the institution shorthand and will appear on the bottom of every slide after author names, while the required parameter is used on the title slide and can include your email address or additional information on separate lines
+\institute[]{LAAS CNRS - VERTICS \\ \smallskip  \textit{l\_thomas@insa-toulouse.fr}} % Your institution, the optional parameter can be used for the institution shorthand and will appear on the bottom of every slide after author names, while the required parameter is used on the title slide and can include your email address or additional information on separate lines
 
 \date[\today]{\today} % Presentation date or conference/meeting name, the optional parameter can contain a shortened version to appear on the bottom of every slide, while the required parameter value is output to the title slide
 
@@ -201,15 +201,15 @@
 \begin{frame}{Context}
 	\begin{block}{Previous work}
 
-		\begin{thebibliography}{10}
-			{\tiny
-			\bibitem{} Zhishen Zhang, Yuwen Shen, Binqi Sun, Tomasz Kloda, and Marco Caccamo
-			\newblock Memory allocation for low-power real-time embedded microcontroler.{\em{IEEE ETFA 2022}}
-			}
-		\end{thebibliography}
-		\begin{itemize}
-			\item Tasks' memory allocation can reduce runtime in real-time context.
-		\end{itemize}
+
+		
+		Tasks' memory allocation can reduce runtime in real-time context.
+			\begin{thebibliography}{10}
+				{\tiny
+				\bibitem{} Zhishen Zhang, Yuwen Shen, Binqi Sun, Tomasz Kloda, and Marco Caccamo
+				\newblock Memory allocation for low-power real-time embedded microcontroler.{\em{IEEE ETFA 2022}}
+				}
+			\end{thebibliography}
 	\end{block}
 	\begin{figure}
 		\centering
@@ -374,7 +374,7 @@
 	\end{block}
 \end{frame}
 
-\begin{frame}{DVFS}
+\begin{frame}{DVFS and CCM impact on STM32G}
 	\begin{figure}
 		\includegraphics[scale = 0.4]{data/stm32g_v2/abs/abs_energy_flash_32g.pdf}
 		\includegraphics[scale = 0.4]{data/stm32g_v2/abs/abs_energy_ccm.pdf}
@@ -595,7 +595,6 @@ $\Rightarrow $ when the system is crowded (U $\to$ 1) it tends to the default co
 		\includegraphics{data/model/results_32g.pdf}
 		\caption{Utilization and energy gains with the model on STM32G}
 	\end{figure}
-	The default configuration use the cache so it is hard to gain utilization.\\
 	We ave a better energy gain with the STM32G, with the DVFS it may be easier to consume less.
 \end{frame}
 
@@ -615,6 +614,12 @@ However the boost mode is not used at all (the runtime gain is too low compared 
 	\frametitle{Online algorithms}
 	\begin{block}{Dynamic frequency and SLACK algorithm}
 		If we can still complete the task with the worst case time execution before the deadline. Then we lower the frequency. 
+		\begin{thebibliography}{10}
+			{\tiny
+			\bibitem{} Bambagini, Mario and Marinoni, Mauro and Aydin, Hakan and Buttazzo, Giorgio
+			\newblock Energy-aware scheduling for real-time systems: A survey.{\em{ACM TECS 2016}}
+			}
+		\end{thebibliography}
 	\end{block}
 	\begin{block}{Dynamic CCM SRAM allocation}
 		\begin{itemize}

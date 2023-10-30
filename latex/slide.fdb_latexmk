@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1697785117 "c:/Users/loict/Desktop/stage_vertics_2/latex/slide.tex" "slide.pdf" "slide" 1697785125 0
+["pdflatex"] 1697815300 "c:/Users/loict/Desktop/stage_vertics_2/latex/slide.tex" "slide.pdf" "slide" 1697815311 0
   "C:/Users/loict/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1694509874 143894 c9879d896f3723b277776564312b7eb1 ""
   "C:/Users/loict/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1689227937 24118871 56ee679e80261f6f0a0bbf3cd37d86f5 ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458477487 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -337,7 +337,7 @@
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/loict/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Users/loict/Desktop/stage_vertics_2/latex/slide.tex" 1697785116 24824 050317150acc8e8cd6034b53c06a52e2 ""
+  "c:/Users/loict/Desktop/stage_vertics_2/latex/slide.tex" 1697815298 25004 502aad1f482cf0a4d785b33bba17e191 ""
   "data/model/f_choose_32g_ccm.pdf" 1696342818 24771 9394efa4c1a4a40b6f65e3259d3cdaab ""
   "data/model/f_choose_32g_flash.pdf" 1696342734 25001 09f2e47666255047e61e0e6c8a53377e ""
   "data/model/frequency_choose.pdf" 1696180592 22690 64e8353402d2d87e00e329d1a6cd520a ""
@@ -367,12 +367,12 @@
   "macro.tex" 1694423356 742 5703c23b420a471d7233b5638798537c ""
   "schedule/edf.pdf" 1689941128 30919 418ecb7ded117b904a92e494c2e90cf4 ""
   "schedule/offline_algo.pdf" 1690098398 31971 0d1a2afb9fae28951a0f752741e6da6b ""
-  "slide.aux" 1697785124 7848 b3893a83e0ee1343a3124a182b7675d0 "pdflatex"
-  "slide.nav" 1697785124 4902 4ca8980a77b2d5f9439351940b0759e7 "pdflatex"
-  "slide.out" 1697785124 995 1047ab3a65b751a09be851aa2ebc5c28 "pdflatex"
-  "slide.tex" 1697785116 24824 050317150acc8e8cd6034b53c06a52e2 ""
-  "slide.toc" 1697785124 391 4a7e1856fb84786229c23b0aace16005 "pdflatex"
-  "slide.vrb" 1697785124 446 5024fa22c472d268973d32d88e30debb "pdflatex"
+  "slide.aux" 1697815311 7886 2d4791e1ad8541040413bb094a93c955 "pdflatex"
+  "slide.nav" 1697815311 4902 4ca8980a77b2d5f9439351940b0759e7 "pdflatex"
+  "slide.out" 1697815311 995 1047ab3a65b751a09be851aa2ebc5c28 "pdflatex"
+  "slide.tex" 1697815298 25004 502aad1f482cf0a4d785b33bba17e191 ""
+  "slide.toc" 1697815311 391 4a7e1856fb84786229c23b0aace16005 "pdflatex"
+  "slide.vrb" 1697815310 446 5024fa22c472d268973d32d88e30debb "pdflatex"
   (generated)
   "slide.aux"
   "slide.log"
