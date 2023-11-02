@@ -185,23 +185,25 @@
 \begin{frame}{Goal of the study}
 	Find a new solution for energy-aware memory allocation in real-time systems on low power microcontroller.
 	\begin{enumerate}
-		\uncover<1->{\item Get energy consumption data with different memory configurations on cortex M4 microcontrolers.}
-		\uncover<2->{\item Measure the impact of each memory allocation.}
-		\uncover<3->{\item Create a model to optimize the energy consumption.}
-		\uncover<4->{\item Find scheduling algorithms which can work for this case.}
+		{\item Get energy consumption data with different memory configurations on Cortex M4 microcontrolers.}
+		{\item Measure the impact of each memory allocation.}
+		{\item Create a model to optimize the energy consumption.}
+		{\item Find scheduling algorithms which can work for this case.}
 	\end{enumerate}
 \end{frame}
 
 \section{Context and introduction}
 
 \begin{frame}
-    \frametitle{CCM SRAM}
+    \frametitle{Core Coupled Memory - CCM SRAM}
 	\begin{center}
 		\input{images/bus.tex}
 	\end{center}
-    The core coupled memory is a special area of memory. 
-    It is connected to both instruction and data buses.
-    It allows a zero wait state access to memory. 
+	\begin{itemize}
+	\item Special area of memory. 
+	\item Connected to both instruction and data buses.
+	\item Direct access to memory $\Rightarrow$ zero wait states.
+	\end{itemize}
 \end{frame}
 
 \begin{frame}{Wait states}
@@ -249,8 +251,9 @@
 		\centering
 		\begin{itemize}
 			\item Consumption averaging (from 1 nA up to 200 mA)
+			\item Supply energy to the measured microcontroler
 			\item Measure acquisition at 3.2 Msamples/s max
-			\item Transfer measures with USB
+			\item Intensity measurement are transfered via USB to the computer
 		\end{itemize}
 		\end{minipage}
 \end{frame}
@@ -293,7 +296,7 @@
 			\item Instruction and data cache for flash \\ (32 and 8 lines of 4 x 64 bits) 
 			\item Pre-Fetch feature
 			\item Dynamic voltage scaling (3 modes)
-			\item Two different SRAM
+			\item Two different SRAMs
 		\end{itemize}
 		\end{minipage}
 \end{frame}
@@ -303,7 +306,7 @@
 
 \begin{block}{}
 	The STM32F do not have Dynamic Voltage Frequency Scaling (DVFS).\\
-	The options are more limited, the results that we will have are the consequences of the memory allocation.
+	The options are more limited, so only memory allocation and frequency will have an impact.
 \end{block}
 \begin{block}{Memory configurations }
 	\begin{itemize}
@@ -338,7 +341,8 @@
 
 
 \section{STM32F performances}
-\begin{frame}{Absolute energy (mJ) when code is in FLASH and CCM}
+\begin{frame}{Absolute energy comparison}
+	\framesubtitle{Code in FLASH vs code in CCM}
 	\begin{figure}
 		\begin{subfigure}{0.4\textwidth}
 			\includegraphics[scale = 0.4]{data/stm32f_v2/abs/abs_flash_energy32f.pdf}
@@ -354,7 +358,7 @@
 		\item \emph{Instructions in FLASH :} $frequency \nearrow \; \; \Rightarrow \; \; energy \nearrow$
 		\item \emph{Instructions in CCM : } $frequency \nearrow \; \; \Rightarrow \; \; energy \rightarrow$ 
 	\end{itemize}
-	To spare energy, tasks should run at low frequency in FLASH and high frequency in CCM.
+	To save energy, we should allocate tasks' instructions to the CCM (if enough space).
 \end{frame}
 
 
@@ -387,6 +391,7 @@
 	\begin{itemize}
 		\item Low power mode lowers the energy consumption, but used only in low frequencies.
 		\item BOOST mode consumes more energy to go faster at high frequencies. 
+		\item We can save energy with instructions in CCM.
 	\end{itemize}
 \end{frame}
 
@@ -422,10 +427,10 @@
 	\end{minipage}
 	\begin{minipage}{0.4\textwidth}
 		\begin{itemize}
-			\item The SRAM2 allows a better power consumption. 
-			\item This intensity gain does not compensate the runtime loss. 
+			\item SRAM2 lowers power consumption. 
+			\item Intensity gain does not compensate the runtime loss. 
 		\end{itemize}
-		It will be better to put data in SRAM1.
+		It is better to put data in SRAM1.
 	\end{minipage}
 \end{frame}
 
@@ -554,7 +559,7 @@
 			\small
 			\begin{itemize}
 				\item Constraint on CCM, FLASH and SRAM space
-				\item The sums on c cover only the case which concern the good memory
+				\item The sums on $\mathcal{C}$ cover only the case which concerns the good memory
 				(ex : $d=R$ means that input data is in SRAM)
 			\end{itemize}
 		\end{minipage}
@@ -564,7 +569,7 @@
 
 \begin{frame}{Model implementation}
 	\begin{block}{Step 1}
-		Redeem all the previous data and create arrays with all the configs.
+		Use the collected measurements and create arrays with all the memory configurations.\\
 		\centering
 		\includegraphics[scale=0.5]{images/data.png}
 	\end{block}
@@ -604,7 +609,7 @@
 	\end{figure}
 nb tasks $\nearrow$ $\Rightarrow $ proportion in CCM $\searrow$ \\
 Low number of tasks $\Rightarrow $ tasks in FLASH at low or mid frequency. \\
-High number of tasks $\Rightarrow $ tasks in FLASH  at 72 MHz \\
+High number of tasks $\Rightarrow $ $\nearrow$ tasks in FLASH  at 72 MHz \\
 $\Rightarrow $ if system fully-loaded $\rightarrow$ default config (72MHz and FLASH).
 \end{frame}
 
@@ -614,7 +619,7 @@ $\Rightarrow $ if system fully-loaded $\rightarrow$ default config (72MHz and FL
 	\begin{figure}
 		\includegraphics{schedule/edf.pdf}
 	\end{figure}
-	We have 3 tasks in the standard configuration. \\
+	We have 3 tasks $\tau_1,\,\tau_2\, and \,\tau_3,\,$ in the standard configuration. \\
 	Instructions are in FLASH and the CPU runs them at 72 MHz.
 \end{frame}
 
@@ -627,26 +632,25 @@ $\Rightarrow $ if system fully-loaded $\rightarrow$ default config (72MHz and FL
 
 \end{frame}
 
-\begin{frame}[fragile]
-	\frametitle{ Application of the previous algorithm }
-	\begin{figure}
-		\includegraphics{schedule/offline_algo.pdf}
-	\end{figure}
-	We move $\tau_1$ and $\tau_2$ in the CCM 
-	\\ $\Rightarrow$ runtime is reduced and consume less energy.\newline
+%	\frametitle{ Application of the previous algorithm }
+%	\begin{figure}
+%		\includegraphics{schedule/offline_algo.pdf}
+%	\end{figure}
+%	We move $\tau_1$ and $\tau_2$ in the CCM 
+%	\\ $\Rightarrow$ runtime is reduced and consume less energy.\newline
+%
+%	We use the utilization gain of the CCM to run $\tau_3$ at 48 MHz 
+%	\\$\Rightarrow$ runtime is bigger, but, we consume less energy. \newline
 
-	We use the utilization gain of the CCM to run $\tau_3$ at 48 MHz 
-	\\$\Rightarrow$ runtime is bigger, but, we consume less energy. \newline
-
-	The utilization of the system is still 1 but we can spare energy.
-\end{frame}
+%	The utilization of the system is still 1 but we can spare energy.
+%	\end{frame}
 
 \begin{frame}{Model results on STM32G}
 	\begin{figure}
 		\includegraphics{data/model/results_32g.pdf}
 		\caption{Utilization and energy gains with the model on STM32G}
 	\end{figure}
-	We ave a better energy gain with the STM32G, with the DVFS it is easier to consume less.
+	We have a better energy gain with the STM32G, with the DVFS it is easier to consume less.
 \end{frame}
 
 \begin{frame}{Frequency results on STM32G}
@@ -656,7 +660,15 @@ $\Rightarrow $ if system fully-loaded $\rightarrow$ default config (72MHz and FL
 		\caption{Frequency choices made by the model for tasks in FLASH and CCM for STM32G}
 	\end{figure}
 RANGE2 mode is even used with the CCM. 
-However the boost mode is not used at all (the runtime gain is too low compared to the waste of energy).
+However the boost mode is not used at all (the runtime gain is too low compared to the waste of energy).\\
+Mid frequencies are not enough efficient to be choosen. \\
+\begin{thebibliography}{10}
+	{\tiny
+	\bibitem{}Thomas Rauber, Gudula Runger, Michael Schwind, Simon Melzner, Haibin Xu
+	\newblock Energy Measurement, Modeling, and Prediction for Processors with Frequency Scaling.{\em{Springer}}
+	}
+\end{thebibliography}
+
 \end{frame}
 
 
@@ -688,9 +700,9 @@ However the boost mode is not used at all (the runtime gain is too low compared 
 
 
 
-\begin{frame}[plain] % The optional argument 'plain' hides the headline and footline
+\begin{frame} % The optional argument 'plain' hides the headline and footline
 	\begin{center}
-		{\Huge The End}
+		{\Huge Thank you for your attention}
 		
 		\bigskip\bigskip % Vertical whitespace
 		

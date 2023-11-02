@@ -1,7 +1,7 @@
-\beamer@sectionintoc {1}{Context and introduction}{6}{0}{1}
-\beamer@sectionintoc {2}{Microcontrolers features}{10}{0}{2}
-\beamer@sectionintoc {3}{Current measurement}{15}{0}{3}
-\beamer@sectionintoc {4}{STM32F performances}{18}{0}{4}
-\beamer@sectionintoc {5}{STM32G performances}{20}{0}{5}
-\beamer@sectionintoc {6}{Optimization model}{28}{0}{6}
-\beamer@sectionintoc {7}{Future work}{40}{0}{7}
+\beamer@sectionintoc {1}{Context and introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Microcontrolers features}{7}{0}{2}
+\beamer@sectionintoc {3}{Current measurement}{12}{0}{3}
+\beamer@sectionintoc {4}{STM32F performances}{15}{0}{4}
+\beamer@sectionintoc {5}{STM32G performances}{17}{0}{5}
+\beamer@sectionintoc {6}{Optimization model}{25}{0}{6}
+\beamer@sectionintoc {7}{Future work}{36}{0}{7}

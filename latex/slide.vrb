@@ -1,11 +1,6 @@
-\frametitle{ Application of the previous algorithm }
+\frametitle{ Comparison if we use the model  }
 	\begin{figure}
-		\includegraphics{schedule/offline_algo.pdf}
+		\includegraphics[scale=0.8]{schedule/edf.pdf}
+		\includegraphics[scale=0.8]{schedule/offline_algo.pdf}
 	\end{figure}
-	We move $\tau_1$ and $\tau_2$ in the CCM
-	\\ $\Rightarrow$ runtime is reduced and consume less energy.\newline
 
-	We use the utilization gain of the CCM to run $\tau_3$ at 48 MHz
-	\\$\Rightarrow$ runtime is bigger, but, we consume less energy. \newline
-
-	The utilization of the system is still 1 but we can spare energy.
