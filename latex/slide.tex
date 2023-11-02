@@ -142,7 +142,7 @@
 %	PRESENTATION INFORMATION
 %----------------------------------------------------------------------------------------
 \usepackage[font=scriptsize]{caption}
-\title[]{Energy aware memory allocation in real-time systems} % The short title in the optional parameter appears at the bottom of every slide, the full title in the main parameter is only on the title page
+\title[]{Energy-aware memory allocation in real-time systems} % The short title in the optional parameter appears at the bottom of every slide, the full title in the main parameter is only on the title page
 
 \subtitle{} % Presentation subtitle, remove this command if a subtitle isn't required
 
@@ -185,18 +185,36 @@
 \begin{frame}{Goal of the study}
 	Find a new solution for energy-aware memory allocation in real-time systems on low power microcontroller.
 	\begin{enumerate}
-		\item Get energy consumption data on multiple benchmark with different memory configurations (CCM-SRAM, FLASH, SRAM) on cortex M4 microcontrolers.
-		\item Measure the impact of each memory allocation.
-		\item Create a model to optimize the energy consumption.
-		\item Find scheduling algorithms which can work for this case.
+		\uncover<1->{\item Get energy consumption data with different memory configurations on cortex M4 microcontrolers.}
+		\uncover<2->{\item Measure the impact of each memory allocation.}
+		\uncover<3->{\item Create a model to optimize the energy consumption.}
+		\uncover<4->{\item Find scheduling algorithms which can work for this case.}
 	\end{enumerate}
 \end{frame}
 
-\begin{frame}{Outline of talk}
-	\tableofcontents
+\section{Context and introduction}
+
+\begin{frame}
+    \frametitle{CCM SRAM}
+	\begin{center}
+		\input{images/bus.tex}
+	\end{center}
+    The core coupled memory is a special area of memory. 
+    It is connected to both instruction and data buses.
+    It allows a zero wait state access to memory. 
 \end{frame}
 
-\section{Context and introduction}
+\begin{frame}{Wait states}
+	\begin{itemize}
+	\item FLASH memory can be clocked up to 24MHz.
+	\item When the CPU is faster than memory, it has to wait the memory to be ready.
+	
+	$\Rightarrow$ FLASH execution is blocked by wait states. 
+	\item The CCM-SRAM can transfer instructions at CPU clock rate.
+	
+	$\Rightarrow$ CCM-SRAM execution time is proportionnal to frequency. 
+	\end{itemize} 
+\end{frame}
 
 \begin{frame}{Context}
 	\begin{block}{Previous work}
@@ -214,35 +232,11 @@
 	\begin{figure}
 		\centering
 		\includegraphics[scale=0.5]{images/boost.png}
-		\caption{Results of the previous work (Runtime decrease when code run from CCM-SRAM)}
+		\caption{Results of the previous work (Runtime decreases when code run from CCM-SRAM)}
 	\end{figure}
 \end{frame}
 
 
-
-
-
-\begin{frame}
-    \frametitle{CCM SRAM}
-	\begin{center}
-		\input{images/bus.tex}
-	\end{center}
-    The core coupled memory is a special area of memory. 
-    It is connected to both instruction and data buses.
-    It allows a no wait state access to memory. 
-\end{frame}
-
-\begin{frame}{Wait states}
-	\begin{itemize}
-	\item FLASH memory can be clocked up to 24MHz.
-	\item When the CPU is faster than memory, it has to wait the memory to be ready.
-	
-	$\Rightarrow$ FLASH execution is interrupted by wait states. 
-	\item The CCM-SRAM can transfer instructions at CPU clock rate.
-	
-	$\Rightarrow$ CCM-SRAM execution time is proportionnal to frequency. 
-	\end{itemize} 
-\end{frame}
 
 \section{Microcontrolers features}
 
@@ -257,7 +251,6 @@
 			\item Consumption averaging (from 1 nA up to 200 mA)
 			\item Measure acquisition at 3.2 Msamples/s max
 			\item Transfer measures with USB
-			\item Results presented as 2 columns .csv file (time/intensity)
 		\end{itemize}
 		\end{minipage}
 \end{frame}
@@ -309,7 +302,7 @@
 \begin{frame}{STM32F possibilities}
 
 \begin{block}{}
-	Contrary to the STM32G, the STM32F do not have Dynamic Voltage Frequency Scaling (DVFS).\\
+	The STM32F do not have Dynamic Voltage Frequency Scaling (DVFS).\\
 	The options are more limited, the results that we will have are the consequences of the memory allocation.
 \end{block}
 \begin{block}{Memory configurations }
@@ -345,11 +338,17 @@
 
 
 \section{STM32F performances}
-\begin{frame}{Absolute energy when code is in FLASH and CCM}
+\begin{frame}{Absolute energy (mJ) when code is in FLASH and CCM}
 	\begin{figure}
-		\includegraphics[scale = 0.4]{data/stm32f_v2/abs/abs_flash_energy32f.pdf}
-		\includegraphics[scale = 0.4]{data/stm32f_v2/abs/abs_ccm_energy32f.pdf}
-		\caption{Energy (mJ) when instructions are in FLASH and CCM (STM32F)}
+		\begin{subfigure}{0.4\textwidth}
+			\includegraphics[scale = 0.4]{data/stm32f_v2/abs/abs_flash_energy32f.pdf}
+			\caption{Energy (mJ) when code in FLASH}
+		\end{subfigure}
+		\begin{subfigure}{0.4\textwidth}
+			\includegraphics[scale = 0.4]{data/stm32f_v2/abs/abs_ccm_energy32f.pdf}
+			\caption{Energy when code in CCM}
+		\end{subfigure}
+		
 	\end{figure}
 	\begin{itemize}
 		\item \emph{Instructions in FLASH :} $frequency \nearrow \; \; \Rightarrow \; \; energy \nearrow$
@@ -376,22 +375,32 @@
 
 \begin{frame}{DVFS and CCM impact on STM32G}
 	\begin{figure}
-		\includegraphics[scale = 0.4]{data/stm32g_v2/abs/abs_energy_flash_32g.pdf}
-		\includegraphics[scale = 0.4]{data/stm32g_v2/abs/abs_energy_ccm.pdf}
-		\caption{Energy (mJ) when instructions are in FLASH and CCM (STM32G)}
+		\begin{subfigure}{0.4\textwidth}
+			\includegraphics[scale = 0.4]{data/stm32g_v2/abs/abs_energy_flash_32g.pdf}
+			\caption{Energy when code in FLASH with Cache}
+		\end{subfigure}
+		\begin{subfigure}{0.4\textwidth}
+			\includegraphics[scale = 0.4]{data/stm32g_v2/abs/abs_energy_ccm.pdf}
+			\caption{Energy when code in CCM}
+		\end{subfigure}
 	\end{figure}
 	\begin{itemize}
-		\item Range 2 mode can significantly lower the energy consumption, but it can be used only in low frequencies.
-		\item BOOST mode consume more energy to go faster in high frequencies. If the time gain is high enough it can be a good alternative to let other task run slower. 
+		\item Low power mode lowers the energy consumption, but used only in low frequencies.
+		\item BOOST mode consumes more energy to go faster at high frequencies. 
 	\end{itemize}
 \end{frame}
 
 
 \begin{frame}{Cache impact}
 	\begin{figure}
-		\includegraphics[scale = 0.35]{data/stm32g_v2/cache_impact/duration.pdf}
-		\includegraphics[scale = 0.35]{data/stm32g_v2/cache_impact/energy.pdf}
-		\caption{\emph{Runtime} and \emph{Energy} loss when cache is disabled}
+		\begin{subfigure}{0.4\textwidth}
+			\includegraphics[scale = 0.35]{data/stm32g_v2/cache_impact/duration.pdf}
+			\caption{Runtime loss when cache disabled}
+		\end{subfigure}
+		\begin{subfigure}{0.4\textwidth}
+			\includegraphics[scale = 0.35]{data/stm32g_v2/cache_impact/energy.pdf}
+			\caption{Energy loss when cache disabled}
+		\end{subfigure}
 	\end{figure}
 	\begin{itemize}
 		\item Different wait states levels
@@ -414,7 +423,7 @@
 	\begin{minipage}{0.4\textwidth}
 		\begin{itemize}
 			\item The SRAM2 allows a better power consumption. 
-			\item This intesity gain is not enough to compensate the runtime loss. 
+			\item This intensity gain does not compensate the runtime loss. 
 		\end{itemize}
 		It will be better to put data in SRAM1.
 	\end{minipage}
@@ -430,17 +439,28 @@
 
 \begin{frame}{Pre-Fetch impact when cache is disabled}
 	\begin{figure}
-		\includegraphics[scale = 0.4]{data/stm32g_v2/pre_fetch_impact_cache_off/duration.pdf}
-		\includegraphics[scale = 0.4]{data/stm32g_v2/pre_fetch_impact_cache_off/energy.pdf}
-		\caption{Runtime and energy gains when pre-fetch is enabled}
+		\begin{subfigure}{0.4\textwidth}
+			\includegraphics[scale = 0.4]{data/stm32g_v2/pre_fetch_impact_cache_off/duration.pdf}
+			\caption{Runtime gain if pre-fetch enabled (Cache OFF)}
+		\end{subfigure}
+		\begin{subfigure}{0.4\textwidth}
+			\includegraphics[scale = 0.4]{data/stm32g_v2/pre_fetch_impact_cache_off/energy.pdf}
+			\caption{Energy gain if pre-fetch enabled (Cache OFF)}
+		\end{subfigure}
 	\end{figure}
 \end{frame}
 
 \begin{frame}{Pre-Fetch impact when cache is enabled}
 	\begin{figure}
-		\includegraphics[scale = 0.4]{data/stm32g_v2/pre_fetch_impact_cache_on/duration.pdf}
-		\includegraphics[scale = 0.4]{data/stm32g_v2/pre_fetch_impact_cache_on/energy.pdf}
-		\caption{Runtime and energy loss when pre-fetch is enabled}
+		\begin{subfigure}{0.4\textwidth}
+			\includegraphics[scale = 0.4]{data/stm32g_v2/pre_fetch_impact_cache_on/duration.pdf}
+			\caption{Runtime gain if pre-fetch enabled (Cache ON)}
+		\end{subfigure}
+		\begin{subfigure}{0.4\textwidth}
+			\includegraphics[scale = 0.4]{data/stm32g_v2/pre_fetch_impact_cache_on/energy.pdf}
+			\caption{Energy gain if pre-fetch enabled (Cache ON)}
+		\end{subfigure}
+
 	\end{figure}
 \end{frame}
 
@@ -496,8 +516,8 @@
 		\end{minipage}
 		\begin{minipage}{0.65\textwidth}
 			\begin{itemize}
-				\item The taskset has to remain schedulable over EDF.
-				\item On standard confiuration the utilization is 1 $\Rightarrow $ always a solution
+				\item The taskset has to remain schedulable under EDF.
+				\item On standard configuration the utilization is 1 $\Rightarrow $ always a solution
 			\end{itemize}
 		\end{minipage}
 	\end{block}
@@ -534,8 +554,7 @@
 			\small
 			\begin{itemize}
 				\item Constraint on CCM, FLASH and SRAM space
-				\item The sums on c cover only the case which concern the good memory 
-				
+				\item The sums on c cover only the case which concern the good memory
 				(ex : $d=R$ means that input data is in SRAM)
 			\end{itemize}
 		\end{minipage}
@@ -543,6 +562,30 @@
 
 \end{frame}
 
+\begin{frame}{Model implementation}
+	\begin{block}{Step 1}
+		Redeem all the previous data and create arrays with all the configs.
+		\centering
+		\includegraphics[scale=0.5]{images/data.png}
+	\end{block}
+
+	\begin{block}{Step 2}
+		\begin{itemize}
+			\item Create a random taskset based on the benchmarks.
+			\item The taskset is schedulable with the default configuration.
+		\end{itemize}
+		
+	\end{block}
+
+	\begin{block}{Step3}
+		\begin{minipage}{0.25\textwidth}
+			\includegraphics[scale=0.9]{images/gurobi.png}
+		\end{minipage}
+		\begin{minipage}{0.6\textwidth}
+			We use the solver Gurobi on our model to find the best configuration. 
+		\end{minipage}
+	\end{block}
+\end{frame}
 
 \begin{frame}{Energy results on STM32F}
 	\begin{figure}
@@ -559,10 +602,10 @@
 		\includegraphics[scale = 0.6]{data/model/frequency_choose_CCM.pdf}
 		\caption{Frequency choices made by the model for tasks in FLASH and CCM}
 	\end{figure}
-The proportion of tasks in CCM decrease over the number of tasks. \\
-With less tasks, the tasks in FLASH run at low or mid frequency. \\
-When the number of task begin to be high more tasks in FLASH are executed at 72MHz \\
-$\Rightarrow $ when the system is crowded (U $\to$ 1) it tends to the default config.
+nb tasks $\nearrow$ $\Rightarrow $ proportion in CCM $\searrow$ \\
+Low number of tasks $\Rightarrow $ tasks in FLASH at low or mid frequency. \\
+High number of tasks $\Rightarrow $ tasks in FLASH  at 72 MHz \\
+$\Rightarrow $ if system fully-loaded $\rightarrow$ default config (72MHz and FLASH).
 \end{frame}
 
 
@@ -575,6 +618,14 @@ $\Rightarrow $ when the system is crowded (U $\to$ 1) it tends to the default co
 	Instructions are in FLASH and the CPU runs them at 72 MHz.
 \end{frame}
 
+\begin{frame}[fragile]
+	\frametitle{ Comparison if we use the model  }
+	\begin{figure}
+		\includegraphics[scale=0.8]{schedule/edf.pdf}
+		\includegraphics[scale=0.8]{schedule/offline_algo.pdf}
+	\end{figure}
+
+\end{frame}
 
 \begin{frame}[fragile]
 	\frametitle{ Application of the previous algorithm }
@@ -587,7 +638,7 @@ $\Rightarrow $ when the system is crowded (U $\to$ 1) it tends to the default co
 	We use the utilization gain of the CCM to run $\tau_3$ at 48 MHz 
 	\\$\Rightarrow$ runtime is bigger, but, we consume less energy. \newline
 
-	The utilization of the system is still 1 and we spare energy.
+	The utilization of the system is still 1 but we can spare energy.
 \end{frame}
 
 \begin{frame}{Model results on STM32G}
@@ -595,7 +646,7 @@ $\Rightarrow $ when the system is crowded (U $\to$ 1) it tends to the default co
 		\includegraphics{data/model/results_32g.pdf}
 		\caption{Utilization and energy gains with the model on STM32G}
 	\end{figure}
-	We ave a better energy gain with the STM32G, with the DVFS it may be easier to consume less.
+	We ave a better energy gain with the STM32G, with the DVFS it is easier to consume less.
 \end{frame}
 
 \begin{frame}{Frequency results on STM32G}
@@ -613,7 +664,7 @@ However the boost mode is not used at all (the runtime gain is too low compared 
 \begin{frame}
 	\frametitle{Online algorithms}
 	\begin{block}{Dynamic frequency and SLACK algorithm}
-		If we can still complete the task with the worst case time execution before the deadline. Then we lower the frequency. 
+		If we can still complete the task with the worst-case execution time before the deadline, then we lower the frequency. 
 		\begin{thebibliography}{10}
 			{\tiny
 			\bibitem{} Bambagini, Mario and Marinoni, Mauro and Aydin, Hakan and Buttazzo, Giorgio

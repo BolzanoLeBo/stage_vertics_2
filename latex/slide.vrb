@@ -8,4 +8,4 @@
 	We use the utilization gain of the CCM to run $\tau_3$ at 48 MHz
 	\\$\Rightarrow$ runtime is bigger, but, we consume less energy. \newline
 
-	The utilization of the system is still 1 and we spare energy.
+	The utilization of the system is still 1 but we can spare energy.
