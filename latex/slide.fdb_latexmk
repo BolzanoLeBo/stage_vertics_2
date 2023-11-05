@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1699200800 "c:/Users/loict/Desktop/stage_vertics_2/latex/slide.tex" "slide.pdf" "slide" 1699200803 0
-  "c:/Users/loict/Desktop/stage_vertics_2/latex/slide.tex" 1699200799 26738 f5d17bd943c1043dee7926926dd20792 ""
+["pdflatex"] 1699211173 "c:/Users/loict/Desktop/stage_vertics_2/latex/slide.tex" "slide.pdf" "slide" 1699211177 0
+  "c:/Users/loict/Desktop/stage_vertics_2/latex/slide.tex" 1699211172 26738 f5d17bd943c1043dee7926926dd20792 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1698928018 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc" 1698929578 2952 84fda6c8ae8be17712e9d998ffe48bad ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1698928313 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -365,14 +365,14 @@
   "images/stm32g.jpg" 1698927193 3328606 3e6e9eb8928da7a10d0bd75a8142ebbb ""
   "macro.tex" 1699191089 765 145a83e82ad043086a0e5a3f52de4885 ""
   "rtsched.sty" 1699190977 25454 2d0e408a18856ce2fda3e531d67c6791 ""
-  "schedule/edf.pdf" 1699191048 25949 fc3969f7b3ea217fc8cd16acf868220b ""
-  "schedule/offline_algo.pdf" 1698927193 31971 0d1a2afb9fae28951a0f752741e6da6b ""
-  "slide.aux" 1699200803 7093 eb19979705158b7e40d7486403ad62ff "pdflatex"
-  "slide.nav" 1699200803 4631 32ded3b2886f3e6217d58e06120dd40e "pdflatex"
-  "slide.out" 1699200803 826 59bce86181f9c7d5b010e06200a584e9 "pdflatex"
-  "slide.tex" 1699200799 26738 f5d17bd943c1043dee7926926dd20792 ""
-  "slide.toc" 1699200803 331 4f1bd1e3d9f435bf9b9760c8f58e4cda "pdflatex"
-  "slide.vrb" 1699200803 183 3514d55f0de08a6db3432b48a72f78ef "pdflatex"
+  "schedule/edf.pdf" 1699211100 25998 a7052d6f995fc237bd357ea8a04c3a4d ""
+  "schedule/offline_algo.pdf" 1699210910 26067 53d50534056d12f6616076e6560e2d97 ""
+  "slide.aux" 1699211177 7093 eb19979705158b7e40d7486403ad62ff "pdflatex"
+  "slide.nav" 1699211177 4631 32ded3b2886f3e6217d58e06120dd40e "pdflatex"
+  "slide.out" 1699211177 826 59bce86181f9c7d5b010e06200a584e9 "pdflatex"
+  "slide.tex" 1699211172 26738 f5d17bd943c1043dee7926926dd20792 ""
+  "slide.toc" 1699211177 331 4f1bd1e3d9f435bf9b9760c8f58e4cda "pdflatex"
+  "slide.vrb" 1699211177 183 3514d55f0de08a6db3432b48a72f78ef "pdflatex"
   (generated)
   "slide.aux"
   "slide.log"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.2)  5 NOV 2023 14:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.2)  5 NOV 2023 20:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -389,13 +389,13 @@ L3 programming layer <2023-11-01>
 Here is how much of TeX's memory you used:
  13054 strings out of 474272
  271696 string characters out of 5751548
- 1956533 words of memory out of 5000000
+ 1965533 words of memory out of 5000000
  35036 multiletter control sequences out of 15000+600000
  560959 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,7n,121p,495b,883s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,7n,121p,495b,924s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on edf.pdf (1 page, 25949 bytes).
+Output written on edf.pdf (1 page, 25998 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream

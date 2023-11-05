@@ -6,18 +6,21 @@
     \begin{RTGrid}{3}{24}
     \multido{\n=0+6}{4}{ 
     \TaskArrival{1}{\n} % draw only the arrival
-    \TaskExecDelta{1}{\n}{2}}
+    \TaskExecDelta{1}{0}{2}
+    \TaskExecDelta{1}{6}{2}
+    \TaskExecDelta{1}{14}{2}
+    \TaskExecDelta{1}{18}{2}}
     % from \n to \n+1
     \multido{\n=0+8}{3}{ 
     \TaskArrival{2}{\n} % draw only the arrival
     \TaskExecDelta{2}{2}{4}
-    \TaskExecDelta{2}{8}{4}
+    \TaskExecDelta{2}{10}{4}
     \TaskExecDelta{2}{16}{2}
     \TaskExecDelta{2}{20}{2}}
 
     \multido{\n=0+12}{2}{ 
     \TaskArrival{3}{\n} % draw only the arrival
-    \TaskExecDelta{3}{6}{2}
-    \TaskExecDelta{3}{14}{2}}
+    \TaskExecDelta{3}{8}{2}
+    \TaskExecDelta{3}{22}{2}}
     \end{RTGrid}
 \end{document}
