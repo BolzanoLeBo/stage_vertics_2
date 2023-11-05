@@ -183,16 +183,14 @@
 %----------------------------------------------------------------------------------------
 
 \begin{frame}{Goal of the study}
-	Find a new solution for energy-aware memory allocation in real-time systems on low power microcontroller.
+	Find a new solution for energy-aware memory allocation in real-time systems on low-power microcontrollers.
 	\begin{enumerate}
-		{\item Get energy consumption data with different memory configurations on Cortex M4 microcontrolers.}
+		{\item Get energy consumption data with different memory configurations on Cortex M4 microcontrollers.}
 		{\item Measure the impact of each memory allocation.}
 		{\item Create a model to optimize the energy consumption.}
-		{\item Find scheduling algorithms which can work for this case.}
+		{\item Find scheduling algorithms that can work for this case.}
 	\end{enumerate}
 \end{frame}
-
-\section{Context and introduction}
 
 \begin{frame}
     \frametitle{Core Coupled Memory - CCM SRAM}
@@ -209,12 +207,12 @@
 \begin{frame}{Wait states}
 	\begin{itemize}
 	\item FLASH memory can be clocked up to 24MHz.
-	\item When the CPU is faster than memory, it has to wait the memory to be ready.
+	\item When the CPU is faster than the memory, it has to wait for the memory to be ready.
 	
 	$\Rightarrow$ FLASH execution is blocked by wait states. 
 	\item The CCM-SRAM can transfer instructions at CPU clock rate.
 	
-	$\Rightarrow$ CCM-SRAM execution time is proportionnal to frequency. 
+	$\Rightarrow$ CCM-SRAM execution time is proportional to frequency. 
 	\end{itemize} 
 \end{frame}
 
@@ -227,7 +225,7 @@
 			\begin{thebibliography}{10}
 				{\tiny
 				\bibitem{} Zhishen Zhang, Yuwen Shen, Binqi Sun, Tomasz Kloda, and Marco Caccamo
-				\newblock Memory allocation for low-power real-time embedded microcontroler.{\em{IEEE ETFA 2022}}
+				\newblock Memory allocation for low-power real-time embedded microcontroller.{\em{IEEE ETFA 2022}}
 				}
 			\end{thebibliography}
 	\end{block}
@@ -250,10 +248,10 @@
 	\begin{minipage}{0.50\textwidth}
 		\centering
 		\begin{itemize}
-			\item Consumption averaging (from 1 nA up to 200 mA)
-			\item Supply energy to the measured microcontroler
-			\item Measure acquisition at 3.2 Msamples/s max
-			\item Intensity measurement are transfered via USB to the computer
+			\item Consumption averaging (from 1 nA up to 200 mA).
+			\item Supply energy to the measured microcontroller.
+			\item Measure acquisition at 3.2 Msamples/s max.
+			\item Intensity measurements are transferred via USB to the computer.
 		\end{itemize}
 		\end{minipage}
 \end{frame}
@@ -293,7 +291,7 @@
 			\item 10 kB CCM-SRAM
 			\item 22 kB SRAM 
 			\item 128 kB FLASH
-			\item Instruction and data cache for flash \\ (32 and 8 lines of 4 x 64 bits) 
+			\item Instruction and data caches for flash \\ (32 and 8 lines of 4 x 64 bits) 
 			\item Pre-Fetch feature
 			\item Dynamic voltage scaling (3 modes)
 			\item Two different SRAMs
@@ -305,7 +303,7 @@
 \begin{frame}{STM32F possibilities}
 
 \begin{block}{}
-	The STM32F do not have Dynamic Voltage Frequency Scaling (DVFS).\\
+	The STM32F does not have Dynamic Voltage Frequency Scaling (DVFS).\\
 	The options are more limited, so only memory allocation and frequency will have an impact.
 \end{block}
 \begin{block}{Memory configurations }
@@ -326,7 +324,7 @@
 	\begin{figure}
 		\centering
         \includegraphics[scale=0.6]{images/pointer_chase_capture_mod.png}
-        \caption{Intensity consumption graph for differents pointer chase executions}
+        \caption{Intensity consumption graphic for differents pointer chase executions}
 	\end{figure}
 \end{frame}
 
@@ -334,7 +332,7 @@
 	\begin{figure}
 		\centering
         \includegraphics[scale=0.4]{images/pointer_chase30ex.png}
-        \caption{Intensity consumption graph with 30 execution per memory configuration}
+        \caption{Intensity consumption graphic with 30 execution per memory configuration}
 	\end{figure}
 \end{frame}
 %------------------------------------------------
@@ -358,7 +356,7 @@
 		\item \emph{Instructions in FLASH :} $frequency \nearrow \; \; \Rightarrow \; \; energy \nearrow$
 		\item \emph{Instructions in CCM : } $frequency \nearrow \; \; \Rightarrow \; \; energy \rightarrow$ 
 	\end{itemize}
-	To save energy, we should allocate tasks' instructions to the CCM (if enough space).
+	To save energy, we should allocate tasks instructions to the CCM (if enough space).
 \end{frame}
 
 
@@ -367,8 +365,8 @@
 	\frametitle{STM32G features}
 	\begin{block}{Different execution modes}
 		\begin{itemize}
-			\item Range 1 mode (normal) : normal execution from 8 to 150 MHz.
-			\item Range 1 boost mode : frequency up to 170 MHz, less wait states but higher voltage.
+			\item Range 1 mode (normal) : normal execution.
+			\item Range 1 boost mode : frequency between 150 and 170 MHz, fewer wait states but higher voltage.
 			\item Range 2 low power mode : frequency between 8 and 32 MHz, better consumption between these frequencies.
 		\end{itemize}
 	\end{block}
@@ -408,9 +406,9 @@
 		\end{subfigure}
 	\end{figure}
 	\begin{itemize}
-		\item Different wait states levels
-		\item In high frequencies the wait states reduce the global intensity
-		\item With no wait state, there are the same runtime performances 
+		\item Different wait state levels.
+		\item In high frequencies the wait states reduce the global intensity.
+		\item With no wait state, there are the same runtime performances.
 	\end{itemize}
 \end{frame}
 
@@ -504,7 +502,7 @@
 		\begin{minipage}{0.65\textwidth}
 			\small
 			\begin{itemize}
-				\item $\mathcal{C}$ Represent the set of all possible configuration (memory and frequency)
+				\item $\mathcal{C}$ represents the set of all possible configuration (memory and frequency)
 				\item Only one configuration can be selected per task.
 			\end{itemize}
 		\end{minipage}
@@ -520,10 +518,7 @@
 		\end{flalign*}	
 		\end{minipage}
 		\begin{minipage}{0.65\textwidth}
-			\begin{itemize}
-				\item The taskset has to remain schedulable under EDF.
-				\item On standard configuration the utilization is 1 $\Rightarrow $ always a solution
-			\end{itemize}
+			The taskset has to remain schedulable under EDF.
 		\end{minipage}
 	\end{block}
 \end{frame}	
@@ -535,7 +530,7 @@
 		\begin{minipage}{0.25\textwidth}
 		\scriptsize
 		\begin{flalign*}
-			& \sum_{i=1}^n \left(\sum_{c\in\mathcal{C}}^{p{=}P}
+			& \sum_{i=1}^n \left(\sum_{c\in\mathcal{C}}^{p{=}C}
 			{\left(x_i^{c} \cdot m_i^P \right)}
 				+\sum_{c\in\mathcal{C}}^{ro{=}C}
 			{\left(x_i^{c} \cdot m_i^{Ro} \right)}\right) \leq M^{C} &&
@@ -582,7 +577,7 @@
 		
 	\end{block}
 
-	\begin{block}{Step3}
+	\begin{block}{Step 3}
 		\begin{minipage}{0.25\textwidth}
 			\includegraphics[scale=0.9]{images/gurobi.png}
 		\end{minipage}
@@ -597,8 +592,8 @@
 		\includegraphics{data/model/poster.pdf}
 		\caption{Utilization and energy gains with the model on STM32F}
 	\end{figure}
-	Comparing to the default configuration we can consume 20\% less energy. 
-	With a low number of tasks we can even gain utilization.
+	Compared to the default configuration we can consume 20\% less energy. 
+	With a low number of tasks, we can even gain utilization.
 \end{frame}
 
 \begin{frame}{Frequency results on STM32F}
@@ -659,9 +654,9 @@ $\Rightarrow $ if system fully-loaded $\rightarrow$ default config (72MHz and FL
 		\includegraphics[scale = 0.6]{data/model/f_choose_32g_ccm.pdf}
 		\caption{Frequency choices made by the model for tasks in FLASH and CCM for STM32G}
 	\end{figure}
-RANGE2 mode is even used with the CCM. 
-However the boost mode is not used at all (the runtime gain is too low compared to the waste of energy).\\
-Mid frequencies are not enough efficient to be choosen. \\
+The low power mode is even used with the CCM. 
+However; the boost mode is not used at all (the runtime gain is too low compared to the waste of energy).\\
+Mid frequencies are not enough efficient to be chosen. \\
 \begin{thebibliography}{10}
 	{\tiny
 	\bibitem{}Thomas Rauber, Gudula Runger, Michael Schwind, Simon Melzner, Haibin Xu
@@ -688,7 +683,7 @@ Mid frequencies are not enough efficient to be choosen. \\
 		\begin{itemize}
 			\item Divide the CCM into slots
 			\item Before the execution we copy tasks' instructions in one CCM slot
-			\item the worst case execution time is equal to the CCM execution time plus memory copy
+			\item the worst-case execution time is equal to the CCM execution time plus memory copy
 			
 		\end{itemize}
 		$\Rightarrow$ Changes in the scheduling algorithm: mutex, blocking, non-preemptive tasks $\ldots$

@@ -377,8 +377,8 @@ INPUT c:/texlive/2023/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.cod
 INPUT c:/texlive/2023/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.coltype.code.tex
 INPUT c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
-INPUT ./schedule/rtsched.sty
-INPUT schedule/rtsched.sty
+INPUT ./rtsched.sty
+INPUT rtsched.sty
 INPUT c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex
 INPUT c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex
 INPUT c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
@@ -526,9 +526,6 @@ INPUT c:/texlive/2023/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Italic-T1-T
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Italic-T1-TLF--base.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Regular-T1-TLF.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF--base.tfm
-INPUT ./slide.toc
-INPUT ./slide.toc
-INPUT slide.toc
 INPUT ./images/bus.tex
 INPUT ./images/bus.tex
 INPUT images/bus.tex
@@ -842,5 +839,6 @@ INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb

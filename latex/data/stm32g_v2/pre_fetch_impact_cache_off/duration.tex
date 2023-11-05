@@ -26,11 +26,11 @@
             yticklabel={\pgfmathparse{\tick}\pgfmathprintnumber{\pgfmathresult}\%},
         ]
         \addplot[mark=square*,color=blue] table [col sep=comma, y expr={100*(\thisrow{dijkstra})}] {\TransposedData};
-        \addlegendentry[align=center]{dijkstra},
+        %\addlegendentry[align=center]{dijkstra},
         \addplot[mark=square*,color=green] table [col sep=comma, y expr={100*(\thisrow{recursion})}] {\TransposedData};
-        \addlegendentry[align=center]{Recursion},
+        %\addlegendentry[align=center]{Recursion},
         \addplot[mark=square*,color=gray] table [col sep=comma, y expr={100*(\thisrow{sine})}] {\TransposedData};
-        \addlegendentry[align=center]{Sine lookup},
+        %\addlegendentry[align=center]{Sine lookup},
 
 
 

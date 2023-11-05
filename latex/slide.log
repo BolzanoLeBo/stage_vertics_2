@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.2)  2 NOV 2023 15:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.2)  5 NOV 2023 17:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -667,12 +667,9 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \extratabsurround=\skip65
 \backup@length=\skip66
 \ar@cellbox=\box83
-)) (./schedule/rtsched.sty
-
-LaTeX Warning: You have requested package `schedule/rtsched',
-               but the package provides `rtsched'.
-
+)) (./rtsched.sty
 Package: rtsched 2015/05/01
+
 'rtsched' style for Latex and TikZ/PGF
 Easily draw real-time schedules in TeX/Latex.
 (c) 2005, Giuseppe Lipari, Pisa, Italy (g.lipari@sssup.it)
@@ -806,7 +803,7 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 \sympureletters=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 23.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 22.
  (c:/texlive/2023/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup7
@@ -1046,340 +1043,324 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc}] [2
 
-] (./slide.toc) [3
-
 ] (./images/bus.tex
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 9.
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 207.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 205.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 207.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 205.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 207.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 205.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 207.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 205.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 207.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 205.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 207.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 205.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 207.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 205.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <8> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 207.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 205.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <8> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 207.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 205.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <6> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 207.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 205.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <6> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 207.
- [4
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 205.
+ [3
 
-{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [5
+{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [4
 
 ]
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 239.
+(Font)              scaled to size 12.0pt on input line 237.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 6.0pt on input line 239.
-<images/boost.png, id=249, 554.07pt x 206.27063pt>
+(Font)              scaled to size 6.0pt on input line 237.
+<images/boost.png, id=206, 554.07pt x 206.27063pt>
 File: images/boost.png Graphic file (type png)
 <use images/boost.png>
-Package pdftex.def Info: images/boost.png  used on input line 239.
+Package pdftex.def Info: images/boost.png  used on input line 237.
 (pdftex.def)             Requested size: 277.03432pt x 103.13506pt.
- [6
+ [5
 
- <c:/texlive/2023/texmf-dist/tex/latex/beamer/beamericonarticle.pdf> <./images/boost.png>] (./slide.toc) [7
+ <c:/texlive/2023/texmf-dist/tex/latex/beamer/beamericonarticle.pdf> <./images/boost.png>] (./slide.toc) [6
 
 ]
-<images/lpm01a.jpeg, id=321, 199.74625pt x 254.9525pt>
+<images/lpm01a.jpeg, id=280, 199.74625pt x 254.9525pt>
 File: images/lpm01a.jpeg Graphic file (type jpg)
 <use images/lpm01a.jpeg>
-Package pdftex.def Info: images/lpm01a.jpeg  used on input line 259.
+Package pdftex.def Info: images/lpm01a.jpeg  used on input line 257.
 (pdftex.def)             Requested size: 99.87288pt x 127.47592pt.
- [8
+ [7
 
  <./images/lpm01a.jpeg>]
-<images/stm32f.jpg, id=349, 3011.25pt x 4015.0pt>
+<images/stm32f.jpg, id=310, 3011.25pt x 4015.0pt>
 File: images/stm32f.jpg Graphic file (type jpg)
 <use images/stm32f.jpg>
-Package pdftex.def Info: images/stm32f.jpg  used on input line 279.
+Package pdftex.def Info: images/stm32f.jpg  used on input line 277.
+(pdftex.def)             Requested size: 120.42949pt x 160.57265pt.
+ [8
+
+ <./images/stm32f.jpg>]
+<images/stm32g.jpg, id=338, 3011.25pt x 4015.0pt>
+File: images/stm32g.jpg Graphic file (type jpg)
+<use images/stm32g.jpg>
+Package pdftex.def Info: images/stm32g.jpg  used on input line 300.
 (pdftex.def)             Requested size: 120.42949pt x 160.57265pt.
  [9
 
- <./images/stm32f.jpg>]
-<images/stm32g.jpg, id=377, 3011.25pt x 4015.0pt>
-File: images/stm32g.jpg Graphic file (type jpg)
-<use images/stm32g.jpg>
-Package pdftex.def Info: images/stm32g.jpg  used on input line 302.
-(pdftex.def)             Requested size: 120.42949pt x 160.57265pt.
- [10
-
  <./images/stm32g.jpg>]
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 319.
- [11
+(Font)              scaled to size 10.95pt on input line 317.
+ [10
 
-] (./slide.toc) [12
+] (./slide.toc) [11
 
 ]
-<images/pointer_chase_capture_mod.png, id=490, 581.67313pt x 213.79875pt>
+<images/pointer_chase_capture_mod.png, id=450, 581.67313pt x 213.79875pt>
 File: images/pointer_chase_capture_mod.png Graphic file (type png)
 <use images/pointer_chase_capture_mod.png>
-Package pdftex.def Info: images/pointer_chase_capture_mod.png  used on input line 331.
+Package pdftex.def Info: images/pointer_chase_capture_mod.png  used on input line 329.
 (pdftex.def)             Requested size: 349.00656pt x 128.28023pt.
 
-Overfull \hbox (6.57124pt too wide) in paragraph at lines 331--331
+Overfull \hbox (6.57124pt too wide) in paragraph at lines 329--329
+ [] 
+ []
+
+[12
+
+ <./images/pointer_chase_capture_mod.png>]
+<images/pointer_chase30ex.png, id=479, 944.52875pt x 319.69438pt>
+File: images/pointer_chase30ex.png Graphic file (type png)
+<use images/pointer_chase30ex.png>
+Package pdftex.def Info: images/pointer_chase30ex.png  used on input line 337.
+(pdftex.def)             Requested size: 377.80481pt x 127.87547pt.
+
+Overfull \hbox (35.36949pt too wide) in paragraph at lines 337--337
  [] 
  []
 
 [13
 
- <./images/pointer_chase_capture_mod.png>]
-<images/pointer_chase30ex.png, id=521, 944.52875pt x 319.69438pt>
-File: images/pointer_chase30ex.png Graphic file (type png)
-<use images/pointer_chase30ex.png>
-Package pdftex.def Info: images/pointer_chase30ex.png  used on input line 339.
-(pdftex.def)             Requested size: 377.80481pt x 127.87547pt.
-
-Overfull \hbox (35.36949pt too wide) in paragraph at lines 339--339
- [] 
- []
-
-[14
-
- <./images/pointer_chase30ex.png>] (./slide.toc) [15
+ <./images/pointer_chase30ex.png>] (./slide.toc) [14
 
 ]
-<data/stm32f_v2/abs/abs_flash_energy32f.pdf, id=583, 309.02551pt x 264.62161pt>
+<data/stm32f_v2/abs/abs_flash_energy32f.pdf, id=542, 309.02551pt x 264.62161pt>
 File: data/stm32f_v2/abs/abs_flash_energy32f.pdf Graphic file (type pdf)
 <use data/stm32f_v2/abs/abs_flash_energy32f.pdf>
-Package pdftex.def Info: data/stm32f_v2/abs/abs_flash_energy32f.pdf  used on input line 362.
+Package pdftex.def Info: data/stm32f_v2/abs/abs_flash_energy32f.pdf  used on input line 360.
 (pdftex.def)             Requested size: 123.608pt x 105.84676pt.
-<data/stm32f_v2/abs/abs_ccm_energy32f.pdf, id=584, 411.36786pt x 264.62161pt>
+<data/stm32f_v2/abs/abs_ccm_energy32f.pdf, id=543, 411.36786pt x 264.62161pt>
 File: data/stm32f_v2/abs/abs_ccm_energy32f.pdf Graphic file (type pdf)
 <use data/stm32f_v2/abs/abs_ccm_energy32f.pdf>
-Package pdftex.def Info: data/stm32f_v2/abs/abs_ccm_energy32f.pdf  used on input line 362.
+Package pdftex.def Info: data/stm32f_v2/abs/abs_ccm_energy32f.pdf  used on input line 360.
 (pdftex.def)             Requested size: 164.54422pt x 105.84676pt.
 
-Overfull \hbox (27.57219pt too wide) in paragraph at lines 362--362
+Overfull \hbox (27.57219pt too wide) in paragraph at lines 360--360
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 362.
-[16
+(Font)              scaled to size 9.0pt on input line 360.
+[15
 
- <./data/stm32f_v2/abs/abs_flash_energy32f.pdf> <./data/stm32f_v2/abs/abs_ccm_energy32f.pdf>] (./slide.toc) [17
+ <./data/stm32f_v2/abs/abs_flash_energy32f.pdf> <./data/stm32f_v2/abs/abs_ccm_energy32f.pdf>] (./slide.toc) [16
 
-] [18
+] [17
 
 ]
-<data/stm32g_v2/abs/abs_energy_flash_32g.pdf, id=794, 303.52196pt x 269.42157pt>
+<data/stm32g_v2/abs/abs_energy_flash_32g.pdf, id=752, 303.52196pt x 269.42157pt>
 File: data/stm32g_v2/abs/abs_energy_flash_32g.pdf Graphic file (type pdf)
 <use data/stm32g_v2/abs/abs_energy_flash_32g.pdf>
-Package pdftex.def Info: data/stm32g_v2/abs/abs_energy_flash_32g.pdf  used on input line 396.
+Package pdftex.def Info: data/stm32g_v2/abs/abs_energy_flash_32g.pdf  used on input line 394.
 (pdftex.def)             Requested size: 121.40662pt x 107.76671pt.
-<data/stm32g_v2/abs/abs_energy_ccm.pdf, id=795, 417.47267pt x 269.42157pt>
+<data/stm32g_v2/abs/abs_energy_ccm.pdf, id=753, 417.47267pt x 269.42157pt>
 File: data/stm32g_v2/abs/abs_energy_ccm.pdf Graphic file (type pdf)
 <use data/stm32g_v2/abs/abs_energy_ccm.pdf>
-Package pdftex.def Info: data/stm32g_v2/abs/abs_energy_ccm.pdf  used on input line 396.
+Package pdftex.def Info: data/stm32g_v2/abs/abs_energy_ccm.pdf  used on input line 394.
 (pdftex.def)             Requested size: 166.9861pt x 107.76671pt.
 
-Overfull \hbox (30.01407pt too wide) in paragraph at lines 396--396
+Overfull \hbox (30.01407pt too wide) in paragraph at lines 394--394
 [][] 
  []
 
-[19
+[18
 
  <./data/stm32g_v2/abs/abs_energy_flash_32g.pdf> <./data/stm32g_v2/abs/abs_energy_ccm.pdf>]
-<data/stm32g_v2/cache_impact/duration.pdf, id=942, 307.4707pt x 260.82643pt>
+<data/stm32g_v2/cache_impact/duration.pdf, id=898, 307.4707pt x 260.82643pt>
 File: data/stm32g_v2/cache_impact/duration.pdf Graphic file (type pdf)
 <use data/stm32g_v2/cache_impact/duration.pdf>
-Package pdftex.def Info: data/stm32g_v2/cache_impact/duration.pdf  used on input line 415.
+Package pdftex.def Info: data/stm32g_v2/cache_impact/duration.pdf  used on input line 413.
 (pdftex.def)             Requested size: 107.61635pt x 91.2906pt.
-<data/stm32g_v2/cache_impact/energy.pdf, id=943, 308.44235pt x 260.82643pt>
+<data/stm32g_v2/cache_impact/energy.pdf, id=899, 308.44235pt x 260.82643pt>
 File: data/stm32g_v2/cache_impact/energy.pdf Graphic file (type pdf)
 <use data/stm32g_v2/cache_impact/energy.pdf>
-Package pdftex.def Info: data/stm32g_v2/cache_impact/energy.pdf  used on input line 415.
+Package pdftex.def Info: data/stm32g_v2/cache_impact/energy.pdf  used on input line 413.
 (pdftex.def)             Requested size: 107.95644pt x 91.2906pt.
- [20
+ [19
 
  <./data/stm32g_v2/cache_impact/duration.pdf> <./data/stm32g_v2/cache_impact/energy.pdf>]
-<data/stm32g_v2/data_ram_data_ram2/intensity.pdf, id=1053, 422.39809pt x 262.02693pt>
+<data/stm32g_v2/data_ram_data_ram2/intensity.pdf, id=1011, 422.39809pt x 262.02693pt>
 File: data/stm32g_v2/data_ram_data_ram2/intensity.pdf Graphic file (type pdf)
 <use data/stm32g_v2/data_ram_data_ram2/intensity.pdf>
-Package pdftex.def Info: data/stm32g_v2/data_ram_data_ram2/intensity.pdf  used on input line 435.
+Package pdftex.def Info: data/stm32g_v2/data_ram_data_ram2/intensity.pdf  used on input line 433.
 (pdftex.def)             Requested size: 147.84154pt x 91.7108pt.
-<data/stm32g_v2/data_ram_data_ram2/duration.pdf, id=1054, 422.39809pt x 262.02693pt>
+<data/stm32g_v2/data_ram_data_ram2/duration.pdf, id=1012, 422.39809pt x 262.02693pt>
 File: data/stm32g_v2/data_ram_data_ram2/duration.pdf Graphic file (type pdf)
 <use data/stm32g_v2/data_ram_data_ram2/duration.pdf>
-Package pdftex.def Info: data/stm32g_v2/data_ram_data_ram2/duration.pdf  used on input line 435.
+Package pdftex.def Info: data/stm32g_v2/data_ram_data_ram2/duration.pdf  used on input line 433.
 (pdftex.def)             Requested size: 147.84154pt x 91.7108pt.
- [21
+ [20
 
  <./data/stm32g_v2/data_ram_data_ram2/intensity.pdf> <./data/stm32g_v2/data_ram_data_ram2/duration.pdf>]
-<images/prefetch32g.png, id=1211, 338.76563pt x 124.96687pt>
+<images/prefetch32g.png, id=1168, 338.76563pt x 124.96687pt>
 File: images/prefetch32g.png Graphic file (type png)
 <use images/prefetch32g.png>
-Package pdftex.def Info: images/prefetch32g.png  used on input line 443.
+Package pdftex.def Info: images/prefetch32g.png  used on input line 441.
 (pdftex.def)             Requested size: 237.13431pt x 87.47621pt.
- [22
+ [21
 
  <./images/prefetch32g.png>]
-<data/stm32g_v2/pre_fetch_impact_cache_off/duration.pdf, id=1239, 395.18239pt x 262.02592pt>
+<data/stm32g_v2/pre_fetch_impact_cache_off/duration.pdf, id=1197, 308.44737pt x 262.02592pt>
 File: data/stm32g_v2/pre_fetch_impact_cache_off/duration.pdf Graphic file (type pdf)
 <use data/stm32g_v2/pre_fetch_impact_cache_off/duration.pdf>
-Package pdftex.def Info: data/stm32g_v2/pre_fetch_impact_cache_off/duration.pdf  used on input line 456.
+Package pdftex.def Info: data/stm32g_v2/pre_fetch_impact_cache_off/duration.pdf  used on input line 454.
+(pdftex.def)             Requested size: 123.37675pt x 104.8085pt.
+<data/stm32g_v2/pre_fetch_impact_cache_off/energy.pdf, id=1198, 395.18239pt x 262.02592pt>
+File: data/stm32g_v2/pre_fetch_impact_cache_off/energy.pdf Graphic file (type pdf)
+<use data/stm32g_v2/pre_fetch_impact_cache_off/energy.pdf>
+Package pdftex.def Info: data/stm32g_v2/pre_fetch_impact_cache_off/energy.pdf  used on input line 454.
 (pdftex.def)             Requested size: 158.07014pt x 104.8085pt.
 
-Overfull \hbox (21.09811pt too wide) in paragraph at lines 456--456
+Overfull \hbox (21.09811pt too wide) in paragraph at lines 454--454
 [][] 
  []
 
-<data/stm32g_v2/pre_fetch_impact_cache_off/energy.pdf, id=1240, 395.18239pt x 262.02592pt>
-File: data/stm32g_v2/pre_fetch_impact_cache_off/energy.pdf Graphic file (type pdf)
-<use data/stm32g_v2/pre_fetch_impact_cache_off/energy.pdf>
-Package pdftex.def Info: data/stm32g_v2/pre_fetch_impact_cache_off/energy.pdf  used on input line 456.
-(pdftex.def)             Requested size: 158.07014pt x 104.8085pt.
+[22
 
-Overfull \hbox (21.09811pt too wide) in paragraph at lines 456--456
+ <./data/stm32g_v2/pre_fetch_impact_cache_off/duration.pdf> <./data/stm32g_v2/pre_fetch_impact_cache_off/energy.pdf>]
+<data/stm32g_v2/pre_fetch_impact_cache_on/duration.pdf, id=1289, 308.44737pt x 254.86717pt>
+File: data/stm32g_v2/pre_fetch_impact_cache_on/duration.pdf Graphic file (type pdf)
+<use data/stm32g_v2/pre_fetch_impact_cache_on/duration.pdf>
+Package pdftex.def Info: data/stm32g_v2/pre_fetch_impact_cache_on/duration.pdf  used on input line 468.
+(pdftex.def)             Requested size: 123.37675pt x 101.94505pt.
+<data/stm32g_v2/pre_fetch_impact_cache_on/energy.pdf, id=1290, 395.18239pt x 254.86717pt>
+File: data/stm32g_v2/pre_fetch_impact_cache_on/energy.pdf Graphic file (type pdf)
+<use data/stm32g_v2/pre_fetch_impact_cache_on/energy.pdf>
+Package pdftex.def Info: data/stm32g_v2/pre_fetch_impact_cache_on/energy.pdf  used on input line 468.
+(pdftex.def)             Requested size: 158.07014pt x 101.94505pt.
+
+Overfull \hbox (21.09811pt too wide) in paragraph at lines 468--468
 [][] 
  []
 
 [23
 
- <./data/stm32g_v2/pre_fetch_impact_cache_off/duration.pdf> <./data/stm32g_v2/pre_fetch_impact_cache_off/energy.pdf>]
-<data/stm32g_v2/pre_fetch_impact_cache_on/duration.pdf, id=1365, 395.18239pt x 254.86717pt>
-File: data/stm32g_v2/pre_fetch_impact_cache_on/duration.pdf Graphic file (type pdf)
-<use data/stm32g_v2/pre_fetch_impact_cache_on/duration.pdf>
-Package pdftex.def Info: data/stm32g_v2/pre_fetch_impact_cache_on/duration.pdf  used on input line 470.
-(pdftex.def)             Requested size: 158.07014pt x 101.94505pt.
+ <./data/stm32g_v2/pre_fetch_impact_cache_on/duration.pdf> <./data/stm32g_v2/pre_fetch_impact_cache_on/energy.pdf>] (./slide.toc) [24
 
-Overfull \hbox (21.09811pt too wide) in paragraph at lines 470--470
-[][] 
- []
-
-<data/stm32g_v2/pre_fetch_impact_cache_on/energy.pdf, id=1366, 395.18239pt x 254.86717pt>
-File: data/stm32g_v2/pre_fetch_impact_cache_on/energy.pdf Graphic file (type pdf)
-<use data/stm32g_v2/pre_fetch_impact_cache_on/energy.pdf>
-Package pdftex.def Info: data/stm32g_v2/pre_fetch_impact_cache_on/energy.pdf  used on input line 470.
-(pdftex.def)             Requested size: 158.07014pt x 101.94505pt.
-
-Overfull \hbox (21.09811pt too wide) in paragraph at lines 470--470
-[][] 
- []
-
-[24
-
- <./data/stm32g_v2/pre_fetch_impact_cache_on/duration.pdf> <./data/stm32g_v2/pre_fetch_impact_cache_on/energy.pdf>] (./slide.toc) [25
-
-] [26
+] [25
 
 ]
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 529.
+(Font)              scaled to size 10.0pt on input line 524.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 529.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 524.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 529.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 524.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 529.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 524.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 529.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 524.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 529.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 524.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <7> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 529.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 524.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <7> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 529.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 524.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <5> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 529.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 524.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <5> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 529.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 524.
 
-Overfull \hbox (39.2832pt too wide) detected at line 529
+Overfull \hbox (39.2832pt too wide) detected at line 524
 []
  []
 
 
-Overfull \hbox (24.16786pt too wide) detected at line 529
+Overfull \hbox (24.16786pt too wide) detected at line 524
+[]
+ []
+
+[26
+
+]
+Overfull \hbox (96.3852pt too wide) detected at line 563
 []
  []
 
 
-Overfull \vbox (7.37276pt too high) detected at line 529
+Overfull \hbox (95.54831pt too wide) detected at line 563
+[]
+ []
+
+
+Overfull \hbox (96.79008pt too wide) detected at line 563
+[]
  []
 
 [27
 
 ]
-Overfull \hbox (96.10916pt too wide) detected at line 568
-[]
- []
-
-
-Overfull \hbox (95.54831pt too wide) detected at line 568
-[]
- []
-
-
-Overfull \hbox (96.79008pt too wide) detected at line 568
-[]
- []
-
-[28
-
-]
-<images/data.png, id=1678, 394.97563pt x 101.37875pt>
+<images/data.png, id=1565, 394.97563pt x 101.37875pt>
 File: images/data.png Graphic file (type png)
 <use images/data.png>
-Package pdftex.def Info: images/data.png  used on input line 593.
+Package pdftex.def Info: images/data.png  used on input line 588.
 (pdftex.def)             Requested size: 197.48732pt x 50.68924pt.
-<images/gurobi.png, id=1703, 83.81313pt x 28.60687pt>
+<images/gurobi.png, id=1590, 83.81313pt x 28.60687pt>
 File: images/gurobi.png Graphic file (type png)
 <use images/gurobi.png>
-Package pdftex.def Info: images/gurobi.png  used on input line 593.
+Package pdftex.def Info: images/gurobi.png  used on input line 588.
 (pdftex.def)             Requested size: 75.43109pt x 25.74594pt.
- [29
+ [28
 
  <./images/data.png> <./images/gurobi.png>]
-<data/model/poster.pdf, id=1746, 248.05273pt x 143.21304pt>
+<data/model/poster.pdf, id=1632, 248.05273pt x 143.21304pt>
 File: data/model/poster.pdf Graphic file (type pdf)
 <use data/model/poster.pdf>
-Package pdftex.def Info: data/model/poster.pdf  used on input line 602.
+Package pdftex.def Info: data/model/poster.pdf  used on input line 597.
 (pdftex.def)             Requested size: 248.05212pt x 143.21268pt.
- [30
+ [29
 
  <./data/model/poster.pdf>]
-<data/model/frequency_choose.pdf, id=1805, 231.00604pt x 148.58209pt>
+<data/model/frequency_choose.pdf, id=1692, 231.00604pt x 148.58209pt>
 File: data/model/frequency_choose.pdf Graphic file (type pdf)
 <use data/model/frequency_choose.pdf>
-Package pdftex.def Info: data/model/frequency_choose.pdf  used on input line 614.
+Package pdftex.def Info: data/model/frequency_choose.pdf  used on input line 609.
 (pdftex.def)             Requested size: 138.60468pt x 89.14993pt.
-<data/model/frequency_choose_CCM.pdf, id=1806, 231.00604pt x 148.58209pt>
+<data/model/frequency_choose_CCM.pdf, id=1693, 231.00604pt x 148.58209pt>
 File: data/model/frequency_choose_CCM.pdf Graphic file (type pdf)
 <use data/model/frequency_choose_CCM.pdf>
-Package pdftex.def Info: data/model/frequency_choose_CCM.pdf  used on input line 614.
+Package pdftex.def Info: data/model/frequency_choose_CCM.pdf  used on input line 609.
 (pdftex.def)             Requested size: 138.60468pt x 89.14993pt.
- [31
+ [30
 
  <./data/model/frequency_choose.pdf> <./data/model/frequency_choose_CCM.pdf>]
 \openout4 = `slide.vrb'.
 
  (./slide.vrb
-<schedule/edf.pdf, id=1920, 313.63272pt x 124.02937pt>
+<schedule/edf.pdf, id=1806, 313.63272pt x 124.02937pt>
 File: schedule/edf.pdf Graphic file (type pdf)
 <use schedule/edf.pdf>
 Package pdftex.def Info: schedule/edf.pdf  used on input line 3.
 (pdftex.def)             Requested size: 313.63194pt x 124.02905pt.
-) [32
+) [31
 
  <./schedule/edf.pdf>]
 \openout4 = `slide.vrb'.
@@ -1389,54 +1370,54 @@ File: schedule/edf.pdf Graphic file (type pdf)
 <use schedule/edf.pdf>
 Package pdftex.def Info: schedule/edf.pdf  used on input line 3.
 (pdftex.def)             Requested size: 250.90651pt x 99.22362pt.
-<schedule/offline_algo.pdf, id=1967, 313.63272pt x 124.02937pt>
+<schedule/offline_algo.pdf, id=1853, 313.63272pt x 124.02937pt>
 File: schedule/offline_algo.pdf Graphic file (type pdf)
 <use schedule/offline_algo.pdf>
 Package pdftex.def Info: schedule/offline_algo.pdf  used on input line 4.
 (pdftex.def)             Requested size: 250.90651pt x 99.22362pt.
-) [33
+) [32
 
  <./schedule/offline_algo.pdf>]
-<data/model/results_32g.pdf, id=2008, 248.05273pt x 143.21204pt>
+<data/model/results_32g.pdf, id=1895, 248.05273pt x 143.21204pt>
 File: data/model/results_32g.pdf Graphic file (type pdf)
 <use data/model/results_32g.pdf>
-Package pdftex.def Info: data/model/results_32g.pdf  used on input line 654.
+Package pdftex.def Info: data/model/results_32g.pdf  used on input line 649.
 (pdftex.def)             Requested size: 248.05212pt x 143.21169pt.
- [34
+ [33
 
  <./data/model/results_32g.pdf>]
-<data/model/f_choose_32g_flash.pdf, id=2067, 280.73682pt x 148.58209pt>
+<data/model/f_choose_32g_flash.pdf, id=1953, 280.73682pt x 148.58209pt>
 File: data/model/f_choose_32g_flash.pdf Graphic file (type pdf)
 <use data/model/f_choose_32g_flash.pdf>
-Package pdftex.def Info: data/model/f_choose_32g_flash.pdf  used on input line 672.
+Package pdftex.def Info: data/model/f_choose_32g_flash.pdf  used on input line 667.
 (pdftex.def)             Requested size: 168.44337pt x 89.14993pt.
-<data/model/f_choose_32g_ccm.pdf, id=2068, 280.73682pt x 148.58209pt>
+<data/model/f_choose_32g_ccm.pdf, id=1954, 280.73682pt x 148.58209pt>
 File: data/model/f_choose_32g_ccm.pdf Graphic file (type pdf)
 <use data/model/f_choose_32g_ccm.pdf>
-Package pdftex.def Info: data/model/f_choose_32g_ccm.pdf  used on input line 672.
+Package pdftex.def Info: data/model/f_choose_32g_ccm.pdf  used on input line 667.
 (pdftex.def)             Requested size: 168.44337pt x 89.14993pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{beamerbib}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.672 \end{frame}
-                  [35
+l.667 \end{frame}
+                  [34
 
- <./data/model/f_choose_32g_flash.pdf> <./data/model/f_choose_32g_ccm.pdf>] (./slide.toc) [36
+ <./data/model/f_choose_32g_flash.pdf> <./data/model/f_choose_32g_ccm.pdf>] (./slide.toc) [35
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{beamerbib}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.697 \end{frame}
-                  [37
+l.692 \end{frame}
+                  [36
 
 ]
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 711.
+(Font)              scaled to size 24.88pt on input line 706.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 711.
- [38
+(Font)              scaled to size 17.28pt on input line 706.
+ [37
 
 ]
 \tf@nav=\write7
@@ -1458,21 +1439,21 @@ L3 programming layer <2023-11-01>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `slide.out' has not changed.
-(rerunfilecheck)             Checksum: 1047AB3A65B751A09BE851AA2EBC5C28;995.
+(rerunfilecheck)             Checksum: 59BCE86181F9C7D5B010E06200A584E9;826.
  ) 
 Here is how much of TeX's memory you used:
- 44052 strings out of 474272
- 1077104 string characters out of 5751548
+ 44039 strings out of 474272
+ 1076911 string characters out of 5751548
  1945533 words of memory out of 5000000
- 65329 multiletter control sequences out of 15000+600000
+ 65322 multiletter control sequences out of 15000+600000
  625482 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,17n,123p,790b,923s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Italic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on slide.pdf (38 pages, 7618236 bytes).
+<c:/texlive/2023/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Italic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on slide.pdf (37 pages, 7613444 bytes).
 PDF statistics:
- 2389 PDF objects out of 2487 (max. 8388607)
- 1438 compressed objects within 15 object streams
- 85 named destinations out of 1000 (max. 500000)
- 922 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2274 PDF objects out of 2487 (max. 8388607)
+ 1395 compressed objects within 14 object streams
+ 82 named destinations out of 1000 (max. 500000)
+ 914 words of extra memory for PDF output out of 10000 (max. 10000000)
 
