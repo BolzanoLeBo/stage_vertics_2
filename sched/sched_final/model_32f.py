@@ -33,7 +33,7 @@ def solver(taskset) :
     c_no_data = [i for i in range(nc) if "no_data" in conf[i]]
     c_no_ro = [i for i in range(nc) if "no_ro" in conf[i]]
 
-    x_c = model.addVars(n,len(conf), vtype = GRB.BINARY)
+    x_c = model.addVars(n,nc, vtype = GRB.BINARY)
 
     #var dimension 
     #no multiple allocation

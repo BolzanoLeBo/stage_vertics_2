@@ -162,15 +162,13 @@ def gen_dictionnary(loc):
                             data_bench[bench]["no_data"][iro[1]][icode][freq][0] = float(wcet[i])
                             data_bench[bench]["no_data"][iro[1]][icode][freq][1] = float(energies[i])
                             i+=1
-    #print(data_bench["mat_mul"]["data_RAM2"]["no_ro"]["code_CCM"])
     flat_data = {}
     for k in data_bench.keys() :
         flat_data[k] = list(flatten_dict(data_bench[k]))
-    #print(flat_data["mat_mul"][2])
     return [flat_data, data_bench]
 
 
-def gen_taskset(nb_tasks, util, flat_data, data_bench, proc, size_flash, size_ram, size_ccm):
+def gen_taskset(nb_tasks, util, flat_data, data_bench, proc, size_flash, size_ram, size_ccm, size_ram2 = 0):
     #make random utilization 
     utils = drs(nb_tasks, util)
     #create the taskset
@@ -186,10 +184,6 @@ def gen_taskset(nb_tasks, util, flat_data, data_bench, proc, size_flash, size_ra
     ref_runtimes = [int(periods[i]*utils[i]) for i in range(len(utils))]
     u_tot = np.sum(np.divide(ref_runtimes,periods))
     taskset.u_tot = u_tot 
-    '''print(u_tot)
-    print("periods ", periods)
-    print("utiks", utils)
-    print("runtimes", ref_runtimes)'''
 
     for i in range (nb_tasks) : 
         #choose a random benchmark for the task
@@ -265,15 +259,7 @@ def gen_taskset(nb_tasks, util, flat_data, data_bench, proc, size_flash, size_ra
     taskset.sort_by_deadline()
     #set storage size 
     taskset.ram_size = size_ram#40000
+    taskset.ram2_size = size_ram2
     taskset.ccm_size = size_ccm #8000
     taskset.flash_size = size_flash #256000
-    #print the runtime and the period
-    print(taskset)
-    print(data_size)
-    print(taskset[0].name, taskset[0].ref_runtime, taskset[0].bench_runtime, taskset[0].utilization)
-    print(taskset[1].name, taskset[1].ref_runtime, taskset[1].bench_runtime,  taskset[1].utilization)
     return(taskset)
-
-
-#[flat_dico, dico] = gen_dictionnary("32f")
-#gen_taskset(2, 1, flat_dico, dico, "32f", 256000, 40000, 8000)
