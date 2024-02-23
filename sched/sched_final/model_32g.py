@@ -105,8 +105,9 @@ def solver(taskset) :
             config = i - task_number*nc
             sol.append(config)
     print(sol)
+    tab_res = []
     for i in range(len(sol)) :
         task = taskset[i]
         c = sol[i]
-        print(task.name, conf[c], task.data2[c][1], task.data2[c][2] )
-
+        tab_res.append(task.name, conf[c], task.data2[c][1], task.data2[c][2])
+    return(sol, tab_res)
