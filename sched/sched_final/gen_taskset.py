@@ -168,7 +168,7 @@ def gen_dictionnary(loc):
     return [flat_data, data_bench]
 
 
-def gen_taskset(nb_tasks, util, flat_data, data_bench, proc, size_flash, size_ram, size_ccm, size_ram2 = 0):
+def gen_taskset(nb_tasks, util, mem_util, flat_data, data_bench, proc, size_flash, size_ram, size_ccm, size_ram2 = 0):
     #make random utilization 
     utils = drs(nb_tasks, util)
     #create the taskset
@@ -184,7 +184,8 @@ def gen_taskset(nb_tasks, util, flat_data, data_bench, proc, size_flash, size_ra
     ref_runtimes = [int(periods[i]*utils[i]) for i in range(len(utils))]
     u_tot = np.sum(np.divide(ref_runtimes,periods))
     taskset.u_tot = u_tot 
-
+    #total size of read only to calculate the space left for instructions 
+    ro_total = 0
     for i in range (nb_tasks) : 
         #choose a random benchmark for the task
         
@@ -228,15 +229,18 @@ def gen_taskset(nb_tasks, util, flat_data, data_bench, proc, size_flash, size_ra
         task.name = task_name
 
         #choose the size of the tasks 
-        task.size_i = randint(min(size_i.values()), max(size_i.values()))
+        
         if task_name not in only_ro_codes : 
             task.size_d = randint(min(size_d.values()), max(size_d.values()))
         else :
             task.size_d = 0
         if task_name not in only_idata_codes : 
             task.size_ro = randint(min(size_ro.values()), max(size_ro.values()))
+            ro_total += task.size_ro
         else : 
             task.size_ro = 0
+
+        
         
         flat_data2 = []
         for c in range (len(flat_data[task_name])) :
@@ -254,6 +258,18 @@ def gen_taskset(nb_tasks, util, flat_data, data_bench, proc, size_flash, size_ra
         task.data2 = flat_data2       
         taskset.append(task)
         data_size += size_d[task_name]
+    
+    #compute the instruction memory utilization 
+    flash_left = (size_flash * mem_util) - ro_total
+    task_mem_ratio = drs(nb_tasks, 1)
+    for i in range (nb_tasks) : 
+        task = taskset[i]
+        task.size_i = int(flash_left * task_mem_ratio[i])
+
+    energy_total = 0
+    for task in taskset : 
+        energy_total += task.ref_energy/task.period
+        
 
     taskset.assign_ids_by_deadline()
     taskset.sort_by_deadline()
@@ -262,4 +278,6 @@ def gen_taskset(nb_tasks, util, flat_data, data_bench, proc, size_flash, size_ra
     taskset.ram2_size = size_ram2
     taskset.ccm_size = size_ccm #8000
     taskset.flash_size = size_flash #256000
+
+    taskset.energy = energy_total
     return(taskset)
