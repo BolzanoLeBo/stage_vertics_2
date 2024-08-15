@@ -17,7 +17,6 @@ size_i = {
         'bubble_sort':1280, 
         'bubble_sort_no_opt':1280,
         'dijkstra':532,
-        'kalman':1620,
         'mat_mul':198,
         'pointer_chase':62,
         'recursif':116,
@@ -31,7 +30,6 @@ size_d = {
         'bubble_sort':3910, 
         'bubble_sort_no_opt':3910,
         'dijkstra':6250,
-        'kalman':4000,
         'mat_mul':4680,
         'pointer_chase':0,
         'recursif':8,
@@ -46,14 +44,13 @@ size_ro = {
         'bubble_sort':0, 
         'bubble_sort_no_opt':0,
         'dijkstra':0,
-        'kalman':0,
         'mat_mul':0,
         'pointer_chase':3910,
         'recursif':0,
         'sine':6840
     }
 freqs = ["16_RANGE2", "26_RANGE2", "16", "26", "30", "60", "90", "120", "150", "170", "150_BOOST", "170_BOOST"]
-only_idata_codes = ['FFT','RSA_enc', 'RSA_dec', 'bubble_sort', 'bubble_sort_no_opt','dijkstra','kalman','mat_mul', 'recursif']
+only_idata_codes = ['FFT','RSA_enc', 'RSA_dec', 'bubble_sort', 'bubble_sort_no_opt','dijkstra','mat_mul', 'recursif']
 only_ro_codes = ['pointer_chase', 'sine']
     
 benchs = ['FFT',
@@ -62,7 +59,6 @@ benchs = ['FFT',
         'bubble_sort', 
         'bubble_sort_no_opt',
         'dijkstra',
-        'kalman',
         'mat_mul',
         'pointer_chase',
         'recursif',
@@ -80,7 +76,6 @@ def gen_dictionnary(loc):
                 'bubble_sort':[MAX,MAX], 
                 'bubble_sort_no_opt':[MAX,MAX],
                 'dijkstra':[MAX,MAX],
-                'kalman':[MAX,MAX],
                 'mat_mul':[MAX,MAX],
                 'pointer_chase':[MAX,MAX],
                 'recursif':[MAX,MAX],
@@ -206,6 +201,8 @@ def gen_taskset(nb_tasks, util, dico_f, size_flash, size_ram, size_ccm):
         #create the task
         task = SporadicTask(ref_runtime, periods[i])
         #task parameters (for the optimization algo)
+        task.bench_runtime = bench_runtime
+        task.bench_energy = bench_energy
         task.ref_runtime = ref_runtime
         task.ref_energy = ref_energy
         task.name = task_name
@@ -270,6 +267,13 @@ def gen_taskset(nb_tasks, util, dico_f, size_flash, size_ram, size_ccm):
     #print(data_size)
     #print(taskset[0].name, taskset[0].perf[3][0][0][0])
     return(taskset)
+
+def print_taskset(taskset) : 
+    for task in taskset : 
+        print(f"\n -------- \n {task.name}")
+        print(f"T : {task.period}")
+        print(f"runtime : {task.bench_runtime}/{task.ref_runtime}")
+        print(f"energy : {task.bench_energy}/{task.ref_energy}\n")
 
 #dico = gen_dictionnary("./bench")
 #gen_taskset(8, 1, dico, 256000, 40000, 8000)

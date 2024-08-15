@@ -16,7 +16,7 @@ def main() :
     
     dicog = gg.gen_dictionnary("./sched_32g/bench")
     dicof = gf.gen_dictionnary("./sched_32f/bench")
-    proc_test = 'g'
+    proc_test = 'f'
     Ntests = 1
     nb_tasks = [8,16,32,64,128]
 
@@ -27,10 +27,12 @@ def main() :
         for i in range(Ntests):
             if proc_test == 'g' :
                 taskset = gg.gen_taskset(ni,1, dicog, 256000, 40000, 8000) 
+                gg.print_taskset(taskset)
                 time += mg.solver(taskset)
 
             else : 
                 taskset = gf.gen_taskset(ni,1, dicof, 256000, 40000, 8000) 
+                gf.print_taskset(taskset)
                 time += mf.solver(taskset)
 
             if i*100/Ntests%10 == 0 : 
