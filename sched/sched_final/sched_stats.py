@@ -14,7 +14,7 @@ size_flash = 256000
 size_ram = 20000
 size_ram2 = 20000
 size_ccm = 8000
-n_tasks = 16
+n_tasks = 4
 proc = "32g"
 
 def create_log_file(test_type, test_name):
@@ -33,9 +33,14 @@ def create_log_file(test_type, test_name):
 def run_test(n_tasks, u_tot, mem_util, size_flash, size_ram, size_ram2, size_ccm, proc):
     
     specs = [n_tasks, u_tot, mem_util, size_flash, size_ram, size_ram2, size_ccm, proc] 
-    taskset = gen_taskset(n_tasks, u_tot, mem_util, data_g[0], data_g[1], proc, size_flash, size_ram, size_ccm, size_ram2)
-    raw_data, model_results = ms.solver(taskset, proc)
-    return (specs, raw_data, model_results)
+    if proc == "32g" : 
+        data = data_g
+    else : 
+        data = data_f
+    taskset = gen_taskset(n_tasks, u_tot, mem_util, data[0], data[1], proc, size_flash, size_ram, size_ccm, size_ram2)
+    print_taskset(taskset)
+    #raw_data, model_results = ms.solver(taskset, proc)
+    #return (specs, raw_data, model_results)
         
         
 def test_loop(mem_util_min, mem_util_max, step_mem, u_min, u_max, step_u, n_tasks, size_flash, size_ram, size_ram2, size_ccm, proc, max_iter) :
@@ -45,6 +50,7 @@ def test_loop(mem_util_min, mem_util_max, step_mem, u_min, u_max, step_u, n_task
                 for i in range(max_iter) : 
                     specs, raw_data, model_results = run_test(n_tasks, u, m, size_flash, size_ram, size_ram2, size_ccm, proc)
                     test_results.append({"specs": specs, "raw_data" : raw_data, "model_results" : model_results})
+
     return test_results
 
 def test_wrapper (args):
@@ -80,6 +86,7 @@ def test_batch (max_processors, test_type, file_prefix, mem_util_min, mem_util_m
             log_file_raw.write(f"{p}.{i}/{res}\n")
     log_file_raw.close()
 
+    # Write a readable file with the results 
     log_file = create_log_file(test_type, file_name)
     tests_per_core = len(test_results[0])
     t = 0
@@ -122,8 +129,8 @@ def test_batch (max_processors, test_type, file_prefix, mem_util_min, mem_util_m
     
 def main() : 
     max_processors = 4
-    test_type = "test"
-    file_prefix = 'test'
+    test_type = "test2"
+    file_prefix = 'test2'
     mem_util_min = 0.8
     mem_util_max = 1
     step_mem = 0.1
@@ -132,8 +139,8 @@ def main() :
     step_u = 0.1
     max_iter = 4
 
-    #run_test(n_tasks, u_min, mem_util_min, size_flash, size_ram, size_ram2, size_ccm, proc)
-    test_batch (max_processors, test_type, file_prefix, mem_util_min, mem_util_max, step_mem, u_min, u_max, step_u, max_iter)
+    run_test(n_tasks, u_min, mem_util_min, size_flash, size_ram, size_ram2, size_ccm, proc)
+    #test_batch (max_processors, test_type, file_prefix, mem_util_min, mem_util_max, step_mem, u_min, u_max, step_u, max_iter)
 
 if __name__ == '__main__' : 
     main()

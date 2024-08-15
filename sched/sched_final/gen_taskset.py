@@ -18,7 +18,6 @@ size_i = {
         'bubble_sort':1280, 
         'bubble_sort_no_opt':1280,
         'dijkstra':532,
-        'kalman':1620,
         'mat_mul':198,
         'pointer_chase':62,
         'recursion':116,
@@ -32,7 +31,6 @@ size_d = {
         'bubble_sort':3910, 
         'bubble_sort_no_opt':3910,
         'dijkstra':6250,
-        'kalman':4000,
         'mat_mul':4680,
         'pointer_chase':0,
         'recursion':8,
@@ -47,15 +45,14 @@ size_ro = {
         'bubble_sort':0, 
         'bubble_sort_no_opt':0,
         'dijkstra':0,
-        'kalman':0,
         'mat_mul':0,
         'pointer_chase':3910,
         'recursion':0,
         'sine':6840
     }
 freqs = ["16_RANGE2", "26_RANGE2", "16", "26", "30", "60", "90", "120", "150", "170", "150_BOOST", "170_BOOST"]
-only_idata_codes = ['FFT','rsa_enc', 'rsa_dec', 'bubble_sort', 'bubble_sort_no_opt','dijkstra','kalman','mat_mul', 'recursion']
-only_ro_codes = ['pointer_chase', 'sine']
+only_idata_codes = ['FFT','rsa_enc', 'rsa_dec', 'bubble_sort', 'bubble_sort_no_opt','dijkstra','mat_mul', 'recursion']
+only_ro_codes = ['pointer_chase']
 
 def get_csv_line(f, lname) : 
     reader = csv.reader(f, delimiter="\t")
@@ -226,6 +223,7 @@ def gen_taskset(nb_tasks, util, mem_util, flat_data, data_bench, proc, size_flas
         task.ref_runtime = ref_runtime
         task.bench_runtime = bench_runtime
         task.ref_energy = ref_energy
+        task.bench_energy = bench_energy
         task.name = task_name
 
         #choose the size of the tasks 
@@ -281,3 +279,10 @@ def gen_taskset(nb_tasks, util, mem_util, flat_data, data_bench, proc, size_flas
 
     taskset.energy = energy_total
     return(taskset)
+
+def print_taskset(taskset) : 
+    for task in taskset : 
+        print(f"\n -------- \n {task.name}")
+        print(f"T : {task.period}")
+        print(f"runtime : {task.bench_runtime}/{task.ref_runtime}")
+        print(f"energy : {task.bench_energy}/{task.ref_energy}\n")
