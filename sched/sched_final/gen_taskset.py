@@ -80,8 +80,8 @@ def gen_dictionnary(loc):
     if loc == "32g" :
         f_order = ["16_no_PLL", "16_RANGE2", "26_RANGE2", "16", "26", "30", "60", "90", "120", "150", "170", "150_BOOST", "170_BOOST"]
         data_order = ["data_RAM", "data_RAM2", "no_data"]
-        code_order = ["NORMAL", "code_CCM", "code_RAM", "code_RAM2"]
-        ro_order = ["no_ro", "ro_FLASH", "ro_RAM", "ro_CCM", "ro_RAM2", "CACHE_OFF-PRE_OFF", "CACHE_OFF-PRE_ON", "CACHE_ON-PRE_ON"]
+        code_order = ["NORMAL", "code_CCM", "code_RAM", "code_RAM2", "CACHE_OFF-PRE_OFF", "CACHE_OFF-PRE_ON", "CACHE_ON-PRE_ON"]
+        ro_order = ["no_ro", "ro_FLASH", "ro_RAM", "ro_CCM", "ro_RAM2"]
     else :
         f_order = ["8_no_PLL","16","24","48","72"]
         data_order = ["data_RAM", "no_data"]
