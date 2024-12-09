@@ -8,13 +8,18 @@ import os
 import time
 from math import floor
 
+options = {
+    "WLSACCESSID": "f2eaae29-373a-45b6-b23d-1281071a3b6a",
+    "WLSSECRET": "f21d49ad-83a6-4b89-a9c7-20effb9374f8",
+    "LICENSEID": 2594578,
+}
 
 def solve_32f(taskset) : 
     start_time = time.perf_counter()
     n = len(taskset)
     
-    
-    model = gp.Model("ilp_ram_allocator")
+    env = gp.Env(params=options)
+    model = gp.Model("ilp_ram_allocator", env = env)
     model.setParam('OutputFlag', 0)
     model.setParam('TimeLimit', 3600)
     model.setParam('Threads', 1)
@@ -90,7 +95,8 @@ def solve_32g(taskset) :
     nc = len(conf)
     start_time = time.perf_counter()
 
-    model = gp.Model("ilp_ram_allocator")
+    env = gp.Env(params=options)
+    model = gp.Model("ilp_ram_allocator", env = env)
     model.setParam('OutputFlag', 0)
     model.setParam('TimeLimit', 3600)
     model.setParam('Threads', 1)
@@ -217,7 +223,7 @@ def solver(taskset, proc) :
         for i in range(len(sol)) :
             task = taskset[i]
             c = sol[i]
-            raw_data.append((task.name,c, conf[c], task.data2[c][1], task.data2[c][2]))
+            raw_data.append((task.name,c, conf[c], task.data2[c][1], task.data2[c][2], task.period))
             u_tot_out += task.data2[c][1]/task.period
             size_i_tot += task.size_i
             size_ro_tot += task.size_ro 

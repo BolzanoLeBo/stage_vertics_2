@@ -1,0 +1,6 @@
+calcul config opti mesures: 
+fft : 0.011 * 4147.1 * 1 = 45.617
+sine + bubble : 0.058 * 27609.5 * 1.28 = 2049,72 => 29207
+
+calcul config opti expected : 
+total 44.604 + 651.541 + 1265.57 = 1961,715 => 27952

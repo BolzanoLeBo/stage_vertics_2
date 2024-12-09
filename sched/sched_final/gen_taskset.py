@@ -54,6 +54,7 @@ freqs = ["16_RANGE2", "26_RANGE2", "16", "26", "30", "60", "90", "120", "150", "
 only_idata_codes = ['FFT','rsa_enc', 'rsa_dec', 'bubble_sort', 'bubble_sort_no_opt','dijkstra','mat_mul', 'recursion']
 only_ro_codes = ['pointer_chase']
 
+
 def get_csv_line(f, lname) : 
     reader = csv.reader(f, delimiter="\t")
     for line in reader :
@@ -165,9 +166,106 @@ def gen_dictionnary(loc):
     return [flat_data, data_bench]
 
 
+def gen_taskset_with_measures(list_task, flat_data, data_bench, proc, size_flash, size_ram, size_ccm, size_ram2 = 0): 
+    taskset = TaskSystem()
+    taskset.configurations = [c[0] for c in flat_data['FFT']]
+
+    ref_runtimes = []
+    for task_name in list_task : 
+        if proc == "32g" : 
+            if task_name in only_idata_codes : 
+                bench_runtime = data_bench[task_name]["data_RAM"]["no_ro"]["NORMAL"]["150"][0]
+            elif task_name in only_ro_codes : 
+                bench_runtime =  data_bench[task_name]["no_data"]["ro_FLASH"]["NORMAL"]["150"][0]
+            else : 
+                bench_runtime =  data_bench[task_name]["data_RAM"]["ro_FLASH"]["NORMAL"]["150"][0]
+
+        elif proc == "32f" : 
+            if task_name in only_idata_codes : 
+                bench_runtime = data_bench[task_name]["data_RAM"]["no_ro"]["NORMAL"]["72"][0]
+            elif task_name in only_ro_codes : 
+                bench_runtime =  data_bench[task_name]["no_data"]["ro_FLASH"]["NORMAL"]["72"][0]
+            else : 
+                bench_runtime =  data_bench[task_name]["data_RAM"]["ro_FLASH"]["NORMAL"]["72"][0]
+        ref_runtimes.append(bench_runtime)
+    total_runtime = np.sum(ref_runtimes)
+    utils = [r/total_runtime for r in ref_runtimes]
+    taskset.u_tot = 1
+    data_size = 0
+    for task_name in list_task : 
+        if proc == "32g" : 
+            if task_name in only_idata_codes : 
+                bench_runtime = data_bench[task_name]["data_RAM"]["no_ro"]["NORMAL"]["150"][0]
+                bench_energy = data_bench[task_name]["data_RAM"]["no_ro"]["NORMAL"]["150"][1]
+            elif task_name in only_ro_codes : 
+                bench_runtime =  data_bench[task_name]["no_data"]["ro_FLASH"]["NORMAL"]["150"][0]
+                bench_energy = data_bench[task_name]["no_data"]["ro_FLASH"]["NORMAL"]["150"][1]
+            else : 
+                bench_runtime =  data_bench[task_name]["data_RAM"]["ro_FLASH"]["NORMAL"]["150"][0]
+                bench_energy = data_bench[task_name]["data_RAM"]["ro_FLASH"]["NORMAL"]["150"][1]
+
+        elif proc == "32f" : 
+            if task_name in only_idata_codes : 
+                bench_energy = data_bench[task_name]["data_RAM"]["no_ro"]["NORMAL"]["72"][1]
+                bench_runtime = data_bench[task_name]["data_RAM"]["no_ro"]["NORMAL"]["72"][0]
+            elif task_name in only_ro_codes : 
+                bench_runtime =  data_bench[task_name]["no_data"]["ro_FLASH"]["NORMAL"]["72"][0]
+                bench_energy = data_bench[task_name]["no_data"]["ro_FLASH"]["NORMAL"]["72"][1]
+            else : 
+                bench_runtime =  data_bench[task_name]["data_RAM"]["ro_FLASH"]["NORMAL"]["72"][0]
+                bench_energy = data_bench[task_name]["data_RAM"]["ro_FLASH"]["NORMAL"]["72"][1]
+
+        task = SporadicTask(bench_runtime, total_runtime)
+        #task parameters (for the optimization algo)
+        task.ref_runtime = bench_runtime
+        task.bench_runtime = bench_runtime
+        task.ref_energy = bench_energy
+        task.bench_energy = bench_energy
+        task.name = task_name
+
+        ro_total = 0
+        #choose the size of the tasks 
+        if task_name not in only_ro_codes : 
+            task.size_d = size_d[task_name]
+        else :
+            task.size_d = 0
+        if task_name not in only_idata_codes : 
+            task.size_ro = size_ro[task_name]
+            ro_total += task.size_ro
+        else : 
+            task.size_ro = 0
+
+        task.size_i = size_i[task_name]
+        
+        task.data1 = flat_data[task_name]
+        task.data2 = flat_data[task_name]       
+        taskset.append(task)
+        data_size += size_d[task_name]
+
+    energy_total = 0
+    for task in taskset : 
+        energy_total += task.ref_energy/task.period
+        
+
+    taskset.assign_ids_by_deadline()
+    taskset.sort_by_deadline()
+    #set storage size 
+    taskset.ram_size = size_ram#40000
+    taskset.ram2_size = size_ram2
+    taskset.ccm_size = size_ccm #8000
+    taskset.flash_size = size_flash #256000
+
+    taskset.energy = energy_total
+    return(taskset)
+
+
+
 def gen_taskset(nb_tasks, util, mem_util, flat_data, data_bench, proc, size_flash, size_ram, size_ccm, size_ram2 = 0):
+    if proc == '32f' : 
+        only_ro_codes.append('sine')
+    
     #make random utilization 
-    utils = drs(nb_tasks, util)
+    utils = drs(nb_tasks, util, lower_bounds = np.ones(nb_tasks)*0.01)
     #create the taskset
     taskset = TaskSystem()
     taskset.configurations = [c[0] for c in flat_data['FFT']]
@@ -195,7 +293,7 @@ def gen_taskset(nb_tasks, util, mem_util, flat_data, data_bench, proc, size_flas
             elif task_name in only_ro_codes : 
                 bench_runtime =  data_bench[task_name]["no_data"]["ro_FLASH"]["NORMAL"]["150"][0]
                 bench_energy = data_bench[task_name]["no_data"]["ro_FLASH"]["NORMAL"]["150"][1]
-            else : 
+            else :    
                 bench_runtime =  data_bench[task_name]["data_RAM"]["ro_FLASH"]["NORMAL"]["150"][0]
                 bench_energy = data_bench[task_name]["data_RAM"]["ro_FLASH"]["NORMAL"]["150"][1]
 
@@ -231,12 +329,17 @@ def gen_taskset(nb_tasks, util, mem_util, flat_data, data_bench, proc, size_flas
         if task_name not in only_ro_codes : 
             task.size_d = randint(min(size_d.values()), max(size_d.values()))
         else :
+            task.data_conf = "only_ro"
             task.size_d = 0
         if task_name not in only_idata_codes : 
             task.size_ro = randint(min(size_ro.values()), max(size_ro.values()))
             ro_total += task.size_ro
         else : 
+            task.data_conf = "only_i"
             task.size_ro = 0
+        
+        if task_name not in only_ro_codes and task_name not in only_idata_codes : 
+            task.data_conf = "all_mem"
 
         
         
@@ -248,9 +351,9 @@ def gen_taskset(nb_tasks, util, mem_util, flat_data, data_bench, proc, size_flas
                 #Harmonize the runtime and energy with the period 
                 runtime2 =  int(runtime1*scale_runtime)
                 energy2 = int(energy1*runtime2/runtime1)
-                flat_data2.append((flat_data[task_name][0], int(runtime2), energy2))          
+                flat_data2.append((flat_data[task_name][c][0], int(runtime2), energy2))          
             else: 
-                flat_data2.append((flat_data[task_name][0], MAX, MAX))   
+                flat_data2.append((flat_data[task_name][c][0], MAX, MAX))   
 
         task.data1 = flat_data[task_name]
         task.data2 = flat_data2       
