@@ -34,7 +34,7 @@ size_d = {
         'mat_mul':4680,
         'pointer_chase':0,
         'recursion':8,
-        'sine':0
+        'sine':228
     }
 
 
@@ -258,29 +258,49 @@ def gen_taskset_with_measures(list_task, flat_data, data_bench, proc, size_flash
     taskset.energy = energy_total
     return(taskset)
 
+def random_utils(size, tot, min_value=0):
+    values = np.random.rand(size)  # Random values between 0 and 1
+    values += min_value  # Shift all values to ensure they are >= min_value
+    normalized_values = values * tot / np.sum(values)  # Normalize
+    # If after applying min_value, the total exceeds 'tot', adjust to fit within 'tot'
+    while np.sum(normalized_values) > tot:
+        # Reduce values uniformly to fit the 'tot' constraint
+        normalized_values -= (np.sum(normalized_values) - tot) / size
+    return normalized_values.tolist()
 
 
 def gen_taskset(nb_tasks, util, mem_util, flat_data, data_bench, proc, size_flash, size_ram, size_ccm, size_ram2 = 0):
     if proc == '32f' : 
         only_ro_codes.append('sine')
     
-    #make random utilization 
-    utils = drs(nb_tasks, util, lower_bounds = np.ones(nb_tasks)*0.01)
-    #create the taskset
-    taskset = TaskSystem()
-    taskset.configurations = [c[0] for c in flat_data['FFT']]
-    data_size = 0
+    mem_var = True if mem_util != 0 else False
+
     #find the periods
     Tmin = 10000
     Tmax = 100000
     gran = 10000
+
+    #make random utilization 
+    utils = drs(nb_tasks, util, lower_bounds = np.ones(nb_tasks)* (1/Tmin))
+    # utils = random_utils(nb_tasks, util, 1/Tmin)
+    #create the taskset
+    taskset = TaskSystem()
+    taskset.configurations = [c[0] for c in flat_data['FFT']]
+    data_size = 0
+
     periods = (np.random.randint(Tmin/gran, Tmax/gran, size=nb_tasks)*gran).tolist()
     
     ref_runtimes = [int(periods[i]*utils[i]) for i in range(len(utils))]
     u_tot = np.sum(np.divide(ref_runtimes,periods))
     taskset.u_tot = u_tot 
+    energy_total = 0
+
     #total size of read only to calculate the space left for instructions 
     ro_total = 0
+    d_total = 0
+    flash_used = (size_flash * mem_util) 
+    task_mem_ratio = drs(nb_tasks, 1, lower_bounds = np.ones(nb_tasks)* (1/128000))
+    # task_mem_ratio = random_utils(nb_tasks, mem_util, 1/128000)
     for i in range (nb_tasks) : 
         #choose a random benchmark for the task
         
@@ -323,23 +343,34 @@ def gen_taskset(nb_tasks, util, mem_util, flat_data, data_bench, proc, size_flas
         task.ref_energy = ref_energy
         task.bench_energy = bench_energy
         task.name = task_name
+        task.ref_util = utils[i]
 
-        #choose the size of the tasks 
-        
+        # Compute total energy
+        energy_total += task.ref_energy/task.period
+
+        #choose the size of the tasks
+        if mem_var :  
+            task.size_i = int(flash_used * task_mem_ratio[i])
+        else : 
+            task.size_i = size_i[task_name]
         if task_name not in only_ro_codes : 
             task.size_d = randint(min(size_d.values()), max(size_d.values()))
+            d_total += task.size_d
         else :
-            task.data_conf = "only_ro"
             task.size_d = 0
         if task_name not in only_idata_codes : 
             task.size_ro = randint(min(size_ro.values()), max(size_ro.values()))
             ro_total += task.size_ro
         else : 
-            task.data_conf = "only_i"
             task.size_ro = 0
         
-        if task_name not in only_ro_codes and task_name not in only_idata_codes : 
+        if task_name in only_ro_codes : 
+            task.data_conf = "only_ro"
+        elif task_name in only_idata_codes : 
+            task.data_conf = "only_i"
+        else : 
             task.data_conf = "all_mem"
+
 
         
         
@@ -360,25 +391,37 @@ def gen_taskset(nb_tasks, util, mem_util, flat_data, data_bench, proc, size_flas
         taskset.append(task)
         data_size += size_d[task_name]
     
-    #compute the instruction memory utilization 
-    flash_left = (size_flash * mem_util) - ro_total
-    task_mem_ratio = drs(nb_tasks, 1)
-    for i in range (nb_tasks) : 
-        task = taskset[i]
-        task.size_i = int(flash_left * task_mem_ratio[i])
+        # We want that the read only take the remaining space in flash (1 - mem_util)
+        # We also check that the ram is not overflowed
+        if mem_var : 
+            
+            ro_space = size_flash * (1 - mem_util) if mem_util > 0.7 else 0.3
+            taskset.u_mem_init = mem_util
+            for task in taskset : 
+                if ro_total > ro_space :
+                    task.size_ro = task.size_ro * (ro_space/ro_total)
+                if d_total > size_ram : 
+                    task.size_d = task.size_d * (size_ram/d_total)
+        else : 
+            flash_used = np.sum(task.size_i for task in taskset) + ro_total
+            
+            for task in taskset : 
+                if flash_used > size_flash : 
+                    task.size_i = task.size_i * (flash_used/size_flash)
+                    task.size_ro = task.size_ro * (flash_used/size_flash)
+                if d_total > size_ram : 
+                    task.size_d = task.size_d * (size_ram/d_total)
 
-    energy_total = 0
-    for task in taskset : 
-        energy_total += task.ref_energy/task.period
-        
+            flash_used = np.sum(task.size_i for task in taskset)
+            taskset.u_mem_init = flash_used/size_flash
 
     taskset.assign_ids_by_deadline()
     taskset.sort_by_deadline()
     #set storage size 
-    taskset.ram_size = size_ram#40000
+    taskset.ram_size = size_ram
     taskset.ram2_size = size_ram2
-    taskset.ccm_size = size_ccm #8000
-    taskset.flash_size = size_flash #256000
+    taskset.ccm_size = size_ccm
+    taskset.flash_size = size_flash
 
     taskset.energy = energy_total
     return(taskset)
@@ -389,3 +432,4 @@ def print_taskset(taskset) :
         print(f"T : {task.period}")
         print(f"runtime : {task.bench_runtime}/{task.ref_runtime}")
         print(f"energy : {task.bench_energy}/{task.ref_energy}\n")
+        print(f"U : {task.ref_util}")

@@ -18,11 +18,19 @@ def solve_32f(taskset) :
     start_time = time.perf_counter()
     n = len(taskset)
     
-    env = gp.Env(params=options)
+
+    env = gp.Env(empty=True)
+    env.setParam('OutputFlag', 0)
+    env.setParam('LogToConsole', 0)
+    env.setParam("WLSAccessID", options["WLSACCESSID"])
+    env.setParam("WLSSECRET", options["WLSSECRET"])
+    env.setParam("LICENSEID", options["LICENSEID"])
+    env.start()
     model = gp.Model("ilp_ram_allocator", env = env)
     model.setParam('OutputFlag', 0)
     model.setParam('TimeLimit', 3600)
     model.setParam('Threads', 1)
+    model.setParam("OutputFlag", 0)
 
     conf = taskset.configurations
     nc = len(conf)
@@ -48,38 +56,39 @@ def solve_32f(taskset) :
 
     #FLASH size constraint
     #we can have instructions or ro data
-    model.addConstr(gp.quicksum((taskset[i].size_i * int(c in c_instr_flash) * x_c[i,c] + 
+    c_f_size = (gp.quicksum((taskset[i].size_i * int(c in c_instr_flash) * x_c[i,c] + 
                                 taskset[i].size_ro * int(c in c_ro_flash) * x_c[i,c]) 
                                 for c in range(nc)  
-                                for i in range(n)) <= taskset.flash_size)
+                                for i in range(n)))
+    model.addConstr(c_f_size <= taskset.flash_size)
     #CCM size constraint
     #we can have instruction or ro data
-    model.addConstr(gp.quicksum((taskset[i].size_i*int(c in c_instr_ccm)* x_c[i,c]+
+    c_ccm_size = (gp.quicksum((taskset[i].size_i*int(c in c_instr_ccm)* x_c[i,c]+
                                 taskset[i].size_ro *int(c in c_ro_ccm)* x_c[i,c])
                                 for c in range(nc)
-                                for i in range(n)) <= taskset.ccm_size)
+                                for i in range(n)))
+    model.addConstr(c_ccm_size <= taskset.ccm_size )
     #SRAM size constraint 
     #we can have input data or ro data or instructions 
-    model.addConstr(gp.quicksum((taskset[i].size_ro * int(c in c_ro_ram) * x_c[i,c]+
+    c_ram_size = (gp.quicksum((taskset[i].size_ro * int(c in c_ro_ram) * x_c[i,c]+
                                 taskset[i].size_i*int(c in c_instr_ram)* x_c[i,c])
                                 #+ taskset[i].size_d * x_d[i,1]
                                 for c in range(nc)
-                                for i in range(n)) <= taskset.ram_size)
-    
+                                for i in range(n)))
+    model.addConstr(c_ram_size <= taskset.ram_size)
     
     #utilization less than 1 
-    model.addConstr(gp.quicksum((taskset[i].data2[c][1]/taskset[i].period)*x_c[i,c] 
+    c_u_tot = (gp.quicksum((taskset[i].data2[c][1]/taskset[i].period)*x_c[i,c] 
                 for c in range (nc)
                 for i in range (n)
-                ) <= 1 )
+                ))
+    model.addConstr(c_u_tot <= 1)
 
     #minimize the energy
-    model.setObjective(
-    gp.quicksum((taskset[i].data2[c][2]/taskset[i].period)*x_c[i,c]
+    obj_energy = gp.quicksum((taskset[i].data2[c][2]/taskset[i].period)*x_c[i,c]
                 for c in range (nc)
                 for i in range (n))
-    ,
-    GRB.MINIMIZE)
+    model.setObjective(obj_energy,GRB.MINIMIZE)
     end_time = time.perf_counter()
     create_time = end_time - start_time 
 
@@ -87,7 +96,17 @@ def solve_32f(taskset) :
     model.optimize()
     end_time = time.perf_counter()
     run_time = end_time - start_time
-    return model 
+
+    if model.Status == 2:
+        model_results = {"f_occ" : c_f_size.getValue(), 
+                "ccm_occ" : c_ccm_size.getValue(),
+                "ram_occ" : c_ram_size.getValue(), 
+                "ram2_occ" : 0,
+                "u_tot" : c_u_tot.getValue(), 
+                "energy" : obj_energy.getValue()}
+        return (model, model_results) 
+    else : 
+        return (model, "INFEASIBLE")
 
 def solve_32g(taskset) : 
     conf = taskset.configurations
@@ -95,7 +114,13 @@ def solve_32g(taskset) :
     nc = len(conf)
     start_time = time.perf_counter()
 
-    env = gp.Env(params=options)
+    env = gp.Env(empty=True)
+    env.setParam('OutputFlag', 0)
+    env.setParam('LogToConsole', 0)
+    env.setParam("WLSAccessID", options["WLSACCESSID"])
+    env.setParam("WLSSECRET", options["WLSSECRET"])
+    env.setParam("LICENSEID", options["LICENSEID"])
+    env.start()
     model = gp.Model("ilp_ram_allocator", env = env)
     model.setParam('OutputFlag', 0)
     model.setParam('TimeLimit', 3600)
@@ -177,13 +202,16 @@ def solve_32g(taskset) :
     model.optimize()
     end_time = time.perf_counter()
     run_time = end_time - start_time 
-    model_results = {"f_occ" : c_f_size.getValue(), 
-               "ccm_occ" : c_ccm_size.getValue(),
-               "ram_occ" : c_ram_size.getValue(), 
-               "ram2_occ" : c_ram2_size.getValue(),
-               "u_tot" : c_u_tot.getValue(), 
-               "energy" : obj_energy.getValue()}
-    return (model, model_results) 
+    if model.Status == 2:
+        model_results = {"f_occ" : c_f_size.getValue(), 
+                "ccm_occ" : c_ccm_size.getValue(),
+                "ram_occ" : c_ram_size.getValue(), 
+                "ram2_occ" : c_ram2_size.getValue(),
+                "u_tot" : c_u_tot.getValue(), 
+                "energy" : obj_energy.getValue()}
+        return (model, model_results) 
+    else : 
+        return (model, "INFEASIBLE")
 
 def solver(taskset, proc) : 
 
@@ -197,15 +225,7 @@ def solver(taskset, proc) :
     else : 
         (model, model_results) = solve_32f(taskset)
 
-
-    infeasible = False 
-    if model.Status == GRB.INF_OR_UNBD:
-        raise Exception('Model is infeasible or unbounded')
-    elif model.Status == GRB.INFEASIBLE:
-        infeasible = True
-    elif model.Status == GRB.UNBOUNDED:
-        raise Exception('Model is unbounded')
-    if not infeasible : 
+    if model_results != "INFEASIBLE" : 
         sol = []
         vals = model.getVars()
 
@@ -223,12 +243,13 @@ def solver(taskset, proc) :
         for i in range(len(sol)) :
             task = taskset[i]
             c = sol[i]
-            raw_data.append((task.name,c, conf[c], task.data2[c][1], task.data2[c][2], task.period))
+            raw_data.append((task.name,c, conf[c], task.data2[c][1], task.data2[c][2], task.period, task.size_i, task.ref_util))
             u_tot_out += task.data2[c][1]/task.period
             size_i_tot += task.size_i
             size_ro_tot += task.size_ro 
             size_d_tot += task.size_d
         model_results["energy_init"] = taskset.energy
+        model_results["u_mem_init"] = taskset.u_mem_init
         return(raw_data, model_results)
     else :
         return("INFEASIBLE", "INFEASIBLE")
