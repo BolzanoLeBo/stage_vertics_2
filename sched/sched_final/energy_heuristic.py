@@ -4,7 +4,7 @@ from gen_taskset import *
 import numpy as np
 import copy
 import os 
-
+from copy import deepcopy
 
 def test_schedulable(tab_task): 
     u_tot = 0
@@ -243,3 +243,146 @@ def heuristic_solve_util(taskset, proc) :
         return ("INFESEABILE", "INFEASIBLE")
     else : 
         return(raw_data, heur_results)
+
+def energy_aware_ccm_allocation(taskset):
+    def heuristic_results(gamma_flash, gamma_ccm, taskset) : 
+        raw_data = []
+        current_flash = 0 
+        current_ccm = 0
+        for task_dict in gamma_flash : 
+            task = task_dict['task']
+            conf = task_dict['c']
+            current_flash += task.size_i
+            raw_data.append((task.name, conf, taskset.configurations[conf], task.data2[conf][1], task.data2[conf][2], task.period, task.size_i, task.ref_util))
+        for task_dict in gamma_ccm : 
+            task = task_dict['task']
+            conf = task_dict['c']
+            current_ccm += task.size_i
+            raw_data.append((task.name, conf, taskset.configurations[conf], task.data2[conf][1], task.data2[conf][2], task.period, task.size_i, task.ref_util))
+
+        heur_results = {"f_occ" : current_flash, 
+                "ccm_occ" : current_ccm,
+                "ram_occ" : 0, 
+                "ram2_occ" : 0,
+                "u_mem_init": taskset.u_mem_init,
+                "u_tot" : get_current_u_tot(gamma_ccm + gamma_flash), 
+                "energy" : get_current_e_tot(gamma_ccm + gamma_flash), 
+                "energy_init" : taskset.energy}
+        return(raw_data, heur_results)
+    def get_current_u_tot(tab_task) : 
+        u_tot = 0
+        for task_dict in tab_task :
+            task = task_dict['task']
+            conf = task_dict['c']
+            u_tot += task.data2[conf][1]/task.period
+        return u_tot 
+    
+    def get_conf(taskset, task, freq, code_mem) : 
+        if task.data_conf == "only_i" : 
+            conf = taskset.configurations.index(f"data_RAM.no_ro.{code_mem}.{freq}")
+        elif task.data_conf == "only_ro" : 
+            conf = taskset.configurations.index(f"no_data.ro_FLASH.{code_mem}.{freq}")
+        else : 
+            conf = taskset.configurations.index(f"data_RAM.ro_FLASH.{code_mem}.{freq}")
+        return conf
+
+    def mem_ccm(gamma):
+        """Compute the total size of tasks in CCM."""
+        return sum(task['task'].size_i for task in gamma)
+
+    def sched(gamma_ccm, gamma_flash):
+        """Check EDF schedulability."""
+        return get_current_u_tot(gamma_ccm + gamma_flash) <= 1
+    mccm = taskset.ccm_size
+    if proc == "32g" :
+        f_tab = ["26_RANGE2", 16, 26, 30, 60, 90, 120, 150, 170]
+        f_nom = 150
+        f_min = f_tab[0]
+        f_max = f_tab[-1] 
+    else : 
+        f_tab = ["8_no_PLL", 16, 24, 48, 72]
+        f_nom = 72
+        f_min ="8_no_PLL"
+        f_max = 72
+
+    # Step 1: Sort tasks by energy gain per unit CCM size
+    gamma_flash = sorted(taskset, key=lambda t: (t.ref_energy - t.data2[get_conf(taskset, t, f_max, "code_CCM")][2]) / t.size_i, reverse=True)
+    for i,task in enumerate(gamma_flash) : 
+        conf = get_conf(taskset, task, f_nom, "NORMAL")   
+        gamma_flash[i] = {"task": task, 'c' :conf , 'name':taskset.configurations[conf]}
+
+    gamma_ccm = []
+    # Step 2: Pack tasks with the best energy gain into CCM
+    while mem_ccm(gamma_ccm + [gamma_flash[0]]) <= mccm:
+        gamma_ccm.append(gamma_flash.pop(0))
+
+    # Step 4: Set frequencies
+    for task in gamma_flash:
+        task['c'] = get_conf(taskset, task['task'], f_min, "NORMAL")
+        task['name'] = taskset.configurations[task['c']]
+    for task in gamma_ccm:
+        task['c'] = get_conf(taskset, task['task'], f_max, "code_CCM")
+        task['name'] = taskset.configurations[task['c']]
+    # Step 5: Check schedulability
+    if sched(gamma_ccm, gamma_flash):
+        return heuristic_results(gamma_flash, gamma_ccm, taskset)
+
+    # Step 7: Sort by utilization gain
+    gamma_u = sorted(taskset, key=lambda t: ((t.data2[get_conf(taskset, t, f_min, "NORMAL")][1] - t.data2[get_conf(taskset, t, f_max, "code_CCM")][1])/t.period) / t.size_i, reverse=True)
+    for i,task in enumerate(gamma_u) : 
+        conf =  get_conf(taskset, task, f_max, "code_CCM")
+        gamma_u[i] = {"task": task, 'c' : conf, 'name': taskset.configurations[conf]}
+
+    gamma_ccm = sorted(gamma_ccm, key=lambda t: ((t['task'].data2[get_conf(taskset, t['task'], f_min, "NORMAL")][1] - t['task'].data2[get_conf(taskset, t['task'], f_max, "code_CCM")][1])/t['task'].period) / t['task'].size_i, reverse=True)
+    # Step 9: Attempt to optimize utilization
+    for task in gamma_u:
+        task_in_ccm = False
+        for i, t_ccm in enumerate(gamma_ccm) : 
+            if t_ccm['task'].id == task['task'].id : 
+                task_in_ccm = True
+        if task_in_ccm:
+            # Save current solution
+            s = deepcopy((gamma_ccm, gamma_flash))
+            u_s = get_current_u_tot(gamma_ccm + gamma_flash)
+            # Add task to CCM and update frequencies
+            gamma_ccm.append(task)
+            for i, t_flash in enumerate(gamma_flash) : 
+                if t_flash['task'].id == task['task'].id : 
+                    gamma_flash.remove(t_flash)
+            gamma_ccm[-1]['c'] = get_conf(taskset, task['task'], f_max, "code_CCM")
+            gamma_ccm[-1]['name'] = taskset.configurations[gamma_ccm[-1]['c']]
+
+            # Step 14: Remove tasks exceeding CCM
+            while mem_ccm(gamma_ccm) > mccm:
+                removed_task = gamma_ccm.pop()
+                removed_task['c'] = get_conf(taskset, removed_task['task'], f_min, "NORMAL")
+                removed_task['name'] = taskset.configurations[removed_task['c']]
+                gamma_flash.append(removed_task)
+
+
+            # Step 16: Compare old and new solutions
+            if u_s <= get_current_u_tot(gamma_ccm + gamma_flash):
+                gamma_ccm, gamma_flash = s  # Revert solution
+            elif sched(gamma_ccm, gamma_flash):
+                return heuristic_results(gamma_flash, gamma_ccm, taskset)
+            
+    print(mem_ccm(gamma_ccm))
+    print(f"\n----------------\nFLASH {len(gamma_flash)}: {gamma_flash}\nCCM {len(gamma_ccm)}: {gamma_ccm}\nSCHED: {get_current_u_tot(gamma_ccm + gamma_flash)}")
+    # Step 20: Increase frequency of Flash tasks
+    gamma_flash = sorted(gamma_flash, key=lambda t: ((t['task'].data2[get_conf(taskset, t['task'], f_min, "NORMAL")][1] - t['task'].data2[get_conf(taskset, t['task'], f_max, "NORMAL")][1])/t['task'].period), reverse=True)
+    for task in gamma_flash:
+        for f in f_tab : 
+            #print(f"\n----------------\nFLASH {len(gamma_flash)}: {gamma_flash}\nCCM {len(gamma_ccm)}: {gamma_ccm}\nSCHED: {get_current_u_tot(gamma_ccm + gamma_flash)}")
+            
+            if sched(gamma_ccm, gamma_flash):
+                print(f"\n----------------\nRETURN : FLASH {len(gamma_flash)}: {gamma_flash}\nCCM {len(gamma_ccm)}: {gamma_ccm}\nSCHED: {get_current_u_tot(gamma_ccm + gamma_flash)}")
+                return heuristic_results(gamma_flash, gamma_ccm, taskset)
+            task['c'] = get_conf(taskset, task['task'], f, "NORMAL")
+            task['name'] = taskset.configurations[task['c']]
+
+    if sched(gamma_ccm, gamma_flash):
+        print(f"\n----------------\nFLASH {len(gamma_flash)}: {gamma_flash}\nCCM {len(gamma_ccm)}: {gamma_ccm}\nSCHED: {get_current_u_tot(gamma_ccm + gamma_flash)}")
+        return heuristic_results(gamma_flash, gamma_ccm, taskset)
+    else : 
+        return ("INFEASIBLE", "INFEASIBLE")
+    
